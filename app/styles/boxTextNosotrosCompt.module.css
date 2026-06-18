@@ -1,0 +1,52 @@
+.contentTextNosotros {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.titleNosotros {
+    font-family: "DM Sans", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #1D1C3D;
+    text-align:left;
+    margin-bottom:30px;
+}
+
+
+.parrafoNosotros {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .contentTextNosotros {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .titleNosotros {
+        font-size: 2em;
+        font-weight: 500;
+        color: #1D1C3D;
+        text-align:left;
+        margin-bottom:30px;
+    }
+
+}
+

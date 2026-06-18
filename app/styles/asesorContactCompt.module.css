@@ -1,0 +1,145 @@
+
+
+.contactBoxAsesor {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+  
+
+}
+
+.boxImagenAsesor {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.boxNameText {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:  auto;
+    margin-bottom: 30px;
+}
+
+.nameAsesor {
+    text-align: center;
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #1E4899;
+    margin-bottom: 5px;
+}
+
+.cargoAsesor {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #2EB5AF;
+}
+
+
+.linkToWtsAsesor {
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #25D366;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.linkToWtsAsesor:hover {
+    background-color: #1E4899;
+}
+
+
+.boxTextBotton {
+   
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+
+.boxTextBotton p {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boxTextBotton img {
+    display: block;
+    width: 23px;
+    height: auto;
+} 
+
+
+@media screen and (max-width: 560px) {
+    .contactBoxAsesor {
+        width: 180px;
+  
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .contactBoxAsesor {
+        width: 220px;
+  
+    }
+
+    .boxImagenAsesor {
+  
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .nameAsesor {
+
+        font-size: 1.2em;
+       
+    }
+
+
+    .cargoAsesor {
+       
+        font-size: 1em;
+   
+    }
+
+
+    .linkToWtsAsesor {
+        border-radius: 10px;
+        width: 180px;
+        height: 35px;
+
+    }
+
+
+}

@@ -1,0 +1,68 @@
+
+
+.contentStaffAsesores {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+    width: 100%;
+    max-width: 1280px;
+
+}
+
+
+.boxTitleTextAs {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.titleAs {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    /* color: #1D1D3D; */
+    color: #2EB5AF;
+    margin-bottom: 20px;
+}
+
+.subtitleAs {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    /* color: #2EB5AF; */
+    color: #A5A5A5;
+    margin-bottom: 70px;
+}
+
+.boxContentAsesores {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 50px 50px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .boxContentAsesores {
+        width: 90%;
+        gap: 40px 40px;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .boxContentAsesores {
+        width: 100%;
+        gap: 40px 20px;
+    }
+}

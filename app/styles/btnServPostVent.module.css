@@ -1,0 +1,81 @@
+
+
+.boxBTNSvPostVent {
+    all: unset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 180px;
+    padding: 20px;
+    gap: 15px 0px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    background-color: #2354b7;
+    cursor: pointer;
+}
+
+.IconPostVent {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.textPostVent {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.IconCheck {
+  display: flex;              /* mantiene el espacio reservado */
+  width: 25px;
+  height: auto;
+  opacity: 0.5;                 /* invisible al inicio */
+  visibility: hidden;         /* no clickeable */
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+
+.boxBTNSvPostVent:hover {
+  /* border: 1px solid #2EB5AF;  */
+  background-color: #2CB4AE; 
+
+
+}
+
+.boxBTNSvPostVent:hover .IconCheck {
+  opacity: 1;                 /* fade-in */
+  visibility: visible;        /* se activa */
+  transition-delay: 0s;       /* se muestra al instante */
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .boxBTNSvPostVent {
+        width: 120px;
+    }
+    
+}
+
+
+@media screen and (max-width: 560px) {
+    .boxBTNSvPostVent {
+        background-color: #2354b5;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .boxBTNSvPostVent {
+        width: 90px;
+        height: 140px;
+    }
+}

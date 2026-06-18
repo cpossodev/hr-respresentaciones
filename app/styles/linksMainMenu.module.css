@@ -1,0 +1,36 @@
+.linkContent {
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 3px 40px;
+}
+
+
+.nameLinkContent {
+    display: block;
+}
+
+.nameLink {
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+}
+
+.underLineActive {
+    opacity: 0;
+    background-color: #2CB4AE;
+    width: 0%;
+    height: 1px;
+    transition: opacity 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+
+
+.linkContent:hover .underLineActive {
+    opacity: 1;
+    width: 70%;
+}

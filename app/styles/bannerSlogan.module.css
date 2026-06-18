@@ -1,0 +1,93 @@
+
+
+.contentBannerSlogan {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #2EB5AF;
+}
+
+.boxLogoSlogan {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: auto;
+    gap: 0px 50px;
+
+}
+
+.logoHrBanner {
+    display: block;
+    width: 180px;
+    height: auto;
+}
+
+
+.lineDivisorBannerSlogan {
+    display: block;
+    width: 8px;
+    height: 140px;
+    background-color: #ffffff;
+}
+
+.textSlogan {
+    font-family: "Monserrate", sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+
+@media screen and (max-width:1919px) {
+    .contentBannerSlogan {
+           width: 100vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+
+    .boxLogoSlogan {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        gap: 30px 0px;
+
+    }
+
+
+
+    .logoHrBanner {
+    
+        width: 200px;
+
+    }
+
+
+
+    .lineDivisorBannerSlogan {
+        width: 50px;
+        height: 2px;
+    }
+
+
+    .textSlogan {
+        width: 260px;
+        text-align: center;
+
+    }
+
+
+}

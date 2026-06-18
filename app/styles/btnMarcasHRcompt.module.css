@@ -1,0 +1,115 @@
+
+
+.boxBtnMarcasHR {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+
+    background-color: #F7F7F7;
+    box-shadow: 1px 1px 3px 0px rgba(166,165,165,0.4);
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(166,165,165,0.4);
+    -moz-box-shadow: 1px 1px 3x 0px rgba(166,165,165,0.4);
+}
+
+.boxLogoMarcasHR  {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    width: 90%;
+    height: 65%;
+   
+}
+
+.logoMarcasHR {
+    display: block;
+    width: 125px;
+    height: auto;
+}
+
+
+.boxlinkToProducts {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    padding-left: 5px;
+    width: 90%;
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.boxlinkToProducts  p {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #1E4899;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.arrowBtn {
+    color: #1E4899;
+    font-size: 1.2em;
+    padding-top: 2px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.boxBtnMarcasHR:hover{
+    background-color: #ffffff;
+}
+
+
+.boxBtnMarcasHR:hover .boxlinkToProducts  p {
+     color: #2CB4AE;
+}
+
+.boxBtnMarcasHR:hover .arrowBtn{
+     background-color: #ffffff;
+     color: #2CB4AE;
+}
+
+
+@media screen and (max-width: 560px) {
+    .boxBtnMarcasHR {
+        width: 260px;
+        height: 130px;
+
+    }
+
+
+    .logoMarcasHR {
+    display: block;
+    width: 140px;
+    height: auto;
+}
+
+.boxlinkToProducts  p {
+ 
+    font-size: 0.8em;
+ 
+
+}
+
+.arrowBtn {
+
+    font-size: 1.3em;
+
+
+}
+
+
+
+
+
+}

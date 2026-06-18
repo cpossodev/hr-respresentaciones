@@ -1,0 +1,274 @@
+.containerNav {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 70px;
+    background-color: #1D1D3D;
+
+}
+
+
+.containerMainMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 0px 0px;
+}
+
+/* Contenedor iconMainMenu y logoMainMenu */
+.boxLogoMainMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: auto;
+}
+
+
+.boxbtnMainMenu {    
+    display: none;
+
+}
+
+.botonMainMenu {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 5px 0px;
+
+}
+
+
+.lineIconMain {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: background-color width 0.3s ease-in-out;
+}
+
+.lineTop{
+    width: 30px;
+    background-color: #2CB4AE;
+}
+
+
+.lineMiddle{
+    width: 20px;
+    background-color: #2CB4AE;
+}
+
+
+.lineBottom{
+    width: 10px;
+    background-color: #2CB4AE;
+}
+
+
+.logoMainMenu {
+    display: block;
+    width: 180px;
+    height: auto;
+
+}
+
+.boxLinksMainMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    padding: 0px 50px;
+    gap: 0px 60px;
+}
+
+.menuList {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 0px 50px;
+    gap: 0px 50px;
+}
+
+.menuItem {
+    list-style: none;      
+    margin: 0;                 
+    padding: 0;                
+
+}
+
+.linkItem {
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+
+.boxIconsMainMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: auto;
+}
+
+.iconLink {
+    display: block;
+    width: 27px;
+    height: auto;
+}
+
+
+.iconLink img:nth-child(2) {
+  display: none;
+}
+
+.iconLink:hover img:nth-child(1) {
+  display: none;
+}
+
+.iconLink:hover img:nth-child(2) {
+  display: inline;
+}
+
+
+@media screen and ( max-width: 1919px) {
+
+    .containerNav {
+
+        width: 100vw;
+
+    }
+
+
+    .containerMainMenu {
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+
+}
+
+
+
+@media screen and ( max-width: 980px) {
+
+
+   .boxLogoMainMenu{
+        width: 25%;
+  
+    }
+
+    .boxLinksMainMenu {
+        width: 63%;
+        gap: 0px 30px;
+    }
+
+    .boxIconsMainMenu {
+        width: 12%;
+    }
+
+
+}
+
+
+@media screen and ( max-width: 920px) {
+  
+    .boxLogoMainMenu{
+        width: 20%;
+  
+    }
+
+
+    .boxbtnMainMenu {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 40px;
+        padding-right: 30px;
+    }
+
+
+    .boxLinksMainMenu {
+        display: none;
+    
+    }
+
+  
+}
+
+@media screen and ( max-width: 780px) {
+
+    .containerMainMenu {
+        padding: 0px 20px;
+
+    }
+
+    .logoMainMenu {
+            width: 140px;
+        
+    }
+
+
+    .boxIconsMainMenu {
+        width: 20%;
+    }
+
+}
+
+
+@media screen and ( max-width: 520px) {
+
+
+   .boxIconsMainMenu {
+        width: 25%;
+    }
+
+
+    .boxbtnMainMenu {
+        padding-right: 18px;
+    }
+
+    .boxIconsMainMenu {
+        width: 30%;
+    }
+
+    .iconLink img {
+        width: 28px;
+    }
+
+}
+
+@media screen and ( max-width: 480px) {
+    .containerNav {
+        position: fixed;
+        height: 60px;
+        top: 0; 
+        z-index: 10;
+        background-color: rgba(29, 28, 61, 1) ;
+    }
+
+} 

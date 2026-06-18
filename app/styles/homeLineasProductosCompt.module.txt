@@ -1,0 +1,107 @@
+.contentLProdCompt {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+
+.contentLProdCompt > p {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #1D1D3D;
+
+}
+
+
+.contentSlideLP {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    padding: 0px 40px;
+    margin-top: 50px;
+
+}
+
+
+/* Track que contiene los dos bloques */
+.sliderTrack {
+    display: flex;
+    width: 200%;         
+    margin: 0px 30px 0px 30px;
+    transition: transform 0.8s ease;
+}
+
+
+
+.boxSlide {
+    flex: 0 0 100%;        /* ✅ cada bloque ocupa 100% */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    column-gap: 30px;
+}
+
+
+.botonSlideMove {
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    color: #1E4899;
+    font-size: 2em;
+    top: 30%;
+    z-index: 5;
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+
+
+.botonSlideMove:hover {
+    transform: scale(1.1);
+    color: #1D1D3D;
+}
+
+
+
+.botonSlideDer {
+    right: 0px;
+}
+
+.botonSlideIzq {
+    left: 0px;
+}
+
+
+
+
+@media screen and (max-width: 1080px ) {
+    
+    .contentSlideLP {
+ 
+        width: 100%;
+        width: 80%;
+        padding: 0px 40px;
+       
+    }
+
+
+    .boxSlide {
+        width: 100%;
+    }
+
+
+
+}

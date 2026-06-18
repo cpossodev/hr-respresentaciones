@@ -1,0 +1,133 @@
+.containerHomePortada {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;      /* ✅ centra verticalmente */
+    align-items: flex-start;          /* ✅ centra horizontalmente */
+    width: 100%;
+    height: 100%;
+    background-size:cover;       /* ✅ que cubra todo */
+    background-position: center;  /* ✅ centrado */
+    background-repeat: no-repeat; /* ✅ no repetir */
+    padding-left: 10%;
+}
+
+
+.boxTextHomePortada {
+    /* position: relative;
+    top: 100px;
+    right: -80px; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 220px;
+    background-color: rgba(44, 180, 174, 0.6);
+    padding: 10px 40px;
+
+}
+
+.textHomePortada {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.linkToPage {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 60%;
+    height: 30px;
+    background-color: #1E4899;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #ffffff;
+    column-gap: 7px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.linkToPage:hover {
+    background-color: #1D1D3D;
+}
+
+@media screen and (max-width: 680px) {
+
+
+    .containerHomePortada {
+          padding-left: 0%;
+    }
+
+    .boxTextHomePortada {
+        top: 0px;
+        right: 0px;
+        width: 50%;
+        height: 100%;
+        padding: 0px 30px;
+    }
+
+    .textHomePortada {
+        font-size: 0.7em;
+    
+    }
+
+    .linkToPage {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .containerHomePortada {
+        height: 580px;
+      
+    }
+
+    .boxTextHomePortada {
+        width: 100%;
+          padding: 0% 15%;
+     
+    }
+
+
+    .textHomePortada {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin-bottom: 40px;
+    }
+
+
+
+    .linkToPage {
+        font-size: 0.6em;
+        padding-left: 12px;
+    }
+
+
+
+
+
+}
+
+
+/* @media screen and (max-width: 420px) {
+
+  .boxTextHomePortada {
+        width: 70%;
+        padding: 10%;
+    }
+
+} */

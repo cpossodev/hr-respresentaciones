@@ -1,0 +1,112 @@
+.backScreen {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background-color: rgba(10, 10, 103, 0.907);
+}
+
+.contentPopUpSV {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 260px;
+    height: 440px;
+    background-color: #ffffff;
+
+    /* box-shadow: 2px 2px 3px 0px rgba(126, 126, 126, 0.5);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(126, 126, 126, 0.5);
+    -moz-box-shadow: 2px 2px 3x 0px rgba(126, 126, 126, 0.5); */
+}
+
+.boxBKImagenPopUp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    background-color: aquamarine;
+}
+
+.boxTextParrafPopUp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    padding: 0px 12%;
+    gap: 0px 10px;
+}
+
+.boxIconTitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    gap: 0px 15px;
+    padding-top: 0px;
+}
+
+.IconSvPopUp {
+    display: block;
+    width: 40px;
+}
+
+.textTitlePopUp {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #2CB4AE;
+    text-align: left;
+}
+
+
+.boxTextPopUp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    padding: 0px 0px;
+
+}
+
+.textPopUp {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: justify;
+    color: #808080;
+}
+
+.btnClosePopUp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2CB4AE; */
+    /* background-color: #939393; */
+    background-color: #289994;
+
+    color: #ffffff;
+    width: 100%;
+    height: 10%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btnClosePopUp:hover {
+    background-color: #2CB4AE;
+}

@@ -1,0 +1,239 @@
+
+.menuMobilePanel {
+    display: none;
+   
+}
+
+
+@media screen and (max-width: 920px) {
+    
+    .menuMobilePanel {
+        position: fixed;
+        top: 60px;          /* ojo: faltaba px */
+        left: -100%;         /* estado cerrado */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 6;
+        width: 40%;
+        height: 560px;
+        background-color: #131328;
+        padding: 7% 5%;
+        transition: left 0.4s ease-in-out; /* animación suave */
+    }
+
+    /* estado abierto */
+    .menuMobilePanel.open {
+    left: 0%;
+    }
+
+
+    /* //Link */
+    .boxIrATienda {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    
+    .boxBTNirAtienda {
+        all: unset;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        column-gap: 20px;
+        background-color: #1E4899;
+        border-radius: 5px;
+        position: relative; /* necesario para que ::before se posicione dentro */
+        overflow: hidden;   /* oculta el pseudo-elemento fuera del borde */
+    }
+
+    .boxBTNirAtienda::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;              
+        height: 100%;
+        background: linear-gradient(to right, #2EB5AF); /* color del efecto */
+        transition: width 0.5s ease-in-out;
+        z-index: 0;        
+    }
+
+    .boxBTNirAtienda:focus::before {
+        width: 100%;
+    }
+
+    .boxBTNirAtienda > * {
+        position: relative; /* asegura que el contenido esté encima del ::before */
+        z-index: 1;
+    }
+
+    .IconLinkCompras {
+        display: block;
+        width: 25px;
+        height: auto;
+        padding-bottom: 3px;
+
+    }
+
+    .boxIconShopping {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .boxLinkPage {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10% 0%;
+    }
+
+    .textLink {
+        font-family: "Monserrate", sans-serif;
+        color: #ffffff;
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+
+    .arrowRight {
+        color: #ffffff;
+    }
+
+    .lineDivisorPanelMobile {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #2EB5AF;
+    }
+
+    .boxLinksToPages {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 20px 0px;
+    }
+
+    .boxLinkPage {
+        all: unset;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 30px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .textLink {
+        font-family: "Monserrate", sans-serif;
+        color: #ffffff;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .boxLinkPage:hover .textLink  {
+        color: #2EB5AF;
+    }
+
+    .boxLogoPanelMobile {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logoPanelMobile {
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .menuMobilePanel {
+        width: 60%;
+
+      }
+
+
+    .logoPanelMobile {
+        width: 240px;
+ 
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .menuMobilePanel {
+        padding: 8% 8%;
+    }
+
+    .logoPanelMobile {
+        width: 80%;
+ 
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .menuMobilePanel {
+        justify-content: space-around;
+        padding: 5% 10%;
+        width: 100vw;
+        height: 100vh;
+        padding: 10% 10%;
+    }
+
+    .boxIrATienda {
+        height: 20%;
+    }
+
+    .boxLinksToPages {
+        padding: 15% 0%;
+        justify-content: space-around;
+        height: 60%;
+    }
+    
+
+    .boxLogoPanelMobile {
+        padding: 15% 0%;
+         height: 20%;
+    }
+
+    .textLink {
+        font-family: "Monserrate", sans-serif;
+        color: #ffffff;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+      .boxLogoPanelMobile {
+         justify-content: flex-start;
+      }
+
+    .logoPanelMobile {
+        width: 70%;
+    }
+
+}
