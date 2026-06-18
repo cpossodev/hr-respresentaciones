@@ -38,7 +38,7 @@ export default function HomeLineasProductosCompt() {
       >
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd01.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd01.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Equipos de <br /> Laboratorio</>}
@@ -48,7 +48,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd02.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd02.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Instrumentos de <br /> Medición</>}
@@ -58,7 +58,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd03.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd03.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Consumibles de <br /> Precisión</>}
@@ -68,7 +68,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd04.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd04.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Bioseguridad y <br /> Cadena de Frio</>}
@@ -78,7 +78,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd05.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd05.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Metrología y <br /> Control Industrial</>}
@@ -88,7 +88,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd06.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd06.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Modelos Anatómicos y <br /> Material Didáctico</>}
@@ -98,7 +98,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
           <BotonLineaProdCompt
-            bkUrlImagen="/bkBotonlineaProd/bkLineaProd04.jpg"
+            bkUrlImagen="/bkBotonLineaProd/bkLineaProd04.jpg"
             hrefLinkToPage="/tienda-linea"
             nameLinkBoton="Ver Productos"
             titleLineaProd={<>Bioseguridad y <br /> Cadena de Frio</>}
@@ -109,7 +109,7 @@ export default function HomeLineasProductosCompt() {
 
         <SwiperSlide>
             <BotonLineaProdCompt
-              bkUrlImagen="/bkBotonlineaProd/bkLineaProd03.jpg"
+              bkUrlImagen="/bkBotonLineaProd/bkLineaProd03.jpg"
               hrefLinkToPage="/tienda-linea"
               nameLinkBoton="Ver Productos"
               titleLineaProd={<>Consumibles de <br /> Precisión</>}

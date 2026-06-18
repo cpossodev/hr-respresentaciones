@@ -34,7 +34,7 @@ export default function BoxPortadaCompt() {
             <div className={`${boxPortComptStyles.slide} ${currentIndex === 0 ? boxPortComptStyles.active : ""}`} style={{ zIndex: 3 }}>
                 <HomePortadaCompt
                     styleDefault="A"
-                    bkImagen="/homePortadas/portadaA.jpg"
+                    bkImagen="/homePortadas/PortadaA.jpg"
                     textPortada="Somos Importadores directos y distribuidores de Equipos Científicos, Reactivos e Insumos para Laboratorios, Industrias y Enseñanza."
                               btnText= "Conoce Quienes Somos"
                     linkToPage="/quienes-somos"
@@ -44,7 +44,7 @@ export default function BoxPortadaCompt() {
             <div className={`${boxPortComptStyles.slide} ${currentIndex === 1 ? boxPortComptStyles.active : ""}`} style={{ zIndex: 2 }}>
                 <HomePortadaCompt
                     styleDefault="B"
-                    bkImagen="/homePortadas/portadaB.jpg"
+                    bkImagen="/homePortadas/PortadaB.jpg"
                     textPortada="Ofrecemos una amplia línea de equipos y  soluciones de nivel profesional para Laboratorios Clínicos, Bioseguridad Hospitalaria, Industria 
                                 Alimenticia, Farmacéutica, Agroindustrial, Instituciones Educativas y Universidades."
                     btnText= "Visita Nuestra Tienda"
@@ -55,7 +55,7 @@ export default function BoxPortadaCompt() {
             <div className={`${boxPortComptStyles.slide} ${currentIndex === 2 ? boxPortComptStyles.active : ""}`} style={{ zIndex: 1 }}>
                 <HomePortadaCompt
                     styleDefault="C"
-                    bkImagen="/homePortadas/portadaC.jpg"
+                    bkImagen="/homePortadas/PortadaC.jpg"
                     textPortada="Somos representantes de las marcas más 
                                 reconcidas a nivel mundial. Nuestras soluciones cuentan con certificaciones internacionales y un servicio post venta especializado que garantiza su inversión."
                     btnText= "Conoce Nuestra Calidad"
