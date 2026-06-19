@@ -62,11 +62,22 @@
     background-color: #1D1D3D;
 }
 
+@media screen and (max-width: 920px) {
+
+    .containerHomePortada {
+          height: 580px;
+    }
+
+}
+
+
+
+
 @media screen and (max-width: 680px) {
 
 
     .containerHomePortada {
-          padding-left: 0%;
+        padding-left: 0%;
     }
 
     .boxTextHomePortada {

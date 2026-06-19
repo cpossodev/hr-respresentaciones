@@ -77,3 +77,33 @@
     }
 
 }
+
+@media screen and (max-width: 920px) {
+
+    .contentBottonWTS {
+        top: 380px;
+     
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .contentBottonWTS {
+      
+        right: 20px;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .contentBottonWTS {
+        top: 440px;
+        
+    }
+
+}

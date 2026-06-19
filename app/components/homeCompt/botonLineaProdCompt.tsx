@@ -26,7 +26,7 @@ export default function BotonLineaProdCompt(
 
             <div className={btnLineaProdStyle.boxBkImagenBoton} style={{backgroundImage: `url(${bkUrlImagen})`}}>
 
-                <Link className={btnLineaProdStyle.linkToPageLp} href={hrefLinkToPage} >
+                <Link className={btnLineaProdStyle.linkToPageLp} href={hrefLinkToPage}>
                         {nameLinkBoton}
                 </Link>
 

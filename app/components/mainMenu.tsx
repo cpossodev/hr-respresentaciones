@@ -28,18 +28,11 @@ export default function MainMenu() {
 
                 <div className={mainMenuStyles.boxbtnMainMenu}>
 
-                    <button 
-                    onClick={() => setIsOpen(!isOpen)} className={mainMenuStyles.botonMainMenu}>
+                    <button onClick={() => setIsOpen(!isOpen)} className={mainMenuStyles.botonMainMenu}>
                         
-                            {/* className={`${mainMenuStyles.botonMainMenu} ${isOpen ? `mainMenuStyles.lineTop, mainMenuStyles.lineMiddle, mainMenuStyles.lineBottom` : "" }`}> */}
-
                             <span className={`${mainMenuStyles.lineIconMain} ${isOpen ? mainMenuStyles.lineTop : "" }`}></span>
                             <span className={`${mainMenuStyles.lineIconMain} ${isOpen ? mainMenuStyles.lineMiddle : "" }`}></span>
                             <span className={`${mainMenuStyles.lineIconMain} ${isOpen ? mainMenuStyles.lineBottom : "" }`}></span>
-
-                            {/* <span className={`${mainMenuStyles.lineIconMain} ${mainMenuStyles.lineTop}`}></span>
-                            <span className={`${mainMenuStyles.lineIconMain} ${mainMenuStyles.lineMiddle}`}></span>
-                            <span className={`${mainMenuStyles.lineIconMain} ${mainMenuStyles.lineBottom}`}></span> */}
 
                     </button>
 

@@ -50,11 +50,6 @@ export default function PanelMainMenuMobile() {
 
             </div>
 
-
-            {/* // Línea Divisoria */}
-            <div className={menuPanelMobileStyles.lineDivisorPanelMobile}></div>
-
-
             <div className={menuPanelMobileStyles.boxLinksToPages}> 
 
                 <Link onClick={() => setIsOpen(!isOpen)} href={"/tienda-online"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNInicio}`}>
@@ -83,16 +78,40 @@ export default function PanelMainMenuMobile() {
 
             </div>
 
+
             {/* // Línea Divisoria */}
             <div className={menuPanelMobileStyles.lineDivisorPanelMobile}></div>
 
-            <div className={menuPanelMobileStyles.boxLogoPanelMobile}>
 
-                    <img className={menuPanelMobileStyles.logoPanelMobile} src="/logotipos/logoMainMenu.svg" />           
-            
+            <div className={menuPanelMobileStyles.boxLogoRedesSiguenos}>
+
+
+                <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textSiguenos}`}>Siguenos:</p>
+
+
+                <div className={menuPanelMobileStyles.boxLogosRedes}>
+
+                    <Link href="/" className={`${menuPanelMobileStyles.LinkToRedes} ${menuPanelMobileStyles.linkToLinkedIn}`}>
+
+                        <img className={`${menuPanelMobileStyles.iconBoxRedes} ${menuPanelMobileStyles.iconLinkendIn}`} src="/footerAssets/Icon-LinkedIn.svg" />
+                        
+                    </Link>
+
+                    <Link href="/" className={`${menuPanelMobileStyles.LinkToRedes} ${menuPanelMobileStyles.linkToRedX}`}>
+
+                        <img className={`${menuPanelMobileStyles.iconBoxRedes} ${menuPanelMobileStyles.iconLinkendIn}`} src="/footerAssets/Icon-RedX.svg" />
+
+                    </Link>
+
+                    <Link href="/" className={`${menuPanelMobileStyles.LinkToRedes} ${menuPanelMobileStyles.linkToLinkedIn}`}>
+
+                        <img className={`${menuPanelMobileStyles.iconBoxRedes} ${menuPanelMobileStyles.iconInstagram}`} src="/footerAssets/Icon-Instagram.svg" />
+
+                    </Link>
+
+                </div>
+
             </div>
-
-
 
         </div>
 
