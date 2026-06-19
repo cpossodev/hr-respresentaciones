@@ -7,7 +7,7 @@
     align-items: center;
     width: 100%;
     max-width: 1920px;
-    height: 420px;
+    height: 380px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -51,7 +51,7 @@
 
 @media screen and (max-width:1919px) {
     .contentBannerSlogan {
-           width: 100vw;
+           width: 100%;
     }
 }
 
@@ -67,21 +67,14 @@
 
     }
 
-
-
     .logoHrBanner {
-    
         width: 200px;
-
     }
-
-
 
     .lineDivisorBannerSlogan {
         width: 50px;
         height: 2px;
     }
-
 
     .textSlogan {
         width: 260px;

@@ -21,7 +21,7 @@ export default function BoxMarcasHR() {
 
                 </div>
 
-                <div className={boxMarcasHRStyles.contentBoxMarcas}>
+                <div className={boxMarcasHRStyles.contentLogosMarcas}>
 
                          {/* Marca Marheray Nagel */}
                         <BtnMarcasHRcompt

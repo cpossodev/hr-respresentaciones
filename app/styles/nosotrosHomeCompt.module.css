@@ -1,12 +1,11 @@
 .contentNosotros {
- 
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 1920px;
-    height: 100vh;
+    height: 100svh;
     
 }
 
@@ -106,14 +105,16 @@
 
 @media screen and (max-width: 1919px) {
     .contentNosotros {
-        width: 100vw;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1280px) {
+
+
     .boxTextNosotros {
         padding: 0% 0% 0% 5%;
-         width: 40%;
+        width: 40%;
     }
 
     .contentPictureNosotros {
@@ -122,6 +123,16 @@
 }
 
 @media screen and (max-width: 980px) {
+
+
+    .contentNosotros {
+  
+        align-items: center;
+        height: 650px;
+        
+    }
+
+
 
     .boxTextNosotros {
         padding: 5%;
@@ -137,7 +148,7 @@
     .pictureNosotros {
         padding: 5% 0%;
         width: 80%;
-        height: 60%;
+        height: 80%;
     }
 
     .LinkTopage {
@@ -161,12 +172,9 @@
 
 
     .pictureNosotros {
-    
         width: 90%;
-        height: 65%;
+        height: 90%;
     }
-
-
 
 }
 
@@ -174,7 +182,7 @@
 
     .contentNosotros {
         flex-flow: column nowrap;
-       
+        height: 100svh;
     }
 
     .boxTextNosotros {

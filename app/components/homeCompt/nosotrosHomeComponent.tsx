@@ -70,8 +70,7 @@ export default function NosotrosHomeComponent() {
                    textParrafo={textos[indexInfo]}
                 
                 />
-              
-                
+            
                 <div className={nosotrosHomeComptStyles.boxBTNNosotros}>
 
                     <button onClick={() => setIndexInfo(0)} className={`${nosotrosHomeComptStyles.bntIndex} ${nosotrosHomeComptStyles.bntIndex1}  ${indexInfo === 0 ? nosotrosHomeComptStyles.bntIndexActive : ""}`}>1</button>

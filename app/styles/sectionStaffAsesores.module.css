@@ -7,8 +7,7 @@
     align-items: center;
     padding: 100px 40px;
     width: 100%;
-    max-width: 1280px;
-
+    max-width: 1920px;
 }
 
 
@@ -17,7 +16,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 700px;
 
 }
 
@@ -46,9 +45,19 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
+    max-width: 920px;
     gap: 50px 50px;
 }
+
+
+@media screen and (max-width: 1280px) {
+    .boxTitleTextAs {
+        width: 70%;
+    }
+}
+
+
 
 @media screen and (max-width: 760px) {
 

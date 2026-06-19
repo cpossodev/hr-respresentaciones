@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 1919px) {
     .contentAllFooter {
-       width: 100vw; 
+       width: 100%; 
     }
 }
 

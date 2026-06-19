@@ -18,17 +18,15 @@ export default function BoxPortadaCompt() {
             <RedesBoxCompt />
 
 
-      {/* Slides apilados */}
+         {/* Slides apilados */}
         <div className={boxPortComptStyles.slidesWrapper}>
 
-        {/* Botones */}
+            {/* Botones */}
             <div className={boxPortComptStyles.boxBTNSlides}>
                 <button onClick={() => setCurrentIndex(0)} className={`${boxPortComptStyles.bntSlide} ${boxPortComptStyles.bntSlide1}  ${currentIndex === 0 ? boxPortComptStyles.bntSlideActive : ""}`}>1</button>
                 <button onClick={() => setCurrentIndex(1)} className={`${boxPortComptStyles.bntSlide} ${boxPortComptStyles.bntSlide2}  ${currentIndex === 1 ? boxPortComptStyles.bntSlideActive : ""}`}>2</button>
                 <button onClick={() => setCurrentIndex(2)} className={`${boxPortComptStyles.bntSlide} ${boxPortComptStyles.bntSlide3}  ${currentIndex === 2 ? boxPortComptStyles.bntSlideActive : ""}`}>3</button>
             </div>
-
-
 
 
             <div className={`${boxPortComptStyles.slide} ${currentIndex === 0 ? boxPortComptStyles.active : ""}`} style={{ zIndex: 3 }}>

@@ -11,15 +11,13 @@
 
 }
 
-
 .containerMainMenu {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    height: auto;
-    padding: 0px 0px;
+    width: 95%;
+    height: 100%;
 }
 
 /* Contenedor iconMainMenu y logoMainMenu */
@@ -28,7 +26,7 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 10%;
+    width: auto;
     height: auto;
 }
 
@@ -97,10 +95,10 @@
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    width: 75%;
+    width: 100%;
     height: auto;
-    padding: 0px 50px;
-    gap: 0px 60px;
+    padding: 0px 60px;
+    gap: 0px 50px;
 }
 
 .menuList {
@@ -136,8 +134,9 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 10%;
+    width: auto;
     height: auto;
+    gap: 0px 20px;
 }
 
 .iconLink {
@@ -163,54 +162,17 @@
 @media screen and ( max-width: 1919px) {
 
     .containerNav {
-
-        width: 100vw;
-
-    }
-
-
-    .containerMainMenu {
         width: 100%;
-        padding: 0px 40px;
     }
-
-
 }
-
-
-
-@media screen and ( max-width: 980px) {
-
-
-   .boxLogoMainMenu{
-        width: 25%;
-  
-    }
-
-    .boxLinksMainMenu {
-        width: 63%;
-        gap: 0px 30px;
-    }
-
-    .boxIconsMainMenu {
-        width: 12%;
-    }
-
-
-}
-
 
 @media screen and ( max-width: 920px) {
 
 
     .containerNav {
         position: fixed;
-        z-index: 10;
-    }
-
-    .boxLogoMainMenu{
-        width: 20%;
-  
+        top: 0px;
+        z-index: 11;
     }
 
     .boxbtnMainMenu {
@@ -255,6 +217,11 @@
 @media screen and ( max-width: 520px) {
 
 
+    .containerMainMenu {
+        width: 100%;
+    }
+
+
    .boxIconsMainMenu {
         width: 25%;
     }
@@ -274,13 +241,3 @@
 
 }
 
-@media screen and ( max-width: 480px) {
-    .containerNav {
-        position: fixed;
-        height: 60px;
-        top: 0; 
-        z-index: 10;
-        background-color: rgba(29, 28, 61, 1) ;
-    }
-
-} 

@@ -17,9 +17,6 @@ export default function BannerSlogan() {
 
         </div>
 
-
-
-
     );
 
 } 

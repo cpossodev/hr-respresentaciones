@@ -6,9 +6,10 @@
   width: 100%;
   max-width: 1920px;
   height: 100vh;
-  background-color: #F2F2F2;
-  padding: 0px 40px;
+  background-color: #eeeeee;
+  padding: 30px 0px;
 }
+
 
 .contentLProdCompt > p {
   font-family: "Monserrate", sans-serif;
@@ -19,12 +20,29 @@
   color: #2EB5AF;
 }
 
+
+
+.containerSwiper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+
+}
+
+
 /* Contenedor principal del Swiper */
 .contentSlideLP {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  width: 70%;
+  width: 90%;
   margin-top: 60px;
-  padding: 0 0px;
+  padding: 0px 30px;
 }
 
 /* Cada slide (un botón) */
@@ -65,9 +83,12 @@
 /* Responsive */
 
 @media screen and (max-width: 1919px) {
-    .contentLProdCompt {
-          width: 100vw;
-    }
+
+  .contentLProdCompt {
+      width: 100vw;
+  }
+
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -77,7 +98,6 @@
       width: 90%;
     
     }
-
 
 }
 
@@ -103,7 +123,7 @@
 @media screen and (max-width: 980px) {
 
   .contentLProdCompt {
-    height: 100vh;
+    height: 680px;
 
   }
 
@@ -120,6 +140,11 @@
 @media screen and (max-width: 580px) {
 
 
+  .contentLProdCompt {
+    height: 80svh;
+  }
+
+
   .contentLProdCompt > p {
       font-size: 1.5em;
   }
@@ -127,12 +152,3 @@
 
 }
 
-
-@media screen and (max-width: 520px) {
-
-  .contentLProdCompt {
-    height: 100vh;
-  }
-
-
-}

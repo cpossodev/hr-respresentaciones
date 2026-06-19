@@ -18,7 +18,7 @@ export default function BotonWhatsApp() {
             const distanceFromBottom = docHeight - (scrollTop + windowHeight);
 
             // si estamos a menos de 200px del final, ocultar
-            setIsVisible(distanceFromBottom > 300);
+            setIsVisible(distanceFromBottom > 500);
         };
 
         window.addEventListener("scroll", handleScroll);

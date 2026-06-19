@@ -15,7 +15,7 @@
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: flex-start;
-        z-index: 10;
+        z-index: 11;
         width: 50%;
         height: 560px;
         background-color: #131328;
@@ -223,7 +223,7 @@
         justify-content: space-around;
         padding: 5% 10%;
         width: 100vw;
-        height: 100vh;
+        height: 100svh;
         padding: 10% 10% 20% 10%;
     }
 

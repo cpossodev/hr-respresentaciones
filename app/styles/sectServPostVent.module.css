@@ -11,6 +11,8 @@
     height: 520px;
     background-color: #1E4899;
     gap: 60px 0px;
+        overflow-y: hidden;
+
 }
 
 .boxServPostVent {
@@ -29,9 +31,9 @@
     font-weight: 300;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1919px) {
     .contSectServPostVent {
-        width: 100vw;
+        width: 100%;
     }
 }
 
