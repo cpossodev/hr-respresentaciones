@@ -1,0 +1,190 @@
+.contentAllFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1920px;
+    height: 80svh;
+    background-color: #1D1D3D;
+    padding: 30px 0px;
+
+}
+
+.boxBlockContacts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 80px 60px;
+    gap: 30px 0px;
+}
+
+.boxSiguenos, .boxVisitanos, .boxLlamanos, .boxEmail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.titleContacts {
+    font-family: "Monserrat", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.boxRedesSociales {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px 20px;
+    margin-bottom: 30px;
+    
+}
+
+.logoRedes, .IconContact {
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logoRedX,.IconEmail {
+    width: 25px;
+}
+
+.logoRedes:hover {
+    transform: scale(1.2);
+}
+
+.IconContact:hover {
+    transform: scale(1.2);
+}
+
+
+.boxDireccion, .boxIconNumTelf, .boxEmailAdress {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.textDireccion, .textNumTelf, .textAdress, .textCopyrigth {
+    font-family: "Monserrat", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #2EB5AF;
+   
+}
+
+.boxBlockLogoCopyrigth {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+    padding: 80px 60px;
+}
+
+.boxLogoFooter {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter {
+    display: block;
+    width: 130px;
+    height: auto;
+    margin: 10px 0px 5px 0px;
+}
+
+@media screen and (max-width: 1919px) {
+    .contentAllFooter {
+       width: 100%; 
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+
+.boxBlockContacts {
+    width: 60%;
+}
+
+.boxBlockLogoCopyrigth {
+    width: 40%;
+}
+
+}
+
+
+@media screen and (max-width: 580px) {
+
+        .contentAllFooter {
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            height: 80svh;
+             padding: 0px 20px;
+             gap: 30px 0px;
+         }
+
+        .boxBlockContacts {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 30px 20px;
+            gap: 30px 0px;
+            height: auto;
+        }
+
+        .boxBlockContacts, .boxBlockLogoCopyrigth {
+            width: 100%;
+          
+        }
+
+        .boxBlockLogoCopyrigth {
+            justify-content: flex-start;
+            align-items: center;
+            height: auto;
+            padding: 30px 0px;
+
+        }
+
+        .logoFooter {
+
+            width: 110px;
+            height: auto;
+            margin: 0px 0px 5px 0px;
+        }
+
+}
+
+
+ @media screen and (max-height: 780px) {
+
+      .contentAllFooter {
+            height: 85vh;
+            padding: 20px 20px;
+         }
+
+
+ .boxBlockLogoCopyrigth {
+    padding: 0px 0px;
+ }
+
+} 

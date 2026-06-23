@@ -1,0 +1,68 @@
+
+.containerBoton {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.boxBkImagenBoton {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    padding-bottom: 10%;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.linkToPageLp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 30px;
+    background-color: rgba(30, 72, 153, 0.9);
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.linkToPageLp:hover {
+     background-color: #1D1D3D;
+}
+
+.titleLineaProd {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.9em;
+    font-width: 200;
+    color: #2aaaa4;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+    
+    .boxBkImagenBoton {
+        width: 240px;
+        height: 360px;
+        margin-bottom: 50px;
+  
+    }
+
+    .titleLineaProd {
+        font-size: 1.2em;
+    
+    }
+
+
+
+}

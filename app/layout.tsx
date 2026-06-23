@@ -2,10 +2,10 @@ import "./globals.css";
 
 
 // Import Component
-import {MenuProvider} from "./components/menuProvider";
-import MainMenu from "./components/mainMenu";
-import Footer from "./components/footer";
-import PanelMainMenuMobile from "./components/panelMainMenuMobile";
+import {MenuProvider} from "../providers/menuProvider";
+import MainMenu from "./components/mainMenu/mainMenu";
+import Footer from "./components/footer/footer";
+import PanelMainMenuMobile from "./components/mainMenu/panelMainMenuMobile";
 
 import Head from "next/head";
 import { defaultSEO } from "../lib/seo";

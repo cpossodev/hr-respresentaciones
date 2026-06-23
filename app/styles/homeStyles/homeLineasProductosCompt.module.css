@@ -1,0 +1,159 @@
+.contentLProdCompt {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  background-color: #eeeeee;
+  padding: 30px 0px;
+}
+
+
+.contentLProdCompt > p {
+  font-family: "Monserrate", sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+  /* color: #1D1D3D; */
+  color: #2EB5AF;
+}
+
+
+
+.containerSwiper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+
+}
+
+
+/* Contenedor principal del Swiper */
+.contentSlideLP {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 60px;
+  padding: 0px 30px;
+}
+
+/* Cada slide (un botón) */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+
+/* Flechas Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1E4899;
+  font-size: 2em;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  color: #1D1D3D;
+}
+
+/* Paginación Swiper */
+.swiper-pagination-bullet {
+
+  background: #1E4899;
+  opacity: 0.0;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1D1D3D;
+  opacity: 1;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1919px) {
+
+  .contentLProdCompt {
+      width: 100vw;
+  }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .contentSlideLP {
+      cursor: pointer;
+      width: 90%;
+    
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+
+  .contentSlideLP {
+    width: 70%;
+    padding: 0 0px;
+  }
+
+  .swiper-slide {
+    flex-flow: column nowrap;
+  }
+
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+  .contentLProdCompt {
+    height: 680px;
+
+  }
+
+  .contentSlideLP {
+      width: 100%;
+      max-width: 90%;
+      padding: 0 0px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 580px) {
+
+
+  .contentLProdCompt {
+    height: 80svh;
+  }
+
+
+  .contentLProdCompt > p {
+      font-size: 1.5em;
+  }
+
+
+}
+
+@media screen and (max-height: 780px) {
+    .contentLProdCompt {
+        height: 90svh;
+    }
+}

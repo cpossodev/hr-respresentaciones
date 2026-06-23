@@ -1,0 +1,147 @@
+
+.contentAllBannerQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100svh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.boxTextQStienda {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3%;
+    gap: 30px 0px;
+}
+
+
+.IconCompras {
+    display: block;
+    width: 80px;
+    height: auto;
+
+}
+
+.TitleCompras {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #2CB4AE;
+    text-align: center;
+    width: 300px;
+}
+
+.linkToTiendaQS {
+    all: unset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    border: solid 2px #2CB4AE;
+    border-radius: 20px;
+    cursor: pointer;
+ 
+    font-family: "Monserrate", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #2CB4AE;
+    text-align: center;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.linkToTiendaQS:hover {
+    background-color: #2CB4AE;
+    border: solid 2px transparent;
+    color: #ffffff;
+}
+
+
+.textDescEx {
+    font-family: "Monserrate", sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 700;
+    color: #2CB4AE;
+    text-align: center;
+    width: 250px;
+}
+
+
+@media screen and (max-width: 920px) {
+    
+.contentAllBannerQS {
+    height: 70svh;
+}
+
+.boxTextQStienda {
+    width: 360px;
+    height: 300px;
+}
+
+.IconCompras {
+    width: 60px;
+
+}
+
+.TitleCompras {
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.linkToTiendaQS {
+    border: solid 1px #2CB4AE;
+}
+
+.textDescEx {
+    font-size: 0.8em;
+    width: 70%;
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+.contentAllBannerQS {
+    background-size: cover;
+    background-position: 70% 60%;
+    height: 80svh;
+}
+
+.boxTextQStienda {
+    width: 80%;
+    height: 360px;
+}
+
+.linkToTiendaQS {
+     height: 30px;
+        font-size: 0.8em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+

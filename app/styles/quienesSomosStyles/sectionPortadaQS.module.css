@@ -1,0 +1,250 @@
+.containerAllQS {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100svh;
+    transition: all 0.3s ease;
+}
+
+.panelMenuQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: #1E4899;
+    padding: 80px 20px;
+}
+
+.boxLinkMenuQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    height: auto;
+    gap: 30px 0px;
+}
+
+.buttonMenuQs {
+    position: relative;
+    all:unset;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+
+.buttonMenuQs.buttonQSActive {
+    background-color: #2b5fc9;
+}
+
+.buttonMenuQs:hover {
+    background-color: #2b5fc9;
+}
+
+
+.textButtonQS {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.9em;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+
+.arrowBtnQS {
+    padding-top: 2px;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+
+.boxBKImagenQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 0% 0%;
+}
+
+.boxTextInfoQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(44, 180, 174, 0.8);
+    padding: 30px;
+    gap: 10px 0px;
+
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animateActive {
+  animation: slideIn 0.6s ease forwards;
+}
+
+.titleQS {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.TextQS {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.8em;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+.boxButtonMobile {
+
+    display: none;
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+    .containerAllQS {
+        height: 50svh;
+    }
+
+    .panelMenuQS {
+        padding: 80px 20px 0px 0px;
+        width: 30%;
+    }
+
+    .boxTextInfoQS {
+        width: 40%;
+        
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .panelMenuQS {
+        padding: 140px 20px 0px 0px;
+        width: 40%;
+    }
+
+    .boxTextInfoQS {
+        width: 50%;
+        
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+
+    .containerAllQS {
+        flex-flow: column nowrap;
+    }
+
+    .panelMenuQS {
+        display: none;
+    }
+
+    .boxBKImagenQS {
+         width: 100%;
+    }
+
+    /* ESTILOS BOTONES MÓVILES */
+    .boxButtonMobile {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bntIndexMobile {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .bntIndexMobile:hover {
+        background-color: #1E4899;
+    }
+
+
+    .bntIndexMobile1 {
+        background-color: #2E2E60;
+    }
+
+    .bntIndexMobile2 {
+        background-color: #2A2A54;
+    }
+
+    .bntIndexMobile3 {
+        background-color: #252547;
+    }
+
+    .bntIndexMobileActive {
+        background-color: #1E4899;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .boxTextInfoQS {
+        width: 60%;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .boxTextInfoQS {
+        width: 100%;
+        padding: 50px 60px;
+    }
+
+}
