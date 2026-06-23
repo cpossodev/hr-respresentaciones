@@ -58,7 +58,7 @@ export default function PanelMainMenuMobile() {
                     
                 </Link>
 
-                <Link onClick={() => setIsOpen(!isOpen)} href={"/tienda-online"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNQuienesSomos}`}>
+                <Link onClick={() => setIsOpen(!isOpen)} href={"/quienes-somos"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNQuienesSomos}`}>
 
                     <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkTienda}`}>Quienes Somos</p>
                     
