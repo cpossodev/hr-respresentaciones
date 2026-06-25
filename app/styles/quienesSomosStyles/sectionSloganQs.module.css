@@ -1,0 +1,355 @@
+
+
+.AllSectSloganQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100svh;
+}
+
+.boxContentSloganQS {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    padding: 0px;
+}
+
+.backBoxGradientQS {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+        opacity: 0;
+    width: 80%;
+    height: 300px;
+    background: linear-gradient(
+        120deg,          /* ángulo positivo */
+        #1E4899,        /* azul profundo */
+        #2EB5AF         /* verde-agua */
+);
+   
+    animation: slideFadeIn 1.5s ease-in-out forwards;
+    animation: moveBox 1.2s ease-out forwards;
+
+
+}
+
+.boxSloganQS {
+    position: absolute;
+    opacity: 0;
+    top: -70px;
+    left: 160px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+    width: 300px;
+    height: 450px;
+    background-color: #2EB5AF;
+    z-index: 1;
+    animation: moveTextPhoto 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+.opacityStart {
+    opacity: 0;
+}
+
+
+.boxTextQS {
+    opacity: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    height: auto;
+    margin-bottom: 40px;
+     animation: moveTextPhoto 1s ease-out forwards;
+    animation-delay: 1s;
+
+}
+
+.boxTextQS > p {
+    font-family: "Outfit", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.boxTextQS > p:nth-child(2) {
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: left;
+
+    animation: moveTextPhoto 1s ease-out forwards;
+    animation-delay: 1s;
+
+
+}
+
+.linkTOCalidadFromQS {
+
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E4899;
+    width: 80%;
+    height: 50px;
+    font-family: "Monserrate", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 0;
+    animation: moveTextPhoto 1s ease-out forwards;
+    animation-delay: 1s;
+
+
+}
+
+.linkTOCalidadFromQS:hover {
+
+    background-color: #1D1D3D;
+
+}
+
+.bkImagenBOXqs {
+    position: absolute;
+    opacity: 0;
+    top: 50px;
+    right: 170px;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    animation: moveTextPhoto 1s ease-out forwards;
+    animation-delay: 2s;
+
+}
+
+/* ANIMATION */
+/* Definimos la animación */
+@keyframes slideFadeIn {
+    from {
+        background-position: left; /* inicia desde la izquierda */
+        opacity: 0;                /* invisible */
+    }
+    to {
+        background-position: right; /* termina a la derecha */
+        opacity: 1;                 /* visible */
+    }
+}
+
+
+@keyframes moveBox {
+    from {
+        transform: translateX(-40px); /* inicia desplazado a la izquierda */
+        opacity: 0;                   /* invisible */
+    }
+    to {
+        transform: translateX(0);     /* vuelve a su posición original */
+        opacity: 1;                   /* visible */
+    }
+}
+
+@keyframes moveTextPhoto {
+    from {
+        transform: translateX(-40px); /* inicia desplazado a la izquierda */
+        opacity: 0;                   /* invisible */
+    }
+    to {
+        transform: translateX(0);     /* vuelve a su posición original */
+        opacity: 1;                   /* visible */
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    
+    .boxContentSloganQS {
+        width: 750px;
+    }
+
+    .backBoxGradientQS {
+        width: 700px;
+    }
+
+    .boxSloganQS  {
+        left: 80px;
+    }
+
+    .bkImagenBOXqs {
+        right: 80px
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+
+    .AllSectSloganQS {
+        height: 70svh;
+    }
+
+    .boxContentSloganQS {
+        width: 720px;
+    }
+
+    .backBoxGradientQS {
+        width: 680px;
+    }
+
+    .boxSloganQS  {
+        left: 60px;
+    }
+
+    .bkImagenBOXqs {
+        right: 60px
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .boxContentSloganQS {
+        width: 100%;
+    }
+
+    .backBoxGradientQS {
+        width: 100%;
+    }
+
+    .boxSloganQS  {
+        left: 35px;
+    }
+
+      .bkImagenBOXqs {
+        right: 35px
+    }
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+
+
+    .backBoxGradientQS {
+        height: 260px;
+    }
+
+    .boxSloganQS {
+        width: 260px;
+        height: 420px;
+    }
+
+    .bkImagenBOXqs {
+        top: 50px;
+        width: 240px;
+        height: 240px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .backBoxGradientQS {
+            height: 220px;
+    }
+
+    .boxSloganQS  {
+        top: -65px;
+        width: 220px;
+        height: 360px;
+        left: 35px;
+    }
+
+    .bkImagenBOXqs {
+        top: 20px;
+        right: 35px;
+         width: 220px;
+        height: 220px;
+    }
+
+}
+
+
+@media screen and (max-width: 460px) {
+
+    .backBoxGradientQS {
+        height: 200px;
+    }
+
+    .boxSloganQS  {
+        top: -60px;
+        height: 320px;
+        left: 25px;
+    }
+
+    .bkImagenBOXqs {
+        top: 40px;
+        right: 30px;
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+        .backBoxGradientQS {
+        height: 160px;
+    }
+
+    .boxSloganQS  {
+        top: -60px;
+        height: 280px;
+        width: 170px;
+        left: 9%;
+    }
+
+
+    .boxTextQS > p {
+        font-size: 2em;
+    }
+
+    .boxTextQS > p:nth-child(2) {
+        font-size: 1.3em;
+    }
+
+
+    .linkTOCalidadFromQS {
+        font-size: 0.8em;
+        height: 40px;
+    }
+
+    .bkImagenBOXqs {
+          top: 30px;
+        right: 9%;
+        width: 160px;
+        height: 160px;
+    }
+
+
+
+
+
+
+}

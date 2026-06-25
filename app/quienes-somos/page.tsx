@@ -2,7 +2,9 @@
 // Import Components
 import SectionPortadaQScompt from '../components/quienesSomosCompt/sectionPortadaQS'
 import SectionBannerTiendaQS from '../components/quienesSomosCompt/sectionBannerTiendaQS'
+import SectionBannerServPostQS from '../components/quienesSomosCompt/sectionBannerServPostQS'
 import SectionBannerQSServ from '../components/quienesSomosCompt/sectionBannerQSServ'
+import SectionSloganQS from '../components/quienesSomosCompt/sectionSloganQs'
 
 export default function QuienesSomos() {
     return (
@@ -11,13 +13,13 @@ export default function QuienesSomos() {
         
         <SectionPortadaQScompt />
 
-        <div style={{backgroundColor: "#ffffff", height: "2px", width: "100%"}}></div>
+        < SectionSloganQS />
 
         <SectionBannerTiendaQS /> 
        
-        <div style={{backgroundColor: "#ffffff", height: "2px", width: "100%"}}></div> 
+       <SectionBannerServPostQS />
 
-        <SectionBannerQSServ /> 
+        {/* <SectionBannerQSServ />  */}
 
         </>
     );
