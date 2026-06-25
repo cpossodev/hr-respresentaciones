@@ -18,9 +18,18 @@ export default function SectionSloganQS() {
         useEffect(() => {
             const handleScroll = () => {
             const scrollTop = window.scrollY;
-            if (scrollTop >= 500) {
-                setAnimateON(true); // activa animación
+            const viewport = window.innerWidth;
+    
+            // Caso escritorio
+            if (viewport >= 580 && scrollTop >= 500) {
+            setAnimateON(true);
             }
+
+            // Caso móvil
+            if (viewport < 580 && scrollTop >= 350) {
+            setAnimateON(true);
+            }
+
             };
 
             window.addEventListener("scroll", handleScroll);

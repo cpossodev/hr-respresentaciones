@@ -268,3 +268,10 @@
     }
 
 }
+
+
+@media screen and (max-height: 780px) {
+    .containerAllQS {
+        height: 80svh;
+    }
+}
