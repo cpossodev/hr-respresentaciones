@@ -3,7 +3,6 @@
 import SectionPortadaQScompt from '../components/quienesSomosCompt/sectionPortadaQS'
 import SectionBannerTiendaQS from '../components/quienesSomosCompt/sectionBannerTiendaQS'
 import SectionBannerServPostQS from '../components/quienesSomosCompt/sectionBannerServPostQS'
-import SectionBannerQSServ from '../components/quienesSomosCompt/sectionBannerQSServ'
 import SectionSloganQS from '../components/quienesSomosCompt/sectionSloganQs'
 
 export default function QuienesSomos() {
