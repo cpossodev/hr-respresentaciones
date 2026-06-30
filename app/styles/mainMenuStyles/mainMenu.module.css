@@ -8,6 +8,7 @@
     max-width: 1920px;
     height: 70px;
     background-color: #1D1D3D;
+    padding: 0px 30px;
 
 }
 
@@ -166,6 +167,13 @@
     }
 }
 
+@media screen and ( max-width: 960px) {
+    .containerNav {
+        padding: 0px 20px;
+    }
+}
+
+
 @media screen and ( max-width: 920px) {
 
 
@@ -197,13 +205,12 @@
 @media screen and ( max-width: 780px) {
 
     .containerMainMenu {
-        padding: 0px 20px;
+        padding: 0px 0px;
 
     }
 
     .logoMainMenu {
-            width: 140px;
-        
+        width: 140px;
     }
 
 
@@ -223,7 +230,8 @@
 
 
    .boxIconsMainMenu {
-        width: 25%;
+        width: auto;
+        gap: 0px 10px;
     }
 
 

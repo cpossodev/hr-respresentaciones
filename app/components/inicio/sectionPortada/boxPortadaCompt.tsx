@@ -33,8 +33,10 @@ export default function BoxPortadaCompt() {
                 <HomePortadaCompt
                     styleDefault="A"
                     bkImagen="/homePortadas/PortadaA.jpg"
-                    textPortada="Somos Importadores directos y distribuidores de Equipos Científicos, Reactivos e Insumos para Laboratorios, Industrias y Enseñanza."
-                              btnText= "Conoce Quienes Somos"
+                    titlePortada="SOMOS IMPORTADORES y DISTRIBUIDORES DIRECTOS"
+                    textPortada="40 años trayectoria nos posicionan como la empresa número uno en la 
+                    importación de soluciones científicas con el mejor respaldo post venta del país."
+                    btnText= "Conoce Quienes Somos"
                     linkToPage="/quienes-somos"
                 />
             </div>
@@ -43,8 +45,9 @@ export default function BoxPortadaCompt() {
                 <HomePortadaCompt
                     styleDefault="B"
                     bkImagen="/homePortadas/PortadaB.jpg"
-                    textPortada="Ofrecemos una amplia línea de equipos y  soluciones de nivel profesional para Laboratorios Clínicos, Bioseguridad Hospitalaria, Industria 
-                                Alimenticia, Farmacéutica, Agroindustrial, Instituciones Educativas y Universidades."
+                    titlePortada="SOLUCIONES DE NIVEL PROFESIONAL"
+                    textPortada="Contamos con una amplica gama de soluciones para laboratorios, 
+                    sector industrial, hospitalario, farmacéutico y educativo"
                     btnText= "Visita Nuestra Tienda"
                     linkToPage="/tienda-online"
                 />
@@ -54,8 +57,8 @@ export default function BoxPortadaCompt() {
                 <HomePortadaCompt
                     styleDefault="C"
                     bkImagen="/homePortadas/PortadaC.jpg"
-                    textPortada="Somos representantes de las marcas más 
-                                reconcidas a nivel mundial. Nuestras soluciones cuentan con certificaciones internacionales y un servicio post venta especializado que garantiza su inversión."
+                    titlePortada="REPRESENTAMOS A LAS MARCAS MÁS RECONOCIDAS A NIVEL MUNDIAL"
+                    textPortada="Macherey-nagel, Boeco, Jp Selecta, 3B Scientific, Elitech, Isolab, Alla france y mucho más."
                     btnText= "Conoce Nuestra Calidad"
                     linkToPage="/nuestra-calidad"
                 />

@@ -5,7 +5,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 100px 40px;
+    padding: 160px 40px;
     width: 100%;
     max-width: 1920px;
 }
@@ -70,8 +70,13 @@
 
 @media screen and (max-width: 580px) {
 
+        .boxTitleTextAs {
+        width: 90%;
+    }
+
     .boxContentAsesores {
         width: 100%;
         gap: 40px 20px;
     }
+
 }

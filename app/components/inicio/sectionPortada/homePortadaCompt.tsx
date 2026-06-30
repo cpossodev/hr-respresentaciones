@@ -8,6 +8,7 @@ import homePortadaStyles from "../../../styles/homeStyles/homePortada.module.css
 export default function HomePortadaCompt({
   styleDefault,
   bkImagen,
+  titlePortada,
   textPortada,
   btnText,
   linkToPage
@@ -15,6 +16,7 @@ export default function HomePortadaCompt({
 }: {
   styleDefault: "A" | "B" | "C"; // tres variantes
   bkImagen: string;
+  titlePortada: string;
   textPortada: string;
   btnText: string;
   linkToPage: string;
@@ -31,10 +33,10 @@ export default function HomePortadaCompt({
 
     <div
       className={`${homePortadaStyles.containerHomePortada} ${variantClass}`}
-      style={{ backgroundImage: `url(${bkImagen})`}}
-      >
+      style={{ backgroundImage: `url(${bkImagen})`}}>
 
       <div className={homePortadaStyles.boxTextHomePortada}>
+        <h2 className={homePortadaStyles.titleHomePortada}>{ titlePortada}</h2> 
         <p className={homePortadaStyles.textHomePortada}>{textPortada}</p>
         <Link className={homePortadaStyles.linkToPage} href={linkToPage}> 
           {btnText}

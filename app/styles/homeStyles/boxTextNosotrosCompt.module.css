@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: flex-start;
     width: auto;
-    height: 300px;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -37,6 +37,22 @@
 
 }
 
+@media screen and (max-width: 980px) {
+
+    .contentTextNosotros {
+        gap: 10px 0px;
+    }
+
+    .titleNosotros {
+        font-size: 1.6em;
+    
+        margin-bottom:30px;
+    }
+
+
+
+}
+
 
 @media screen and (max-width: 680px) {
 
@@ -50,3 +66,9 @@
 
 }
 
+
+@media screen and (max-width: 420px) {
+       .titleNosotros {
+          font-size: 1.8em;
+       }
+}

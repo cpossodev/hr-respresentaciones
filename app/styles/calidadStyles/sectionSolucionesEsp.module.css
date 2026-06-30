@@ -1,0 +1,204 @@
+
+
+.allContentSolEsp {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100svh;
+    background-color: #EEFFFD;
+
+}
+
+
+.boxBlockInfo_A, .boxBlockInfo_B {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 100%;
+    padding: 10% 5%;
+
+}
+
+
+.boxBlockInfo_A {
+   justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.boxBlockInfo_B {
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 30px 0px;
+}
+
+
+.contentBoxColorTitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px 40px;
+}
+
+
+.boxTitleSolEsp {
+    width: 290px;
+}
+
+
+.boxColorSolEsp {
+    width: 90px;
+    height: 180px;
+    background-color: #2CB4AE;
+}
+
+
+
+.boxTitleSolEsp h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #1D1C3D;
+    line-height: 1.2em;
+}
+
+
+.boxBlockInfo_B p {
+    font-family: "Monserate", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #266FAA;
+    line-height: 1.2em;
+    width: 420px;
+    text-align: justify;
+}
+
+
+@media screen and (min-width: 1680px) {
+    
+
+    .allContentSolEsp {
+        height: 60svh;
+    }
+
+
+    .boxBlockInfo_A, .boxBlockInfo_B {
+        padding: 5% 5%;
+
+    }
+
+    .boxBlockInfo_B {
+        margin-bottom: 3%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .allContentSolEsp {
+            height: 80svh;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+
+
+    .allContentSolEsp {
+        flex-flow: column nowrap;
+        padding: 10% 0%;
+        gap: 40px 0px;
+    }
+
+
+    .boxBlockInfo_A {
+        justify-content: center;
+        align-items: flex-start;
+        height: 30%;
+        padding: 5% 5%;
+        width: 80%;
+    }
+
+
+    .boxBlockInfo_B {
+        justify-content: center;
+        align-items: flex-end;
+        gap: 30px 0px;
+        height: 70%;
+        padding: 5% 5%;
+        width: 80%;
+    }
+
+
+    .boxColorSolEsp {
+        width: 60px;
+        height: 130px;
+    }
+
+
+    .boxTitleSolEsp h2 {
+        font-size: 1.8em;
+    }
+
+    .boxBlockInfo_B p {
+            width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 520px) {
+
+  .allContentSolEsp {
+        height: 80svh;
+        gap: 0px 0px;
+  }
+
+
+
+    .boxBlockInfo_A,   
+    .boxBlockInfo_B {
+        width: 90%;
+    }
+
+
+    .boxTitleSolEsp h2 {
+        font-size: 1.5em;
+    }
+
+.contentBoxColorTitle {
+     gap: 0px 20px;
+}
+
+
+.boxTitleSolEsp {
+    width: 200px;
+}
+
+
+}
+
+@media screen and (max-height: 780px) {
+
+      .allContentSolEsp {
+        height: 90svh;
+        gap: 20px 0px;
+  }
+
+}
+
+@media screen and (min-height: 920px) {
+
+      .allContentSolEsp {
+        height: 70svh;
+        gap: 0px 0px;
+  }
+
+
+}

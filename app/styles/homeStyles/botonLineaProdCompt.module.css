@@ -42,11 +42,12 @@
 }
 
 .titleLineaProd {
-    font-family: "Monserrate", sans-serif;
-    font-size: 0.9em;
-    font-width: 200;
+    font-family: "Outfit", sans-serif;
+    font-size: 1em;
+    font-width: 500;
     color: #2aaaa4;
     text-align: center;
+    letter-spacing: 0.3pt;
 }
 
 @media screen and (max-width: 580px) {
@@ -61,6 +62,20 @@
     .titleLineaProd {
         font-size: 1.2em;
     
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+   .boxBkImagenBoton {
+        width: 220px;
+        height: 300px;
+        margin-bottom: 50px;
+  
     }
 
 

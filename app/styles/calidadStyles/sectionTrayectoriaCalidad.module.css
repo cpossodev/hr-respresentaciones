@@ -1,0 +1,228 @@
+.allContentTrayectCalid {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 160svh;
+    gap: 10% 0%;
+
+}
+
+.boxTitleTrayectCalid {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 360px;
+    height: auto;
+    margin: 0px 20% 0px 0%;
+
+}
+
+
+.text40anos, .textTrayectConfianza {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #1D1C3D;
+
+}
+
+.text40anos {
+    font-size: 2.5em;
+}
+
+.textTrayectConfianza {
+    font-size:1.5em;
+    line-height: 1.2em;
+
+}
+
+.boxContentPhotos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    margin: 0px 0px 0px 20%;
+}
+
+.boxColorBase {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 320px;
+    background-color: #266FAA;
+}
+
+
+.photoImgTrayectCalid {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+    display: block;
+    width: 320px;
+    height: auto;
+}
+
+.boxParrafTrayectCalid {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.parrafTrayectCalidad {
+    font-family: "Monserrate", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: justify;
+    color: #266FAA;
+}
+
+
+@media screen and (min-width: 1580px) {
+
+    .allContentTrayectCalid {
+        height: 100svh;
+
+    }
+
+    .boxParrafTrayectCalid {
+        width: 40%;
+
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1280px) {
+    .allContentTrayectCalid {
+        height: 70svh;
+
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .allContentTrayectCalid {
+        height: 100svh;
+
+    }
+    
+
+    .boxTitleTrayectCalid {
+        width: 60%;
+        margin: 0px 0% 0px 0%;
+    }
+
+
+    .boxContentPhotos {
+        width: 60%;
+        margin: 0px 0px 0px 0%;
+
+    }
+
+
+    .boxParrafTrayectCalid {
+        width: 60%;
+
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .boxTitleTrayectCalid {
+        width: 70%;
+    }
+
+    .boxContentPhotos {
+        width: 70%;
+
+    }
+
+    .boxParrafTrayectCalid {
+        width: 70%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .boxTitleTrayectCalid {
+        width: 80%;
+    }
+
+    .boxContentPhotos {
+        width: 80%;
+
+    }
+
+    .boxParrafTrayectCalid {
+        width: 80%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .boxColorBase {
+  
+        width: 140px;
+        height: 260px;
+    }
+
+
+
+    .photoImgTrayectCalid {
+        top: 45px;
+        right: 40px;
+        width: 260px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+.boxColorBase {
+        width: 160px;
+    height: 260px;
+}
+
+
+    .photoImgTrayectCalid {
+        top: 45px;
+        right: 40px;
+        width: 240px;
+    }
+
+
+    .text40anos {
+    font-size: 2em;
+
+    }
+
+    .textTrayectConfianza {
+        font-size:1.3em;
+        line-height: 1.2em;
+
+    }
+
+
+}
+
+
+@media screen and (max-height: 780px) and (max-width: 520px) {
+    .allContentTrayectCalid {
+        height: 140svh;
+
+    }
+}

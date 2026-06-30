@@ -9,33 +9,55 @@
     background-position: center;  /* ✅ centrado */
     background-repeat: no-repeat; /* ✅ no repetir */
     background-color: rgb(20, 176, 64);
-    padding-left: 10%;
+    padding-left: 0%;
 }
 
-
 .boxTextHomePortada {
-    /* position: relative;
-    top: 100px;
-    right: -80px; */
+    opacity: 0;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     width: 480px;
-    height: 220px;
-    background-color: rgba(44, 180, 174, 0.6);
-    padding: 10px 40px;
+    height: 100%;
+    background-color: rgba(44, 180, 174, 0.7);
+    padding: 3% 5%;
+    gap: 20px 0px;
+    animation: moveBoxPortada 0.7s forwards ;
+    
+    
+}
+
+@keyframes moveBoxPortada {
+
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    } to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 
 }
+
+.titleHomePortada {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
 
 .textHomePortada {
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     font-weight: 300;
     color: #ffffff;
-    text-align: justify;
+    text-align: left;
     line-height: 1.4em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .linkToPage {
@@ -64,7 +86,7 @@
 }
 
 
-@media screen and (max-width: 1919px) {
+@media screen and (min-width: 1919px) {
     .containerHomePortada {
         width: 100%;
     };
@@ -80,26 +102,42 @@
 }
 
 
+@media screen and (max-width: 780px) {
+
+
+    .boxTextHomePortada {
+        justify-content: flex-start;
+        width: 50%;
+           padding: 10% 5% 5% 5%;
+ 
+    }
+
+        .linkToPage {
+        width: 80%;
+    }
+
+}
 
 
 @media screen and (max-width: 680px) {
 
 
-    .containerHomePortada {
-        padding-left: 0%;
-    }
-
     .boxTextHomePortada {
         top: 0px;
         right: 0px;
-        width: 50%;
+        width: 60%;
         height: 100%;
-        padding: 0px 30px;
+        padding: 18% 5% 5% 5%;
+
+    }
+
+    .titleHomePortada {
+        font-size: 1.4em;
     }
 
     .textHomePortada {
-        font-size: 0.7em;
-    
+        font-size: 0.8em;
+        font-weight: 500;
     }
 
     .linkToPage {
@@ -113,41 +151,45 @@
 
     .containerHomePortada {
         height: 580px;
-      
+
     }
 
     .boxTextHomePortada {
-        width: 100%;
-          padding: 0% 15%;
-     
+        width: 60%;
+        padding: 16% 5% 5% 5%;
+
+    }
+
+    .titleHomePortada {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        line-height: 1.3em;
     }
 
 
     .textHomePortada {
-        font-size: 1.2em;
-        line-height: 1.5em;
-        margin-bottom: 40px;
+        font-size: 1em;
+        line-height: 1.3em;
+        margin-bottom: 20px;
     }
-
 
 
     .linkToPage {
-        font-size: 0.6em;
+        font-size: 0.7em;
         padding-left: 12px;
+        width: 95%;
+        border-radius: 0px;
+        height: 45px;
     }
-
-
 
 
 
 }
 
-
-/* @media screen and (max-width: 420px) {
-
-  .boxTextHomePortada {
+@media screen and (max-width: 420px) {
+    .boxTextHomePortada {
         width: 70%;
-        padding: 10%;
-    }
 
-} */
+   
+    }
+}

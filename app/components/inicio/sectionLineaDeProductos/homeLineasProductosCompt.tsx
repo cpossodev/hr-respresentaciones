@@ -32,7 +32,8 @@ export default function HomeLineasProductosCompt() {
               0: { slidesPerView: 1 },     // ✅ en móvil muestra 1
               620: { slidesPerView: 2 },   // ✅ en tablets muestra 2
               1080: { slidesPerView: 3 },
-              2500: { slidesPerView: 4 }  // ✅ en desktop muestra 3
+              1680: { slidesPerView: 4 },  // ✅ en desktop muestra 3
+              1980: { slidesPerView: 5 }  // ✅ en desktop muestra 3
             }}
 
             className={lineasProductosStyles.contentSlideLP}

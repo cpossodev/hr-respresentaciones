@@ -1,0 +1,233 @@
+
+
+.allSectCertfCld {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1920px;
+    height: 70svh;
+    /* background-color: #2EB5AF; */
+    background: #2CB4AE;
+    background: linear-gradient(157deg, rgba(44, 180, 174, 1) 80%, rgba(0, 255, 255, 1) 120%);
+}
+
+
+
+.contentBK_TextInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.boxBkCertfCalidad {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.boxTextInfoCertfCalidad {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    height: 100%;
+    padding: 10%;
+    gap: 30px 0px;
+}
+
+.boxTitleCertfCalidad {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: auto;
+}
+
+.titleCertfCalidad {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2em;
+}
+
+
+.boxTextParrafCertfCld {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+
+.textParrafCerftCld {
+    font-family: "Monserrate", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+
+.boxLogosCertifCalidad {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.boxIconLogo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconLogoCerft {
+    display: block;
+    width: 50px;
+    height: auto;
+
+}
+
+.IconCertf_4{
+    width: 60px;
+}
+
+@media screen and (min-width:1680px) {
+    .allSectCertfCld {
+        height: 50svh;
+    }
+    
+}
+
+@media screen and (max-width:1280px) {
+
+.boxTextInfoCertfCalidad {
+     padding: 10% 5%;
+}
+
+
+}
+
+
+@media screen and (max-width:980px) {
+
+    .allSectCertfCld {
+        height: 480px;
+    }
+
+    .boxBkCertfCalidad {
+        width: 50%;
+    }
+
+    .boxTextInfoCertfCalidad {
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width:780px) {
+    .allSectCertfCld {
+        height: 520px;
+    }
+
+}
+
+
+@media screen and (max-width:720px) {
+
+
+    .allSectCertfCld {
+        height: 100svh;
+    }
+
+    .contentBK_TextInfo {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .boxBkCertfCalidad {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .boxTextInfoCertfCalidad {
+        height: 50%;
+        width: 100%;
+        padding: 10% 15%;
+    }
+
+    .boxTitleCertfCalidad {
+         width: 60%;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+
+     .allSectCertfCld {
+        height: 100svh;
+    }
+
+   .boxBkCertfCalidad {
+        height: 35%;
+    }
+
+    .boxTextInfoCertfCalidad {
+
+        height: 65%;
+        padding: 15% 10%;
+
+    }
+
+
+    .boxTitleCertfCalidad {
+         width: 55%;
+    }
+
+    .iconLogoCerft {
+   
+        width: 35px;
+   
+
+}
+
+
+}
+
+@media screen and (max-height: 780px) and (max-width: 480px ) {
+        .allSectCertfCld {
+         height: 130svh;
+    }
+
+}
