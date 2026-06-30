@@ -52,7 +52,7 @@ export default function PanelMainMenuMobile() {
 
             <div className={menuPanelMobileStyles.boxLinksToPages}> 
 
-                <Link onClick={() => setIsOpen(!isOpen)} href={"/tienda-online"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNInicio}`}>
+                <Link onClick={() => setIsOpen(!isOpen)} href={"/"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNInicio}`}>
 
                     <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkInicio}`}>Inicio</p>
                     
@@ -64,7 +64,7 @@ export default function PanelMainMenuMobile() {
                     
                 </Link>
 
-                <Link onClick={() => setIsOpen(!isOpen)} href={"/tienda-online"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNCalidad}`}>
+                <Link onClick={() => setIsOpen(!isOpen)} href={"/nuestra-calidad"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNCalidad}`}>
 
                     <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkCalidad}`}>Calidad</p>
                     
