@@ -15,16 +15,46 @@
 .nameLink {
     font-family: "Manrope", sans-serif;
     color: #fff;
-    font-size: 0.7em;
-    font-weight: 300;
+    font-size: 0.8em;
+    font-weight: 400;
     letter-spacing: 0.04em;
 }
+
+.homeActive {
+    color: #2EB5AF;
+    font-weight: 400;
+    
+
+}
+
+.aboutActive {
+    color: #2EB5AF;
+    font-weight: 400;
+    
+
+}
+
+.calidadActive {
+    color: #2EB5AF;
+    font-weight: 400;
+    
+
+}
+
+.contactActive {
+    color: #2EB5AF;
+    font-weight: 400;
+    
+
+}
+
+
 
 .underLineActive {
     opacity: 0;
     background-color: #2CB4AE;
     width: 0%;
-    height: 1px;
+    height: 2px;
     transition: opacity 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
 }

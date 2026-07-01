@@ -10,7 +10,6 @@
   max-width: 1920px;
   overflow-x: hidden;
   height: 420px;
-  background-color: blueviolet;
 
 }
 
@@ -89,7 +88,9 @@
 }
 
 .bntSlideActive {
-    background-color: #2EB5AF;
+    /* background-color: #2EB5AF; */
+      background-color: #1D1D3D;
+
 }
 
 .bntSlide:hover {
@@ -131,17 +132,20 @@
   }
 
 
-
-
   .containerAllSlide, .slidesWrapper, .slide  {
     height: 520px;
   }
 
 
-
   .boxBTNSlides {
     width: 100%;
     right: 0%;
+    width: auto;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+
   }
  
   .bntSlide {

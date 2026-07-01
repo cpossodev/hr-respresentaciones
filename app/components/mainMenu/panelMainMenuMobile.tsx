@@ -2,6 +2,7 @@
 
 // import Link
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useContext } from "react";
 import { MenuContext } from "./../../../providers/menuProvider";
 
@@ -10,6 +11,9 @@ import menuPanelMobileStyles from "../../styles/mainMenuStyles/menuPanelMobile.m
 
 
 export default function PanelMainMenuMobile() {
+
+        const pathname = usePathname()
+        console.log("Ruta actual:", pathname);
 
         const menuContext = useContext(MenuContext);
         if (!menuContext) return null;
@@ -54,25 +58,29 @@ export default function PanelMainMenuMobile() {
 
                 <Link onClick={() => setIsOpen(!isOpen)} href={"/"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNInicio}`}>
 
-                    <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkInicio}`}>Inicio</p>
-                    
+                    <p   className={`${menuPanelMobileStyles.textLink} 
+                        ${pathname === "/" ? menuPanelMobileStyles.pageActiveOK : ""}`}>Inicio</p>
+
                 </Link>
 
                 <Link onClick={() => setIsOpen(!isOpen)} href={"/quienes-somos"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNQuienesSomos}`}>
 
-                    <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkTienda}`}>Quienes Somos</p>
-                    
+                    <p   className={`${menuPanelMobileStyles.textLink} 
+                         ${pathname === "/quienes-somos" ? menuPanelMobileStyles.pageActiveOK : ""}`}>Quienes Somos</p>
+    
                 </Link>
 
                 <Link onClick={() => setIsOpen(!isOpen)} href={"/nuestra-calidad"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNCalidad}`}>
 
-                    <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkCalidad}`}>Calidad</p>
+                    <p   className={`${menuPanelMobileStyles.textLink} 
+                        ${pathname === "/nuestra-calidad" ? menuPanelMobileStyles.pageActiveOK : ""}`}>Calidad</p>
                     
                 </Link>
                 
-                <Link onClick={() => setIsOpen(!isOpen)} href={"/tienda-online"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNContacto}`}>
+                <Link onClick={() => setIsOpen(!isOpen)} href={"/contacto"} className={`${menuPanelMobileStyles.boxLinkPage} ${menuPanelMobileStyles.boxBTNTiendaOnline}`}>
 
-                    <p className={`${menuPanelMobileStyles.textLink} ${menuPanelMobileStyles.textLinkContacto}`}>Contacto</p>
+                    <p   className={`${menuPanelMobileStyles.textLink} 
+                        ${pathname === "/contacto" ? menuPanelMobileStyles.pageActiveOK : ""}`}>Contacto</p>
                     
                 </Link>
 

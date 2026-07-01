@@ -1,12 +1,43 @@
+"use client"
+//Import React
+import { useEffect, useRef, useState } from 'react';
 
 //Import Css
 import SectTrayectCalidStyles from '../../styles/calidadStyles/sectionTrayectoriaCalidad.module.css'
 
 export default function SectionTrayectoriaCalidad() {
 
+const sectionRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const entry = entries[0];
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.disconnect(); // opcional: solo dispara una vez
+                }
+            },
+            { threshold: 0.5 } // 30% visible para activar
+        );
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) observer.unobserve(sectionRef.current);
+        };
+    }, []);
+
+
+
     return(
 
-        <div className={SectTrayectCalidStyles.allContentTrayectCalid}> 
+        <div 
+            ref={sectionRef}  
+            className={SectTrayectCalidStyles.allContentTrayectCalid}> 
         
             {/* BOX TITLE 40 AÑOS */}
             <div className={SectTrayectCalidStyles.boxTitleTrayectCalid}>
@@ -16,16 +47,15 @@ export default function SectionTrayectoriaCalidad() {
 
             </div>
 
-            {/* BOX PHOTO CAJA COLOR */}
+
+            {/* BOX COLOR FOTO */}
             <div className={SectTrayectCalidStyles.boxContentPhotos}>
-
-                {/* CAJA COLOR */}
-                <div className={SectTrayectCalidStyles.boxColorBase}>
-
-                    <img className={SectTrayectCalidStyles.photoImgTrayectCalid} src="/calidadAssets/photoTrayectSectCalidad.jpg"/>
-
+                <div className={`${SectTrayectCalidStyles.boxColorBase} ${isVisible ? SectTrayectCalidStyles.animateBox : ''}`}>
+                    <img 
+                        className={`${SectTrayectCalidStyles.photoImgTrayectCalid} ${isVisible ? SectTrayectCalidStyles.animatePhoto : ''}`} 
+                        src="/calidadAssets/photoTrayectSectCalidad.jpg"
+                    />
                 </div>
-                
             </div>
 
 

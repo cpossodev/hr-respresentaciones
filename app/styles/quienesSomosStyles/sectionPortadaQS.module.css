@@ -57,7 +57,7 @@
 
 
 .textButtonQS {
-    font-family: "Monserrate", sans-serif;
+    font-family: "Monserrat", sans-serif;
     font-size: 0.9em;
     color: #ffffff;
     font-weight: 300;
@@ -98,6 +98,10 @@
 
 }
 
+.animateActive {
+  animation: slideIn 0.6s ease forwards;
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(-30px);
@@ -109,19 +113,18 @@
   }
 }
 
-.animateActive {
-  animation: slideIn 0.6s ease forwards;
-}
+
+
 
 .titleQS {
-    font-family: "Monserrate", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     color: #ffffff;
     font-weight: 500;
 }
 
 .TextQS {
-    font-family: "Monserrate", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 0.8em;
     color: #ffffff;
     font-weight: 300;
@@ -136,12 +139,23 @@
 
 }
 
+@media screen and (min-width: 1481)  {
+     .containerAllQS {
+        height: 50svh;
+    }
+}
+
+@media screen and (min-width: 1381)  {
+     .containerAllQS {
+        height: 70svh;
+    }
+}
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) and (min-height: 980px) {
 
     .containerAllQS {
-        height: 50svh;
+        height: 40svh;
     }
 
     .panelMenuQS {
@@ -155,6 +169,46 @@
     }
 
 }
+
+@media screen and (min-width: 980px) and (min-height: 780px) {
+       .containerAllQS {
+        height: 70svh;
+    }
+}
+
+
+@media screen and (min-width: 1080px) and (min-height: 1280px) {
+
+       .containerAllQS {
+        height: 50svh;
+    }
+
+}
+
+
+@media screen and (min-width: 760px) and (max-height: 1080px) {
+
+       .containerAllQS {
+        height: 70svh;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 961px) and (max-width: 1079px) {
+    .panelMenuQS {
+        width: 30%;
+    }
+
+.boxTextInfoQS {
+     width: 40%;
+}
+
+
+}
+
 
 @media screen and (max-width: 960px) {
 
@@ -175,6 +229,7 @@
 
     .containerAllQS {
         flex-flow: column nowrap;
+            height: 60svh;
     }
 
     .panelMenuQS {
@@ -185,14 +240,29 @@
          width: 100%;
     }
 
+
+    .boxTextInfoQS {
+     
+        width: 50%;
+        border-bottom-right-radius: 150px;
+        gap: 30px 0px;
+
+
+    }
+
+
+
     /* ESTILOS BOTONES MÓVILES */
     .boxButtonMobile {
         position: absolute;
-        bottom: 0;
+        bottom: -0px;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        width: 100%;
+        height: auto;
+        
     }
 
     .bntIndexMobile {
@@ -200,10 +270,11 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         color: #ffffff;
         cursor: pointer;
+        
     }
 
     .bntIndexMobile:hover {
@@ -223,38 +294,43 @@
         background-color: #252547;
     }
 
+    .bntIndexMobile4 {
+        background-color: #252547;
+    }
+
     .bntIndexMobileActive {
         background-color: #1E4899;
     }
 
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
 
     .containerAllQS {
         height: 70svh;
     }
 
-
-
     .boxTextInfoQS {
-        width: 60%;
-        
+        opacity: 0;
+        width: 50%;
+        animation: slideInMobile 0.7s ease forwards;
+
+        animation-delay: 0.3s;
     }
 
+    @keyframes slideInMobile {
 
-    @keyframes slideIn {
-    from {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    }
+        from {
+            transform: translateX(-30px);
+            opacity: 0;
+        }
 
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
 
+    }
 
 
 }
@@ -262,16 +338,64 @@
 
 @media screen and (max-width: 480px) {
 
+
+    .boxButtonMobile {
+        right: 0px;
+        height: 100%;
+        width: auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .boxTextInfoQS {
-        width: 100%;
-        padding: 50px 60px;
+        width: 70%;
+        padding: 30px 30px;
+    }
+
+
+    .titleQS {
+        font-size: 1.6em;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+
+    .TextQS {
+        font-size: 1em;    
+        line-height: 1.2em;
     }
 
 }
 
 
-@media screen and (max-height: 780px) {
+@media screen and (max-height: 780px) and (max-width: 480px) {
+
     .containerAllQS {
         height: 80svh;
     }
-}
+
+
+    .titleQS {
+        font-size: 1.4em;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+
+    .TextQS {
+        font-size: 0.8em;    
+        line-height: 1.2em;
+    }
+
+  .bntIndexMobile {
+        width: 50px;
+        height: 50px;
+  }
+
+
+
+
+
+} 

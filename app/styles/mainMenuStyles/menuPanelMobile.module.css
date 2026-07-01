@@ -91,26 +91,19 @@
         align-items: center;
     }
 
-
-    .boxLinkPage {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        gap: 10% 0%;
-    }
-
     .textLink {
-        font-family: "Monserrate", sans-serif;
+        font-family: "Monserrat", sans-serif;
         color: #ffffff;
         font-size: 0.8em;
         font-weight: 300;
     }
 
-    .arrowRight {
-        color: #ffffff;
+
+    .pageActiveOK {
+        color: #2EB5AF;
     }
 
+ 
     .lineDivisorPanelMobile {
         display: block;
         width: 100%;
@@ -118,6 +111,7 @@
         background-color: #2EB5AF;
         margin-top: 15%;
     }
+
 
     .boxLinksToPages {
         display: flex;
@@ -128,6 +122,7 @@
         height: 50%;
         gap: 10px 0px;
     }
+
 
     .boxLinkPage {
         all: unset;
@@ -140,17 +135,7 @@
         transition: color 0.3s ease-in-out;
     }
 
-    .textLink {
-        font-family: "Monserrate", sans-serif;
-        color: #ffffff;
-        font-size: 1em;
-        font-weight: 300;
-    }
-
-    .boxLinkPage:hover .textLink  {
-        color: #2EB5AF;
-    }
-
+ 
     .boxLogoRedesSiguenos,  .boxLogosRedes {
         display: flex;
         flex-flow: row nowrap;
@@ -252,10 +237,9 @@
     }
 
     .textLink {
-        font-family: "Monserrate", sans-serif;
-        color: #ffffff;
+ 
         font-size: 1.2em;
-        font-weight: 300;
+    
     }
 
       .boxLogoPanelMobile {

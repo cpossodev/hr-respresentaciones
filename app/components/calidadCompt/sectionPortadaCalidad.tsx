@@ -9,7 +9,7 @@ export default function SectionPortadaCalidad() {
         
         <div className={sectPortCLStyles.allContentBnnerCalidad}>
 
-            <div className={sectPortCLStyles.boxBannerSloga}>
+            <div className={sectPortCLStyles.boxBannerSlogan}>
 
                 <p className={sectPortCLStyles.textSloganBanner}>
                     PRODUCTOS Y SOLUCIONES CON TECNOLOGÍA E INNOVACIÓN DE CLASE MUNDIAL

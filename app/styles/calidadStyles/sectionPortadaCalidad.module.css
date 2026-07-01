@@ -7,14 +7,14 @@
     max-width: 1920px;
     height: 300px;
     background-image: url("/calidadAssets/bannerTopCalidad.jpg");
-    background-position: center -120px;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 
 }
 
 
-.boxBannerSloga {
+.boxBannerSlogan {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -22,7 +22,7 @@
     width: 45%;
     height: 100%;
     opacity: 0;
-    background-color: rgba( 44, 180, 784, 0.8);
+    background-color: rgba( 44, 180, 174, 0.7);
     border-bottom-right-radius: 150px;
     animation: animateBoxBanner 0.7s ease-in-out forwards;
 
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 1280px) {
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         width: 50%;
 
     }
@@ -98,12 +98,13 @@
 @media screen and (max-width: 920px) {
 
     .allContentBnnerCalidad {
-         height: 320px;
+        position: relative;
+        top: 70px;
+        height: 320px;
     }
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         width: 70%;
-        padding-top: 60px;
     }
 
 
@@ -115,7 +116,7 @@
         background-position: top 120px;
     }
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         width: 55%;
     }
 
@@ -133,7 +134,7 @@
     }
 
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         width: 70%;
     }
 
@@ -145,17 +146,16 @@
     .allContentBnnerCalidad {
         background-image: url("/calidadAssets/BackPortadaMobiles.jpg");
         height: 60svh;
-        background-position: top 0px;
 
     }
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         width: 60%;
     }
 
     .textSloganBanner {
         width: 80%;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
 
 }
@@ -167,43 +167,32 @@
         height: 60svh;
     }
 
-    .boxBannerSloga {
+    .boxBannerSlogan {
         position: relative;
-        width: 50%;
+        width: 70%;
     }
 
     .textSloganBanner {
         width: 80%;
         text-align: left;
-         font-size: 1.2em;
+        font-size: 1.5em;
     }
-
 
 }
 
 @media screen and (max-width: 420px) {
 
     .allContentBnnerCalidad {
-        background-position: left 0px;
-        height: 70svh;
-    }
-
-
-   .boxBannerSloga {
-        width: 60%;
-    }
-
-    .textSloganBanner {
-        text-align: justify;
-        font-size: 1.3em;
+        background-position: left;
+        height: 60svh;
     }
 
 }
 
-@media screen and (min-height: 820px) and (max-width: 480px) {
+@media screen and (min-height: 780px) and (max-width: 480px) {
     
 
-  .allContentBnnerCalidad {
+    .allContentBnnerCalidad {
         background-position: left 0px;
         height: 55svh;
     }

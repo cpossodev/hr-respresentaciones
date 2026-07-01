@@ -20,10 +20,10 @@ const bkImagenQS = [
 
 // TitleQS
 const titleQS = [
-    "Sobre Nosotros",
-    "Nuestra Trayectoria",
-    "Nuestras Marcas",
-    "Staff Profesional"
+    "SOBRE NOSOTROS",
+    "NUESTRA TRAYECTORIA",
+    "NUESTRAS MARCAS",
+    "STAFF PROFESIONAL"
 ]
 
 // Textos QS
@@ -129,7 +129,7 @@ export default function SectionPortadaQScompt() {
                     <button onClick={() => {setIndexDataQS(0); setAnimate(true);}} className={`${sectionPortadaQS.bntIndexMobile} ${sectionPortadaQS.bntIndexMobile1}  ${indexDataQS === 0 ? sectionPortadaQS.bntIndexMobileActive : ""}`}>1</button>
                     <button onClick={() => {setIndexDataQS(1); setAnimate(true);}} className={`${sectionPortadaQS.bntIndexMobile} ${sectionPortadaQS.bntIndexMobile2}  ${indexDataQS === 1 ? sectionPortadaQS.bntIndexMobileActive : ""}`}>2</button>
                     <button onClick={() => {setIndexDataQS(2); setAnimate(true);}} className={`${sectionPortadaQS.bntIndexMobile} ${sectionPortadaQS.bntIndexMobile3}  ${indexDataQS === 2 ? sectionPortadaQS.bntIndexMobileActive : ""}`}>3</button>
-                    <button onClick={() => {setIndexDataQS(3); setAnimate(true);}} className={`${sectionPortadaQS.bntIndexMobile} ${sectionPortadaQS.bntIndexMobile3}  ${indexDataQS === 2 ? sectionPortadaQS.bntIndexMobileActive : ""}`}>3</button>
+                    <button onClick={() => {setIndexDataQS(3); setAnimate(true);}} className={`${sectionPortadaQS.bntIndexMobile} ${sectionPortadaQS.bntIndexMobile4}  ${indexDataQS === 3 ? sectionPortadaQS.bntIndexMobileActive : ""}`}>4</button>
 
             </div>
 

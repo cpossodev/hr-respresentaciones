@@ -25,7 +25,7 @@ export default function SectMarcasLideresCalidad() {
             }
 
             // Caso móvil
-            if (viewport < 580 && scrollTop >= 350) {
+            if (viewport < 580 && scrollTop >= 300) {
             setAnimeteOn(true);
             }
 
@@ -34,11 +34,6 @@ export default function SectMarcasLideresCalidad() {
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);
         }, []);
-
-
-
-
-
 
 
     return(

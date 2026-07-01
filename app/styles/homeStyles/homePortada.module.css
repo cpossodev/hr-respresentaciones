@@ -23,6 +23,7 @@
     background-color: rgba(44, 180, 174, 0.7);
     padding: 3% 5%;
     gap: 20px 0px;
+    border-bottom-right-radius: 150px;
     animation: moveBoxPortada 0.7s forwards ;
     
     
@@ -127,7 +128,7 @@
         right: 0px;
         width: 60%;
         height: 100%;
-        padding: 18% 5% 5% 5%;
+        padding: 18% 10%;
 
     }
 
@@ -155,8 +156,8 @@
     }
 
     .boxTextHomePortada {
-        width: 60%;
-        padding: 16% 5% 5% 5%;
+        width: 70%;
+        border-bottom-right-radius: 150px;
 
     }
 
