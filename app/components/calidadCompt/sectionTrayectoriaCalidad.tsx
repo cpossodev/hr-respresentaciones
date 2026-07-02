@@ -7,7 +7,7 @@ import SectTrayectCalidStyles from '../../styles/calidadStyles/sectionTrayectori
 
 export default function SectionTrayectoriaCalidad() {
 
-const sectionRef = useRef(null);
+    const sectionRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {

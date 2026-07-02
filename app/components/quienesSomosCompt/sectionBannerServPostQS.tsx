@@ -15,7 +15,7 @@ export default function SectionBannerServPostQS() {
 
                     <img className={bannerSPostQSStyles.IconPostVentaCalidadQS} src="/IconsPostventas/Icon-Asesoramiento.svg" />
 
-                    <p className={bannerSPostQSStyles.titleQSserv}>CONTAMOS CON EL MEJOR SERVICIO POST VENTA DEL PAÍS</p>
+                    <p className={bannerSPostQSStyles.titleBannerQSserv}>CONTAMOS CON EL MEJOR SERVICIO POST VENTA DEL PAÍS</p>
 
                     <Link 
                     href={"/calidad"}

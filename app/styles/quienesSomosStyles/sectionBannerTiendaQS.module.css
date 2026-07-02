@@ -1,5 +1,5 @@
 
-.contentAllBannerQS {
+.contentAllBannerTiendaQS {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -7,11 +7,13 @@
     width: 100%;
     max-width: 1920px;
     height: 100svh;
-    background-size: cover;
+    background-image: url("/bkQuienesSomos/bkBannerQSTienda.jpg");
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
 
 }
+
 
 .boxTextQStienda {
     display: flex;
@@ -21,7 +23,6 @@
     width: 460px;
     height: 380px;
     background-color: rgba(255, 255, 255, 0.85);
-    padding: 3%;
     gap: 30px 0px;
 }
 
@@ -82,10 +83,38 @@
 }
 
 
+@media screen and (min-width: 1481px) {
+
+    .contentAllBannerTiendaQS {
+            height: 60svh;
+    }
+
+
+}
+@media screen and (min-width: 780px) and (min-height: 1080px) {
+
+        .contentAllBannerTiendaQS {
+            height: 60svh;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .contentAllBannerTiendaQS {
+        background-image: url("/bkQuienesSomos/bkBannerQSTiendaTablet.jpg");
+
+    }
+
+}
+
 @media screen and (max-width: 920px) {
     
-.contentAllBannerQS {
+.contentAllBannerTiendaQS {
     height: 70svh;
+    background-image: url("/bkQuienesSomos/bkBannerQSTiendaMobile.jpg");
+
 }
 
 .boxTextQStienda {
@@ -115,12 +144,14 @@
 
 }
 
+
+
 @media screen and (max-width: 480px) {
 
-.contentAllBannerQS {
+.contentAllBannerTiendaQS {
     background-size: cover;
-    background-position: 70% 60%;
-    height: 80svh;
+    background-position: center;
+    height: 70svh;
 }
 
 .boxTextQStienda {

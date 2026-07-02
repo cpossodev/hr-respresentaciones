@@ -24,7 +24,7 @@
 }
 
 .textPostVent {
-    font-family: "Monserrate", sans-serif;
+    font-family: "Monserrat", sans-serif;
     font-size: 0.9em;
     font-weight: 300;
     color: #ffffff;
@@ -40,7 +40,7 @@
   height: auto;
   opacity: 0.5;                 /* invisible al inicio */
   visibility: hidden;         /* no clickeable */
-  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  /* transition: opacity 0.3s ease, visibility 0s linear 0.3s; */
 }
 
 .boxBTNSvPostVent:hover {

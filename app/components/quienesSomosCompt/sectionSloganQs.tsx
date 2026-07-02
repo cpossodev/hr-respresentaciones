@@ -3,7 +3,7 @@
 
 //Import Link
 import Link from 'next/link';
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 //Import Css
@@ -13,7 +13,7 @@ import sloganQSstyles from '../../styles/quienesSomosStyles/sectionSloganQs.modu
 export default function SectionSloganQS() {
 
 
-    const [animateON, setAnimateON] = useState(false);
+        const [animateON, setAnimateON] = useState(false);
 
         useEffect(() => {
             const handleScroll = () => {
@@ -37,30 +37,63 @@ export default function SectionSloganQS() {
         }, []);
 
 
+        const sectionRef = useRef(null);
+        const [isAnimate, setIsAnimate] = useState(false);
+
+        useEffect(() => {
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    const entry = entries[0];
+                    if (entry.isIntersecting) {
+                        setIsAnimate(true);
+                        observer.disconnect(); // opcional: solo dispara una vez
+                    }
+                },
+                { threshold: 0.5 } // 30% visible para activar
+            );
+
+            if (sectionRef.current) {
+                observer.observe(sectionRef.current);
+            }
+
+            return () => {
+                if (sectionRef.current) observer.unobserve(sectionRef.current);
+            };
+        }, []);
+
+
+
+
+
+
+
     return(
 
-            <div className={sloganQSstyles.AllSectSloganQS}>
+            <div 
+            
+            ref={sectionRef}
+            className={sloganQSstyles.AllSectSloganQS}>
 
                 <div className={sloganQSstyles.boxContentSloganQS}>
 
                     {/* BOX GRADIENT */}
-                    <div className={`${animateON === true ? sloganQSstyles.backBoxGradientQS: "" }`}></div>
+                    <div className={`${isAnimate === true ? sloganQSstyles.backBoxGradientQS: "" }`}></div>
 
                     {/* BOX CON SLOGAN Y BONTÓN */}
-                    <div className={`${animateON === true ? sloganQSstyles.boxSloganQS: "" }`}>
+                    <div className={`${isAnimate === true ? sloganQSstyles.boxSloganQS: "" }`}>
          
-                        <div className={`${animateON === true ? sloganQSstyles.boxTextQS: sloganQSstyles.opacityStart }`}>
+                        <div className={`${isAnimate === true ? sloganQSstyles.boxTextQS: sloganQSstyles.opacityStart }`}>
                                 <p>SOMOS</p>
                                 <p>{<>CONFIANZA,<br/>CALIDAD,<br/>Y GARANTÍA</>}</p>
                             </div>      
 
-                            <Link href="/calidad" className={`${animateON === true ? sloganQSstyles.linkTOCalidadFromQS: sloganQSstyles.opacityStart }`}>
+                            <Link href="/calidad" className={`${isAnimate === true ? sloganQSstyles.linkTOCalidadFromQS: sloganQSstyles.opacityStart }`}>
                                 Conoce Más
                             </Link>
                         </div>
 
                     {/* // BOX CONTENT IMAGEN BK */}
-                    <div className={`${animateON === true ? sloganQSstyles.bkImagenBOXqs: "" }`} style={{backgroundImage: `url("/bkQuienesSomos/bkQsServicio5.jpg")`}}>
+                    <div className={`${isAnimate === true ? sloganQSstyles.bkImagenBOXqs: "" }`} style={{backgroundImage: `url("/bkQuienesSomos/bkQsServicio5.jpg")`}}>
 
                     </div>
 

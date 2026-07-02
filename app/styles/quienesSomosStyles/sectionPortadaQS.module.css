@@ -170,11 +170,18 @@
 
 }
 
-@media screen and (min-width: 980px) and (min-height: 780px) {
+@media screen and (min-width: 980px) and (min-height: 1080px) {
        .containerAllQS {
-        height: 70svh;
+        height: 50svh;
     }
 }
+
+@media screen and (min-width: 780px) and (min-height: 1080px) {
+       .containerAllQS {
+        height: 50svh;
+    }
+}
+
 
 
 @media screen and (min-width: 1080px) and (min-height: 1280px) {
@@ -373,7 +380,7 @@
 @media screen and (max-height: 780px) and (max-width: 480px) {
 
     .containerAllQS {
-        height: 80svh;
+        height: 70svh;
     }
 
 

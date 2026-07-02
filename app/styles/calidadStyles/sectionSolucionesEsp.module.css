@@ -41,19 +41,50 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
     gap: 0px 40px;
+    
+}
+
+
+
+.boxColorSolEsp {
+    opacity: 0;
+    width: 90px;
+    height: 180px;
+    background-color: #2CB4AE;
 }
 
 
 .boxTitleSolEsp {
+        opacity: 0;
+
     width: 290px;
+
 }
 
 
-.boxColorSolEsp {
-    width: 90px;
-    height: 180px;
-    background-color: #2CB4AE;
+.boxColorAnimate {
+     opacity: 1;
+      animation: fadeIn 0.7s ease-in-out;
+}
+
+
+.boxTitleAnimate {
+     opacity: 1;
+      animation: fadeIn 0.7s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 

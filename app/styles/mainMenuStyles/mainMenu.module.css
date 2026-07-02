@@ -1,5 +1,6 @@
 .containerNav {
     position: relative;
+    top: 0px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

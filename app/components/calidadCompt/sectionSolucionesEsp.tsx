@@ -1,21 +1,57 @@
+"use client"
+
+//Import React
+import {useState, useRef, useEffect} from 'react'
+
+
 // Import CSS
 import sectSoluEspStyles from '../../styles/calidadStyles/sectionSolucionesEsp.module.css'
 
 
 
 export default function SectionSolucionesEsp() {
+
+
+
+        const sectionRef = useRef(null);
+        const [isAnimate, setIsAnimate] = useState(false);
+
+
+        useEffect(() => {
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    const entry = entries[0];
+                    if (entry.isIntersecting) {
+                        setIsAnimate(true);
+                        observer.disconnect(); // opcional: solo dispara una vez
+                    }
+                },
+                { threshold: 0.5 } // 30% visible para activar
+            );
+
+            if (sectionRef.current) {
+                observer.observe(sectionRef.current);
+            }
+
+            return () => {
+                if (sectionRef.current) observer.unobserve(sectionRef.current);
+            };
+        }, []);
+
+
     return(
-        <div className={sectSoluEspStyles.allContentSolEsp}>
+        <div 
+            ref={sectionRef}
+            className={sectSoluEspStyles.allContentSolEsp}>
 
             <div className={sectSoluEspStyles.boxBlockInfo_A}>
 
-
-                    <div className={sectSoluEspStyles.contentBoxColorTitle}>
-                        <div className={sectSoluEspStyles.boxColorSolEsp}></div>
-                        <div className={sectSoluEspStyles.boxTitleSolEsp}>
-                            <h2>SOLUCIONES ESPECIALIZADAS DE ALTO NIVEL</h2>
-                        </div>
+                <div className={sectSoluEspStyles.contentBoxColorTitle}>
+                    <div className={`${sectSoluEspStyles.boxColorSolEsp} ${isAnimate ? sectSoluEspStyles.boxColorAnimate : ''}`}></div>
+                    <div className={`${sectSoluEspStyles.boxTitleSolEsp} ${isAnimate ? sectSoluEspStyles.boxTitleAnimate : ''}`}>
+                        <h2>SOLUCIONES ESPECIALIZADAS DE ALTO NIVEL</h2>
                     </div>
+                </div>
 
             </div>
 

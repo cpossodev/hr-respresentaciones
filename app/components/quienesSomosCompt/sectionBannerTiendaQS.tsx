@@ -7,8 +7,8 @@ import bannerTiendaQS from '../../styles/quienesSomosStyles/sectionBannerTiendaQ
 export default function SectionBannerTiendaQS() {
     return(
 
-        <div className={bannerTiendaQS.contentAllBannerQS} 
-            style={{ backgroundImage: `url("/bkQuienesSomos/bkBannerQSTienda.jpg")`}}>
+        //  style={{ backgroundImage: `url("/bkQuienesSomos/bkBannerQSTienda.jpg")`}
+        <div className={bannerTiendaQS.contentAllBannerTiendaQS}>
 
                 <div className={bannerTiendaQS.boxTextQStienda}>
 
@@ -23,8 +23,6 @@ export default function SectionBannerTiendaQS() {
                 </div>
 
         </div>
-
-
 
     );
 }
