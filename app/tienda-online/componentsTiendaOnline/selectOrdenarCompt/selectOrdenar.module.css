@@ -1,0 +1,73 @@
+.boxContentSelectOrdenar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 0px 40px;
+    height: 60px;
+}
+
+.boxTitleOrdenar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.titleOrdenar {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+}
+
+.boxSelectOrdenar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    border: solid 1px black;
+    width: 280px;
+    height: 30px;
+    padding: 10px 20px;
+    margin-top: 13px;
+
+}
+
+@media screen and (max-width: 1080px)  {
+
+.boxContentSelectOrdenar {
+       gap: 0px 20px;
+}
+
+   .boxSelectOrdenar {
+        width: 240px;
+   } 
+}
+
+@media screen and (max-width: 920px) {
+    .boxContentSelectOrdenar {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+
+    .boxContentSelectOrdenar {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+
+       .boxSelectOrdenar {
+        width: 260px;
+   } 
+} 
+
+
+@media screen and (max-width: 420px) {
+    .boxSelectOrdenar {
+        width: 100%;
+    } 
+}

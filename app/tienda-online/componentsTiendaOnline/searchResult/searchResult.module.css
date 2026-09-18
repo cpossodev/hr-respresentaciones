@@ -1,0 +1,46 @@
+.boxContentResultBusq {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 60px;
+}
+
+.titleResultBusq {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.boxTextResultBusq {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 0% 5%;
+}
+
+.boxTextResultBusq p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+    color: black;
+    /* margin-bottom: 20px; */
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .boxContentResultBusq {
+        height: auto;
+    }
+
+    .boxTextResultBusq {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px 0px;
+    }
+}

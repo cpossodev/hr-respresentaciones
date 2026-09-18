@@ -1,0 +1,62 @@
+
+
+.contentAllSelectFiltros {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    padding: 0px 30px 20px 30px;
+    gap: 0px 40px;
+    cursor: pointer;
+}
+
+.boxSelect {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 40px;
+    border: solid 1px black;
+    padding: 0px 10px;
+    cursor: pointer;
+
+}
+
+.selectFiltro {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+@media screen and ( min-width: 1580px ) {
+    .contentAllSelectFiltros {
+        width: 70%;
+    }
+
+}
+
+
+@media screen and ( max-width: 780px ) {
+    .contentAllSelectFiltros {
+          flex-flow: column nowrap;
+          gap: 40px 40px;
+    }
+}
+
+
+@media screen and ( max-width: 580px ) {
+
+    .boxSelect {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+}

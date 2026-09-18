@@ -1,0 +1,171 @@
+"use client";
+import { useState, useEffect } from "react";
+import tiendaOnlineStyles from "./pageTOnline.module.css";
+
+import SearchBar from "./componentsTiendaOnline/searchBarCompt/searchBar";
+import FiltroMarcasCompt from "./componentsTiendaOnline/filtroMarcasCompt/filtroMarcasCompt";
+import SelectFiltroCompt from "./componentsTiendaOnline/selectFiltros/selectFiltroCompt";
+import SectBtnUseInd from "./componentsTiendaOnline/botonUseIndustria/sectBtnUseInd";
+import SearchResult from "./componentsTiendaOnline/searchResult/searchResult";
+import SelectOrdenarCompt from "./componentsTiendaOnline/selectOrdenarCompt/selectOrdenarCompt";
+import SectGridProducts from "./componentsTiendaOnline/gridProductsCompt/sectGridProducts";
+
+export default function TiendaOnline() {
+  // Estados principales
+  const [productos, setProductos] = useState<Producto[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedMarca, setSelectedMarca] = useState<string | null>(null);
+
+
+
+
+  const limit = 16; // 👉 número de productos por página
+
+  // FUNCIÓN BUSCAR PRODUCTOS
+  const buscarProductos = async (term: string, page = 1) => {
+    try {
+      setSearchTerm(term); // guardamos el término para paginación
+      const res = await fetch(
+        `/api/productos?search=${encodeURIComponent(term)}&page=${page}&limit=${limit}`
+      );
+      if (!res.ok) throw new Error("Error en la búsqueda");
+      const data = await res.json();
+      setProductos(data.productos);
+      setTotalPages(data.totalPages);
+      setCurrentPage(data.currentPage);
+    } catch (err) {
+      console.error("❌ Error en buscarProductos:", err);
+      setProductos([]);
+    }
+  };
+
+  // CARGA INICIAL (productos destacados)
+  useEffect(() => {
+    const fetchProductos = async () => {
+      try {
+        const res = await fetch(`/api/productos?portada=true&page=1&limit=${limit}`);
+        if (!res.ok) throw new Error("Error al cargar productos destacados");
+
+        const data = await res.json();
+        setProductos(data.productos);
+        setTotalPages(data.totalPages);
+        setCurrentPage(data.currentPage);
+      } catch (err) {
+        console.error("❌ Error en fetchProductos:", err);
+      }
+    };
+
+    fetchProductos();
+  }, []);
+
+
+
+// Callback para cambiar de página
+const handlePageChange = async (page: number) => {
+  setCurrentPage(page);
+
+  try {
+    let url = `/api/productos?page=${page}&limit=${limit}`;
+
+    // 👉 Si hay búsqueda activa
+    if (searchTerm.trim() !== "") {
+      url += `&search=${encodeURIComponent(searchTerm)}`;
+    }
+    // 👉 Si hay una marca seleccionada
+    else if (selectedMarca) {
+      url += `&marca=${encodeURIComponent(selectedMarca)}`;
+    }
+    // 👉 Si no hay búsqueda ni marca, mostramos portada
+    else {
+      url += `&portada=true`;
+    }
+
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("Error al cambiar de página");
+
+    const data = await res.json();
+    setProductos(data.productos);
+    setTotalPages(data.totalPages);
+    setCurrentPage(data.currentPage);
+  } catch (err) {
+    console.error("❌ Error en handlePageChange:", err);
+  }
+};
+
+
+
+
+// FUNCION PARA FILTRAR POR MARCA
+const handleMarcaSelect = async (marca: string) => {
+
+  try {
+    setSelectedMarca(marca);
+    const res = await fetch(`/api/productos?marca=${encodeURIComponent(marca)}&page=1&limit=${limit}`);
+    if (!res.ok) throw new Error("Error al filtrar por marca");
+    const data = await res.json();
+    setProductos(data.productos);
+    setTotalPages(data.totalPages);
+    setCurrentPage(data.currentPage);
+  } catch (err) {
+    console.error("❌ Error en handleMarcaSelect:", err);
+  }
+
+};
+
+
+  // Interface Producto
+  interface Producto {
+    codigo: string;
+    nombreProd: string;
+    modeloProd: string;
+    imgURL: string;
+    marca?: { nombre: string };
+    tipo?: { nombre: string };
+    industrias: { nombre: string }[];
+    subcategoria?: { nombre: string };
+    portada: boolean;
+  }
+
+  return (
+    <div className={tiendaOnlineStyles.contentAllTiendaOnline}>
+      <SearchBar onSearch={(term) => buscarProductos(term)} />
+
+      {/* BOTONES DE FILTROS DE MARCAS */}
+      <FiltroMarcasCompt 
+        onMarcaSelect={handleMarcaSelect}
+    
+      />
+
+
+
+      <SelectFiltroCompt />
+      <SectBtnUseInd />
+
+      <div className={tiendaOnlineStyles.boxLineDivTOnline}>
+        <div className={tiendaOnlineStyles.lineDivTOnline}></div>
+      </div>
+
+      <div className={tiendaOnlineStyles.boxContentTextOrden}>
+        <div className={tiendaOnlineStyles.boxTextResultados}>
+          <SearchResult
+            textMarcaRB="Macharay Nagel"
+            TipoProdRB="Equipos"
+            TipoIndustRB="Médico"
+          />
+        </div>
+        <div className={tiendaOnlineStyles.boxSelectOrderCompt}>
+          <SelectOrdenarCompt />
+        </div>
+      </div>
+
+      <SectGridProducts
+        productos={productos}
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={handlePageChange}
+      />
+    </div>
+  );
+}

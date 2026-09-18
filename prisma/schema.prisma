@@ -1,0 +1,117 @@
+// Prisma schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+
+// ------ MODELO PRODUCTO -----
+model Producto {
+  // Datos Principales del Producto
+  id          Int          @id @default(autoincrement())
+  codigo      String       @unique
+  nombreProd  String
+  modeloProd  String
+  imgURL      String
+  createdAt   DateTime     @default(now())
+
+  // Datos Secundarios del Producto
+  presentacion          String?
+  garantia              String?
+  incluye               String?
+  noIncluye             String?
+  descripcion           String?
+  certificaciones       String?
+  detalleUsoAplicacion  String?
+  medidas               String?
+  capacidad             String?
+  material              String?
+  voltaje               String?
+  accesorios            String?
+  anoFabricacion        String?  
+
+
+  // Relación opcional con Subcategoría
+      subcategoriaId Int?
+      subcategoria   Subcategoria? @relation(fields: [subcategoriaId], references: [id])
+
+  // Datos Relacionados
+      industrias  Industria[]  @relation("ProductoIndustria")
+      tipo        TipoProducto @relation(fields: [tipoId], references: [id])
+      tipoId      Int
+
+      marcaId     Int
+      marca       Marca        @relation(fields: [marcaId], references: [id])
+
+  // Relación con galería
+      galeria     GaleriaImagen[]
+
+
+  //Relación con Productos de portada
+      portada       Boolean   @default(false) // Campo Prodcutos para portada
+
+}
+
+
+
+// ------ MODELO INDUSTRIA -----
+model Industria {
+  id        Int        @id @default(autoincrement())
+  nombre    String     @unique
+  productos Producto[] @relation("ProductoIndustria")
+}
+
+
+
+// ------ MODELO TIPO PRODUCTO -----
+model TipoProducto {
+  id        Int        @id @default(autoincrement())
+  nombre    String     @unique
+  productos Producto[]
+}
+
+
+
+// ------ MODELO TIPO LOGO MARCA -----
+model LogoMarca {
+  id        Int     @id @default(autoincrement())  
+  urlLogo   String  
+
+  // Relación 1:1 con Marca
+  marcaId   Int     @unique
+  marca     Marca   @relation(fields: [marcaId], references: [id])
+}
+
+
+
+// ------ MODELO GALERÍA DE IMÁGENES -----
+model GaleriaImagen {
+  id          Int       @id @default(autoincrement())
+  urlImagen   String
+  productoId  Int
+  producto    Producto  @relation(fields: [productoId], references: [id])
+}
+
+
+
+// ------ MODELO MARCA -----
+model Marca {
+  id        Int        @id @default(autoincrement())
+  nombre    String     @unique
+  productos Producto[] // relación 1:N con productos
+  logo      LogoMarca? // relación 1:1 con LogoMarca
+}
+
+
+
+// ------ MODELO SUB CATEGORÍA -----
+model Subcategoria {
+  id        Int        @id @default(autoincrement())
+  nombre    String     @unique
+  productos Producto[]
+}

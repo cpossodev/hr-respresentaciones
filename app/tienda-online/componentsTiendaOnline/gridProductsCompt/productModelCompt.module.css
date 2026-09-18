@@ -1,0 +1,189 @@
+
+
+.contentAllproductModel {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 280px;
+    height: 500px;
+
+}
+
+.boxPhotosProduct {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 42%;
+    width: 100%;
+    /* background-color: #999999; */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.boxContentProduct {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    padding: 5px 0px 5px 0px;
+}
+
+.boxCod_btnWhatsapp {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.boxCodigoProduct {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+    gap: 3px 0px;
+}
+
+.textCodigo, .textCodProduct {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.65em;
+    color: black;
+    text-align:left;
+}
+
+
+.boxBtnWhatsApp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+
+}
+
+.linkToWhatsAppContact {
+    all: unset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+    background-color:#7ec61f ;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.lineDivProdInfo {
+    display: block;
+    width: 95%;
+    height: 1px;
+    margin: 5px 0px;
+    background-color: rgb(180, 180, 180);
+    align-self: center;
+    padding: 0px 10px;
+}
+
+.boxContentInfoProduct {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+.boxTitleModeloProd {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+
+.titleModeloProd {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 6px;
+
+}
+
+
+.boxInfoProd {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 10px;
+    width: 100%;
+    height: auto;
+    gap: 3px 0px;
+
+}
+
+.textBold {
+    font-weight: 700;
+    color: black;
+    margin-right: 3px;
+}
+
+.nameMarcaProd, .nameModelProd, .nameProdType, .nameMarcaProd, .textAplicaciones {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+}
+
+.nameUsoApli {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.boxLinkButton {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+}
+
+.btnLinkToProduct {
+    all: unset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #ffffff;
+}

@@ -1,0 +1,35 @@
+
+
+npx prisma migrate dev  
+👉 Aplica los cambios en tu schema.prisma a la base de datos (crea/actualiza tablas).
+
+npx prisma generate  
+👉 Regenera el cliente de Prisma después de modificar el schema.
+
+npx prisma db seed  
+👉 Ejecuta el archivo seed.ts para poblar la base con datos iniciales (marcas, industrias, productos, etc.).
+
+npx prisma studio  
+👉 Abre Prisma Studio en el navegador para explorar y editar la base de datos visualmente.
+
+npx prisma migrate dev --name update_producto_fields
+👉Esto crea la migración y actualiza la base de datos (dev.db).
+
+
+npx ts-node test-prisma.ts  
+👉 Ejecuta tu archivo de pruebas para correr operaciones CRUD.
+
+    CREATE → Inserta un producto con sus datos y galería.
+    READ → Consulta productos con sus relaciones.
+    UPDATE → Actualiza un producto usando codigo o id.
+    DELETE → Elimina un producto específico.
+
+📌 Flujo típico de trabajo
+        
+        Modificar el schema → schema.prisma.
+        Aplicar cambios → npx prisma migrate dev.
+        Regenerar cliente → npx prisma generate.
+        Poblar datos iniciales → npx prisma db seed.
+        Explorar base → npx prisma studio.
+        Probar CRUD → npx ts-node test-prisma.ts.
+        Correr aplicación → npm run dev.

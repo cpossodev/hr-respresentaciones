@@ -1,0 +1,77 @@
+
+
+.boxContentBtnUseInds {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    background-color:#999999;
+    cursor: pointer;
+
+}
+
+
+.boxContentBtnUseInds:hover {
+    background-color:#2EB5AF;
+
+}
+/* 
+.boxContentBtnUseInds:focus {
+    background-color:#2EB5AF;
+
+} */
+
+.btnActivoUseInds {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    border-radius: 17px;
+    background-color:#2EB5AF;
+    cursor: pointer;
+}
+
+
+.nameBtnFiltro {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 1280px) {
+    .boxContentBtnUseInds {
+        width: 160px;
+        height: 32px;
+    }
+}
+
+
+@media screen and (max-width: 1180px) {
+    .boxContentBtnUseInds {
+        width: 140px;
+        height: 30px;
+    }
+
+    .nameBtnFiltro {
+        font-size: 0.8em;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1080px) {
+   .boxContentBtnUseInds {
+        width: 120px;
+        height: 30px;
+    }
+}
+
+

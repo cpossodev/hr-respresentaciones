@@ -1,0 +1,118 @@
+.contentAllSearchBar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+   
+}
+
+
+.boxSearchBar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8e8e8;
+    width: 620px;
+    height: 6ch;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.boxIconLupa {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    height: 100%;
+    width: 10%;
+    
+}
+
+
+.IconLupa {
+    color: #777777;
+    font-size: 1.6em;
+}
+
+
+.boxBtnSearchBuscar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxInputSearch {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 70%;
+    padding: 0px 10px;
+}
+
+.inputSearchBar {
+
+    all: unset;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.inputSearchBar::placeholder {
+    color: #adadad;
+}
+
+.boxBtnSearchBuscar {
+      display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+       height: 100%;
+    width: 20%;
+}
+
+
+
+.btnBtnSearchBuscar {
+    background-color:#2EB5AF;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btnBtnSearchBuscar:hover {
+     background-color:#1D1D3D;
+}
+
+
+
+@media screen and (max-width: 680px)  {
+
+    .contentAllSearchBar {
+
+        height: 120px;
+    
+    }
+
+
+
+    .boxSearchBar {
+          width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px)  {
+    .boxSearchBar {
+          width: 90%;
+    }
+}
