@@ -1,19 +1,7 @@
 //Import CSS
 import sectGdPctStyles from './sectGridProducts.module.css'
 import ProductModelCompt from './productModelCompt';
-
-
-interface Producto {
-  id: number;
-  codigo: string;
-  nombreProd: string;
-  modeloProd: string;
-  imgURL: string;
-  marca?: { nombre: string };
-  tipo?: { nombre: string };
-  industrias: { nombre: string }[];
-  portada: boolean;
-}
+import type { Producto } from '../../types/producto';
 
 interface GridProps {
   productos: Producto[];

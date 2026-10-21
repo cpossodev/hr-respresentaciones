@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import tiendaOnlineStyles from "./pageTOnline.module.css";
+import type { Producto } from "./types/producto";
 
 import SearchBar from "./componentsTiendaOnline/searchBarCompt/searchBar";
 import FiltroMarcasCompt from "./componentsTiendaOnline/filtroMarcasCompt/filtroMarcasCompt";
@@ -144,19 +145,6 @@ useEffect(() => {
       term
     );
   };
-
-  // Interface Producto
-  interface Producto {
-    codigo: string;
-    nombreProd: string;
-    modeloProd: string;
-    imgURL: string;
-    marca?: { nombre: string };
-    tipo?: { nombre: string };
-    industrias: { nombre: string }[];
-    subcategoria?: { nombre: string };
-    portada: boolean;
-  }
 
   return (
     <div className={tiendaOnlineStyles.contentAllTiendaOnline}>

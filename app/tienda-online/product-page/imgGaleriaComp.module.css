@@ -38,6 +38,8 @@
     border: 2px solid #fefcfc;  
     /* box-shadow: 0px 0px 5px 0px #d4d4d4; */
     transition: transform 0.3s ease-in-out;
+
+    cursor: pointer;
 }
 
 .miniFoto:hover {
