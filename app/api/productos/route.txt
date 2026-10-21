@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 export async function GET(request: Request) {
   try {
     // 👉 Capturamos todos los parámetros posibles
-    const { search, portada, marca, page, limit } = Object.fromEntries(
+    const { search, portada, marca, tipo, industria, page, limit } = Object.fromEntries(
       new URL(request.url).searchParams
     );
 
@@ -39,9 +39,19 @@ export async function GET(request: Request) {
       where.AND.push({ portada: true });
     }
 
-    // 🏷️ Si se seleccionó una marca desde los botones
+    // 🏷️ Si se seleccionó una marca
     if (marca) {
       where.AND.push({ marca: { nombre: { contains: marca } } });
+    }
+
+    // 🏷️ Si se seleccionó un tipo de producto (subcategoría)
+    if (tipo) {
+      where.AND.push({ subcategoria: { nombre: { contains: tipo } } });
+    }
+
+    // 🏷️ Si se seleccionó una industria
+    if (industria) {
+      where.AND.push({ industrias: { some: { nombre: { contains: industria } } } });
     }
 
     // 👉 Total de registros para calcular páginas

@@ -52,10 +52,12 @@ export default function MainMenu() {
                 <LinksMainMenu nameLink="Inicio" hrefLink="/"/>
                 <LinksMainMenu nameLink="Quienes Somos" hrefLink="/quienes-somos"/>
                 <LinksMainMenu nameLink="Nuestra Calidad" hrefLink="/nuestra-calidad"/>
+                <LinksMainMenu nameLink="Productos" hrefLink="/tienda-online"/>
                 <LinksMainMenu nameLink="Contacto" hrefLink="/contacto"/>
 
             </div>
 
+                
             <div className={mainMenuStyles.boxIconsMainMenu}>
 
                 {/* Link a Maps */}

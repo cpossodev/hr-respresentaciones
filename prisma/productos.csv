@@ -1,0 +1,492 @@
+id,codigo,nombreProd,modeloProd,imgURL,createdAt,presentacion,garantia,incluye,noIncluye,descripcion,certificaciones,detalleUsoAplicacion,medidas,capacidad,material,voltaje,accesorios,anoFabricacion,subcategoriaId,tipoId,marcaId,portada
+1,20-Q,"Agua Destilada","Caneca 20 LT",/imgDefaultProducts/photoProductDefault.png,1786416613387,,,,,,,,,,,,,,,1,8,0
+2,AQM-CP,"Agua Destilada","Caneca 20 LT",/imgDefaultProducts/photoProductDefault.png,1786416613400,,,,,,,,,,,,,,,1,8,0
+3,35-Q,"Agua Destilada","Galón",/imgDefaultProducts/photoProductDefault.png,1786416613410,,,,,,,,,,,,,,,1,8,0
+4,DEF-00001,"Cepillo para Caneca",Cepillo,/photoProductsTienda/id4.jpg,1786416613420,,,,,,,,,,,,,,,2,8,0
+5,NIN-40115.03,"Malla de Cerámica","15cm x 15cm",/photoProductsTienda/id5.jpg,1786416613431,,,,,,,,,,,,,,,3,8,0
+6,"LAB STAPA55-010","Cinta de Esterilización","50m x 19mm",/photoProductsTienda/id6.jpg,1786464442709,,,,,,,,,,,,,,,4,8,0
+7,NIN-50120.02,"Modelo de ADN",60cm,/photoProductsTienda/id7.jpg,1786466567386,,,,,,,,,,,,,,13,5,8,0
+8,BOE-BIN-1005298,"Modelo de ADN","Pequeño 24cm 12 Segmentos 3B",/photoProductsTienda/id8.jpg,1786466741965,,,,,,,,,,,,,,13,5,8,0
+9,1005124,"Modelo de Célula","Animal / Vegetal 3B",/photoProductsTienda/id9.jpg,1786466934411,,,,,,,,,,,,,,13,5,8,0
+10,1000524,"Modelo de Célula","Vegetal 3B",/photoProductsTienda/id10.jpg,1786467162693,,,,,,,,,,,,,,13,5,8,0
+11,NIN-50106-01,"Modelo de Cerebro","Desarmable 8pz",/photoProductsTienda/id11.jpg,1786632079611,Individual,"","","","","","","",,"","","","",13,5,8,1
+12,NIN-50101.01,"Modelo de Columna"," Vertebral",/photoProductsTienda/id12.jpg,1786632239066,Individual,"","","","","","","",,"","","","",13,5,8,0
+13,HR-MCG,"Modelo de Corazón",Grande,/photoProductsTienda/id13.jpg,1786632569648,Individual,"","","","","","","",,"","","","",13,5,8,0
+14,NIN-50102.02B,"Modelo de Cráneo","Tamaño Natural",/photoProductsTienda/id14.jpg,1786632654026,Individual,"","","","","","","",,"","","","",13,5,8,0
+15,NIN-50108.02B,"Modelo de Dentadura","Tamaño Natural",/photoProductsTienda/id15.jpg,1786632712243,Individual,"","","","","","","",,"","","","",13,5,8,0
+16,NIN-50100.02A,"Modelo de Esqueleto","Con Musculatura",/photoProductsTienda/id16.jpg,1786632796948,Individual,"","","","","","","",,"","","","",13,5,8,0
+17,3B-M-1000232,"Modelo de Fisiología de los Nervios","Con Magneto",/photoProductsTienda/id17.jpg,1786632887057,Individual,"","","","","","","",,"","","","",13,5,8,0
+18,K21,"Modelo de Sistema Digestivo","Sin Datos",/photoProductsTienda/id18.jpg,1786632982278,Individual,"","","","","","","",,"","","","",13,5,8,0
+19,EVE-A300,"Modelo de Torso","Bisexual 28Pz",/photoProductsTienda/id19.jpg,1786633046337,Individual,"","","","","","","",,"","","","",13,5,8,0
+20,NIN-50103.07,"Modelo de Torso","Bisexual 40Pz",/imgDefaultProducts/photoProductDefault.png,1786633970074,Individual,"","","","","","","",,"","","","",13,5,8,0
+21,NIN-40173.03,"Modelo Molecular","Sin datos",/imgDefaultProducts/photoProductDefault.png,1786634056873,Individual,"","","","","","","",,"","","","",13,5,8,0
+22,COORS-09170,"Embudo Bucner",200MMI/VAS10,/imgDefaultProducts/photoProductDefault.png,1786634178801,Individual,"","","","","","","",,"","","","",10,6,6,0
+23,LMS-61165602,"Embudo de Separación","100ml Con Llave",/imgDefaultProducts/photoProductDefault.png,1786641259481,Individual,"","","","","","","",,"","","","",10,6,8,0
+24,IS-S.031.02.100,"Embudo de Separación","100ml Graduado",/imgDefaultProducts/photoProductDefault.png,1786641409358,Individual,"","","","","","","",,"","","","",10,6,11,0
+25,LMS-61165622,"Embudo de Separación","250ml Llave Graduada",/imgDefaultProducts/photoProductDefault.png,1786641575002,Individual,"","","","","","","",,"","","","",10,6,8,0
+26,IS-S.031.02.500,"Embudo de Separación","500ml Graduado",/imgDefaultProducts/photoProductDefault.png,1786641811012,Individual,"","","","","","","",,"","","","",10,6,11,0
+27,LMS-61165623,"Embudo de Separación","500ml LMS Graduado",/imgDefaultProducts/photoProductDefault.png,1786641966582,Individual,"","","","","","","",,"","","","",10,6,8,1
+28,MN-65000045047,"Membrana Celulosa",0.45UMX47MM,/imgDefaultProducts/photoProductDefault.png,1786642202917,Individual,"","","","","","","",,"","","","",10,6,12,0
+29,MILW-MA841,"Membrana para medidores de equipos de medidor de oxígeno disuelto",SM600,/imgDefaultProducts/photoProductDefault.png,1786642458813,Individual,"","","","","","","",,"","","","",10,6,13,0
+30,BOE-F20510552BO,"Agitador Magnético con Celefacción",HSC-400,/imgDefaultProducts/photoProductDefault.png,1786983265805,Individual,"","","","","","","",,110v,"","","",10,7,6,0
+31,AHN-7-300-00-0,"Agitador Magnético Digital",SM-01,/imgDefaultProducts/photoProductDefault.png,1786984481331,Individual,"","","","Régimen: 1500rpm - Protección IP65 a 110v","","","",800ml,110v,"","","",10,7,1,0
+32,HS-120460,"Agitador Orbital","SHAKER 4,5K",/imgDefaultProducts/photoProductDefault.png,1786985397243,Individual,"","","","","","","","",110v,"","","",10,7,9,0
+33,BOE-8058000,Agitador,"PLAC/PETRY MINISH",/imgDefaultProducts/photoProductDefault.png,1786986325830,Individual,"","","","Hasta 1kl","","","",1kl,110v,"","","",10,7,5,0
+34,HR-6X30,"Agitador de Vidrio Punta Lijada",6X300M,/imgDefaultProducts/photoProductDefault.png,1786986926369,Individual,"","","","","","","","","","","","",10,7,10,0
+35,AHN-7-110-00-0,Agitador,"Agitador Vortex Multiuso",/imgDefaultProducts/photoProductDefault.png,1786987599377,Individual,"","","","Agitador Vortex Multiuso 220 V Vt-02 Para Tubo/ Microtubo / Microplato / Erlenmeyer","","","","","",220v,"","",10,7,1,0
+36,AHN-7-100-00-0,"Agitador Vortex",VT-01,/imgDefaultProducts/photoProductDefault.png,1786988932670,Individual,"","","","Agitador Vortex VT-01 para tubos de ensayo","","","","","","","","",10,7,1,0
+37,BOE-8901170,"Agitador de Hélice",Completo,/imgDefaultProducts/photoProductDefault.png,1786990886658,Individual,"","","","Agitador de Hélice Completo, Capacidad 25Lt, Voltaje: 110v","","","",25Lt,"",110v,"","",10,7,6,0
+38,BOE-BAS-31,"Balanza Digital Analítica","220GR X 0.0001GR",/imgDefaultProducts/photoProductDefault.png,1786992110375,Individual,"","","","","","","","","","","","",10,7,6,0
+39,BOE-BXX31,"Balanza Digital Analítica","220GR X 0.0001GR",/imgDefaultProducts/photoProductDefault.png,1786992702882,Individual,"","","","","","","","","","","","",10,7,6,0
+40,IS-I.602.32.001,"Balanza Digital",500GR/0.01SEN,/imgDefaultProducts/photoProductDefault.png,1786993053688,Individual,"","","","","","","","","","","","",10,7,11,0
+41,BOE-BLC600,"Balanza Digital","MODELO BLC 600",/imgDefaultProducts/photoProductDefault.png,1786993798167,Individual,"","","","","","","","","","","","",10,7,6,1
+42,"BOE-BPS-40 PLUS","Balanza Digital","750 GR / 0.001SEN",/imgDefaultProducts/photoProductDefault.png,1786994058411,Individual,"","","","","","","","","","","","",10,7,6,0
+43,BOE-BWL-60,"Balanza Digital","750 GR / 0.001SEN",/imgDefaultProducts/photoProductDefault.png,1786994757835,Individual,"","","","Balanza Digital De 10 Kilos / 0.1sen  Calibracion Externa","","","",10kl,"","","","",10,7,6,0
+44,BOE-BWL-51,"Balanza Digital","2000GR X 0.01SEN",/imgDefaultProducts/photoProductDefault.png,1786995673380,Individual,"","","","Balanza Digital de 2000GR x 0.01SEN  Calibración Externa","","","","","","","","",10,7,6,0
+45,BOE-BPS-51,"Balanza Digital","4500GR / 0.01SEN",/imgDefaultProducts/photoProductDefault.png,1786996011871,Individual,"","","","Balanza Digital de  4500GR / 0.01SEN Calibración Externa","","","","","","","","",10,7,6,0
+46,BOE-BWL-61,"Balanza Digital","6000GR / 0.1SEN",/imgDefaultProducts/photoProductDefault.png,1786996389836,Individual,"","","","","","","","","","","","",10,7,6,0
+47,"BOE-BLC 6000","Balanza Digital","6000GR / 0.1SEN",/imgDefaultProducts/photoProductDefault.png,1786996613652,Individual,"","","","Balanza Digital de  6000GR/0.1SEN Con adaptador","","","","","","","","",10,7,6,0
+48,GBR-03.0309P,"Butirómetro Crema",0-80%,/imgDefaultProducts/photoProductDefault.png,1786998038998,Individual,"","","","","","","","","","","","",11,7,8,0
+49,GBR-03.0029P,"Butirómetro Leche","ISO 488 0-4%",/imgDefaultProducts/photoProductDefault.png,1786998210861,Individual,"","","","","","","","","","","","",11,7,8,0
+50,GBR-03.0031P,"Butirómetro Leche","ISO R488 0-6% GER",/imgDefaultProducts/photoProductDefault.png,1786998637471,Individual,"","","","","","","","","","","","",11,7,8,0
+51,GBR-03.0033P,"Butirómetro Leche","ISOR488 0-8% GERB",/imgDefaultProducts/photoProductDefault.png,1786998981541,Individual,"","","","","","","","","","","","",11,7,8,1
+52,GBR-03.02310,"Butirómetro Leche","SICHLER 0-1% GER",/imgDefaultProducts/photoProductDefault.png,1786999287722,Individual,"","","","","","","","","","","","",11,7,8,0
+53,GRB-03.0620P,"Butirómetro","MANTEQ 0-100% COMPLETO",/imgDefaultProducts/photoProductDefault.png,1786999450503,Individual,"","","","","","","","","","","","",11,7,8,0
+54,GRB-03.412P,"Butirómetro","NATA 0-50%",/imgDefaultProducts/photoProductDefault.png,1786999853184,Individual,"","","","","","","","","","","","",11,7,8,0
+55,AHN-8-700-00-0,Dispensador,0.25,/imgDefaultProducts/photoProductDefault.png,1787000745192,Individual,"","","","Dispensador 0.25 - 2.5 ml con adaptad. Autoclavable a 120° x 20min","","","","","","","","",10,7,1,0
+56,AHN-8-701-00-0,Dispensador,0.5,/imgDefaultProducts/photoProductDefault.png,1787000958891,Individual,"","","","Dispensador 0.5 - 5 ml con adaptad. Autoclavable a 120° x 20min","","","","","","","","",10,7,1,0
+57,AHN-8-702-00-0,Dispensador,"1-10ml Con Adaptador",/imgDefaultProducts/photoProductDefault.png,1787002253393,Individual,"","","","Dispensador 1-10 Ml con adaptador","","","","","","","","",10,7,1,0
+58,AHN-8-703-00-0,Dispensador,"2.5 25ml Con Adaptador",/imgDefaultProducts/photoProductDefault.png,1787002449775,Individual,"","","","Dispensador 2.5 - 25 Ml con adaptador","","","","","","","","",10,7,1,0
+59,AHN-N8-705-00-0,Dispensador,"de 10 - 100ml",/imgDefaultProducts/photoProductDefault.png,1787002656429,Individual,"","","","Dispensador de 10 - 100ml","","","","","","","","",10,7,1,0
+60,BOE-9680002,Dispensador,"de 0.25 - 2.5ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787003570538,Individual,"","","","Dispensador SA 0.25 a 2.5ml con adaptadores","","","","","","","","",10,7,6,0
+61,BOE-9680005,Dispensador,"de 0.05 - 5.0ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787003796357,Individual,"","","","Dispensador SA 0.05 a 5.0ml con adaptadores","","","","","","","","",10,7,6,0
+62,BOE-9680010.,Dispensador,"de 1.0 - 10.0ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787004064360,Individual,"","","","Dispensador SA 1.0 a 10.0ml con adaptadores","","","","","","","","",10,7,6,0
+63,BOE-9680100,Dispensador,"de 10 - 100.0ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787004280900,Individual,"","","","Dispensador 10 - 100.0ml con adaptadores","","","","","","","","",10,7,6,0
+64,BOE-9680025.,Dispensador,"de 2.5 - 25.0ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787004447914,Individual,"","","","Dispensador 2.5 - 25.0ml con adaptadores","","","","","","","","",10,7,6,0
+65,BOE-9680050.,Dispensador,"de 5.0 - 50ml Con Adaptadores",/imgDefaultProducts/photoProductDefault.png,1787005017610,Individual,"","","","Dispensador 5.0 - 50ml con adaptadores","","","","","","","","",10,7,6,0
+66,APE-PH60-Z.,"PH Metro de Bolsillo",ZEN,/imgDefaultProducts/photoProductDefault.png,1787008016039,Individual,"","","","","","","","","","","","",11,7,3,0
+67,MILW-MW-804,"PH Metro de Bolsillo","MULTIPARAME MIL PH/EC/TDS",/imgDefaultProducts/photoProductDefault.png,1787008543108,Individual,"","","","","","","","","","","","",11,7,13,0
+68,MILW-PH-56,"PH Metro de Bolsillo","TEMPERATURA 60°C PH0.01",/imgDefaultProducts/photoProductDefault.png,1787009099989,Individual,"","","","Ph Metro de bolsillo. Temperatura 60°c Ph0.01","","","","","","","","",11,7,13,1
+69,MW-105,"PH Metro Portátil","Portátil Impermeable PH/ORP/TEMPERATURA",/imgDefaultProducts/photoProductDefault.png,1787009400882,Individual,"","","","PH Metro Portátil PH/ORP/TEMPERATURA","","","","","","","","",11,7,8,0
+70,AL-92100-004-CO,"PH Metro de Bolsillo","0-14 0.1PH",/imgDefaultProducts/photoProductDefault.png,1787010093067,Individual,"","","","","","","","","","","","",11,7,2,0
+71,MILW-PH600,"PH Metro de Bolsillo","Económico",/imgDefaultProducts/photoProductDefault.png,1787010535223,Individual,"","","","","","","","","","","","",11,7,13,0
+72,MILW-PH58,"PH Metro de Bolsillo","ORP/TEMP 0.01",/imgDefaultProducts/photoProductDefault.png,1787011248080,Individual,"","","","","","","","","","","","",11,7,13,0
+73,BOE-5190070,"PH Metro de Bolsillo","PH / TEMPERATURA PT70",/imgDefaultProducts/photoProductDefault.png,1787011625647,Individual,"","","","","","","","","","","","",11,7,6,0
+74,APE-PC820,"PH Metro de Bolsillo","DE MESA MULTIPARAM EC/TDS/SALIN/RE",/imgDefaultProducts/photoProductDefault.png,1787011926430,Individual,"","","","","","","","","","","","",11,7,3,0
+75,APE-PH60.,"PH Metro Portatil","-2 A 16",/imgDefaultProducts/photoProductDefault.png,1787012082830,Individual,"","","","","","","","","","","","",11,7,3,0
+76,APE-PH400S,"PH Metro Portatil","con DATALOGER USB",/imgDefaultProducts/photoProductDefault.png,1787012508804,Individual,"","","","","","","","","","","","",11,7,3,0
+77,AL-74000-008/B,"Termómetro Ambiental","Gigante B/PLAS -40 +50",/imgDefaultProducts/photoProductDefault.png,1787015265102,Individual,"","","","","","","","","","","","",2,7,2,0
+78,BOE-39200,"Termómetro Ambiental","B/MADERA-30/5020 CM",/imgDefaultProducts/photoProductDefault.png,1787015523361,Individual,"","","","","","","","","","","","",2,7,6,1
+79,ALLA-70000001-F,"Termómetro Dial","-40+70 GC",/imgDefaultProducts/photoProductDefault.png,1787015832541,Individual,"","","","","","","","","","","","",2,7,2,0
+80,AL-91000-055-F,"Termómetro Digital","-50 A 200°C IMPERMEABLE",/imgDefaultProducts/photoProductDefault.png,1787016160354,Individual,"","","","","","","","","","","","",2,7,2,0
+81,ALL-91000-024-F,"Termómetro Digital","-50 A 200°C Productos Congelados",/imgDefaultProducts/photoProductDefault.png,1787016476188,Individual,"","","","","","","","","","","","",2,7,2,1
+82,ELITECH-WT1B,"Termómetro Digital","-50 °C A +300 °C",/imgDefaultProducts/photoProductDefault.png,1787016772788,Individual,"","","","","","","","","","","","",2,7,7,0
+83,ALLA-91000031NV,"Termómetro Digital",-200+1300PIZ,/imgDefaultProducts/photoProductDefault.png,1787017104202,Individual,"","","","","","","","","","","","",2,7,2,0
+84,ELIT-DST-30,"Termómetro Digital","Con Sonda Solar -20A 80°C",/imgDefaultProducts/photoProductDefault.png,1787017569465,Individual,"","","","","","","","","","","","",2,7,7,0
+85,AL-91000-009,"Termómetro Digital","Cuarto Frio -50 a 70°",/imgDefaultProducts/photoProductDefault.png,1787017943305,Individual,"","","","","","","","","","","","",2,7,2,0
+86,BOE-325LCD,"Termómetro Digital","MAX MIN -5 50°C SONDA",/imgDefaultProducts/photoProductDefault.png,1787018372308,Individual,"","","","","","","","","","","","",2,7,6,0
+87,ALLA-91000-029B,"Termómetro Digital","-40 50°C T/AMBIENTAL",/imgDefaultProducts/photoProductDefault.png,1787018996364,Individual,"","","","","","","","","","","","",2,7,2,0
+88,AL-91000-041,"Termómetro Digital","MAX-MIN  -50+70°C",/imgDefaultProducts/photoProductDefault.png,1787019418138,Individual,"","","","","","","","","","","","",2,7,2,0
+89,IS-I.059.03.004,"Termómetro Digital","MAX-MIN -50 /70°C Y % HUMEDAD 20-99%",/imgDefaultProducts/photoProductDefault.png,1787019783288,Individual,"","","","Termómetro digital max-min -50 /70°c y % humedad 20-99%","","","","","","","","",2,7,11,0
+90,IS-I.059.03.003,"Termómetro Digital","MAX-MIN INALÁMBRICO",/imgDefaultProducts/photoProductDefault.png,1787020064625,Individual,"","","","","","","","","","","","",2,7,11,0
+91,ALLA-91000-020,"Termómetro Digital Sonda","DE 1,5 M RANGO : -50+200°C / -58+392°F",/imgDefaultProducts/photoProductDefault.png,1787020672766,Individual,"","","","Termómetro digital sonda de 1,5m rango: -50+200°c / -58+392°f","","","","","","","","",2,7,2,0
+92,FUN-7031,"Termómetro Digital Sonda","LECHERIA 0 A 100°C CASQU",/imgDefaultProducts/photoProductDefault.png,1787021028717,Individual,"","","","","","","","","","","","",2,7,8,0
+93,MILW-MW-10,"Fotómetro","Cloro Libre Mini",/imgDefaultProducts/photoProductDefault.png,1787062538556,Individual,"","","","","","","","","","","","",12,7,13,1
+94,MILW-MW-11,"Fotómetro","Cloro Libre Mini",/imgDefaultProducts/photoProductDefault.png,1787062863523,Individual,"","","","","","","","","","","","",12,7,13,0
+95,MN-919342,"Fotómetro","PF 3 /DQO / CF",/imgDefaultProducts/photoProductDefault.png,1787063065516,Individual,"","","","","","","","","","","","",12,7,12,0
+96,MN-919345,"Fotómetro","PF  3 FISH",/imgDefaultProducts/photoProductDefault.png,1787063529152,Individual,"","","","","","","","","","","","",12,7,12,0
+97,MN-919340,"Fotómetro","PF  3 Para Control de Piscina",/imgDefaultProducts/photoProductDefault.png,1787064010652,Individual,"","","","","","","","","","","","",12,7,12,0
+98,MN-919250,"Fotómetro","PF 12 PLUS",/imgDefaultProducts/photoProductDefault.png,1787064183252,Individual,"","","","","","","","","","","","",12,7,12,0
+99,BOE-1200.101,"Microscopio Binocular","BM 120 Luz Led",/imgDefaultProducts/photoProductDefault.png,1787064931738,Individual,"","","","","","","","","","","","",1,7,6,0
+100,BOE-1900.201,"Microscopio Binocular","BM 190 Luz Led",/imgDefaultProducts/photoProductDefault.png,1787065135131,Individual,"","","","","","","","","","","","",1,7,6,1
+101,LABMAX-MMIC037,"Microscopio Binocular Objetivo","Luz Led 4X/10X/40X/100X",/imgDefaultProducts/photoProductDefault.png,1787065782894,Individual,"","","","","","","","","","","","",1,7,8,0
+102,BOE-XSZ148,"Microscopio Binocular ","Planacromático BM-148",/imgDefaultProducts/photoProductDefault.png,1787066016678,Individual,"","","","","","","","","","","","",1,7,6,0
+103,BOE-4050.001,Microscopio,"Stereo BSZ-405 Zoom",/imgDefaultProducts/photoProductDefault.png,1787066221804,Individual,"","","","","","","","","","","","",1,7,6,0
+104,BOE-2500.231,"Microscopio Trinocular",BM250/I/T/SP,/imgDefaultProducts/photoProductDefault.png,1787067028499,Individual,"","","","","","","","","","","","",1,7,6,0
+105,BAC-0-20,"Refractómetro de Mano"," 0-20% BRIX",/imgDefaultProducts/photoProductDefault.png,1787067796016,Individual,"","","","Refractómetro de mano para frutas, leche y todo bajo en azucar","","","","","","","","",11,7,8,0
+106,"BOE 30103","Refractómetro de Mano","0-32% RESOL",/imgDefaultProducts/photoProductDefault.png,1787068069176,Individual,"","","","","","","","","","","","",11,7,6,0
+107,BOE-30106,"Refractómetro de Mano","58-90% RS 0.5",/imgDefaultProducts/photoProductDefault.png,1787068346015,Individual,"","","","","","","","","","","","",11,7,6,0
+108,MILW-MA886,"Refractómetro Digital","Salinómetro 0-28%",/imgDefaultProducts/photoProductDefault.png,1787068671534,Individual,"","","","","","","","","","","","",11,7,13,0
+109,MILW-MA871,"Refractómetro Digital","0-85%BRIX TEM",/imgDefaultProducts/photoProductDefault.png,1787068833558,Individual,"","","","","","","","","","","","",11,7,13,1
+110,AL-95200-009,"Refractómetro Digital","0-90 %BRIX 33-48°BAUME",/imgDefaultProducts/photoProductDefault.png,1787069247106,Individual,"","","","Refractómetro digital 0-90 %brix 33-48°baume / 5-38% concentración del agua","","","","","","","","",11,7,2,0
+111,MILW-MA888,"Refractómetro Digital","Para etilenglicol",/imgDefaultProducts/photoProductDefault.png,1787069627791,Individual,"","","","","","","","","","","","",11,7,13,0
+112,ELIT-RC17,"Datalogger de temperatura"," DES120D -30A70",/imgDefaultProducts/photoProductDefault.png,1787070225051,Individual,"","","","","","","","","","","","",11,7,7,0
+113,ELIT-RC-4HC,"Datalogger Pro Sonda","-40 A 85° TEMP-HUM",/imgDefaultProducts/photoProductDefault.png,1787070451611,Individual,"","","","","","","","","","","","",11,7,7,0
+114,ELIT-RC-5+,"Datalogger Sonda","Temperatura -30 A 70°",/imgDefaultProducts/photoProductDefault.png,1787070735383,Individual,"","","","","","","","","","","","",11,7,7,0
+115,ALLA-91700005CA,"Datalogger Usb / Sonda","Temperatura T-40/125",/imgDefaultProducts/photoProductDefault.png,1787070876872,Individual,"","","","","","","","","","","","",11,7,2,0
+116,AL-91700-006-F,"Datalogger Usb / Sonda","Temperatura -40+85°C",/imgDefaultProducts/photoProductDefault.png,1787071167622,Individual,"","","","","","","","","","","","",11,7,2,0
+117,BIO-BYKG-II,"Cámara de Bioseguridad","BYKG - II",/imgDefaultProducts/photoProductDefault.png,1787071995969,Individual,"","","","Cámara de bioseguridad BYKG - II - 110v - Medidas: 70x55x90cm ","","",70x55x90cm,"","",110v,"","",10,7,5,0
+118,BIO-BYKG-3,"Cámara de Bioseguridad","BYKG - III",/imgDefaultProducts/photoProductDefault.png,1787072215862,Individual,"","","","Cámara de bioseguridad BYKG - II - 110v - Medidas: 70x55x90cm ","","",70x55x90cm,"","",110v,"","",10,7,5,0
+119,BIO-11231BBC86,"Cámara de Bioseguridad","CLAS IIA2",/imgDefaultProducts/photoProductDefault.png,1787072869857,Individual,"","","","","","","70cm x 65cm x 123cm","","",110v,"","",10,7,5,0
+120,BIO-BBS-V-1300,"Cámara de flujo laminar vertical",BBS-V1300,/imgDefaultProducts/photoProductDefault.png,1787073094376,Individual,"","","","","","","","","","","","",10,7,5,0
+121,BOE-14,"Cámara de Neubauer","con cubre objetos",/imgDefaultProducts/photoProductDefault.png,1787073415182,Individual,"","","","","","","","","","","","",10,7,6,0
+122,SUP-1800024,"Aza de Drigalski","Paquete x 10und",/imgDefaultProducts/photoProductDefault.png,1787148666649,"Paquete x 10und","","","","","","","","","","","","",10,7,8,0
+123,SEL-1000014,"Aza de Inoculación","5cm Platino 2.74",/imgDefaultProducts/photoProductDefault.png,1787148861421,"","","","","","","","","","","","","",10,7,8,0
+124,USB-5461.,"Aza de Inoculación",2mm,/imgDefaultProducts/photoProductDefault.png,1787149203981,"","","","","","","","","","","","","",10,7,8,0
+125,IS-082-02-001,"Aza de Inoculación","5mm Paquete x 5und",/imgDefaultProducts/photoProductDefault.png,1787149702789,"","","","","","","","","","","","","",10,7,11,0
+126,BOE-120,"Pipeteador de Embolo","AZUL OMSON 0-2 ML",/imgDefaultProducts/photoProductDefault.png,1787150455117,"","","","","","","","","","","","","",10,7,6,0
+127,BOE-122,"Pipeteador de Embolo","ROJO OMSON 0-25 ML",/imgDefaultProducts/photoProductDefault.png,1787150746999,"","","","","","","","","","","","","",10,7,6,0
+128,BOE-121,"Pipeteador de Embolo","VERDE OMSON 0-10 ML",/imgDefaultProducts/photoProductDefault.png,1787150897869,"","","","","","","","","","","","","",10,7,6,0
+129,BOE-101,"Pipeteador de tres vias","Universal Rojo",/imgDefaultProducts/photoProductDefault.png,1787151158230,"","","","","","","","","","","","","",10,7,6,0
+130,BOE-8042100,Incubadora,"18Lt CONX 110v",/imgDefaultProducts/photoProductDefault.png,1787152466821,"","","","","","","","","","",110v,"","",12,7,6,0
+131,MC-000221,Incubadora,"55 LTR  ECO INCUCELL",/imgDefaultProducts/photoProductDefault.png,1787152692064,"","","","","","","","","","","","","",12,7,8,0
+132,AHN-CR-MI1-110V,"Incubadora Mini","22Lt Digital",/imgDefaultProducts/photoProductDefault.png,1787152986269,"","","","","Incubadora Mini - 22Lt Digital - Calienta y Enfría","","","","","","","","",12,7,1,0
+133,GLA-415262212,Desecador,"200mm Llave, Tapa / Pl Simax",/imgDefaultProducts/photoProductDefault.png,1787153359486,"","","","","","","","","","","","","",10,7,8,0
+134,GLA-415262262,Desecador,"250mm Llave, Tapa / Pl Simax",/imgDefaultProducts/photoProductDefault.png,1787153578923,"","","","","","","","","","","","","",10,7,8,0
+135,GLA-415262303,Desecador,"300mm Llave, Tapa / Pl Simax",/imgDefaultProducts/photoProductDefault.png,1787153743998,"","","","","","","","","","","","","",10,7,8,0
+136,MILW-EC60,"Conductivimetro Bolsillo","TSD Y TEMP",/imgDefaultProducts/photoProductDefault.png,1787154192140,"","","","","","","","","","","","","",12,7,13,0
+137,MILW-MW-301,"Conductivimetro Portatil","0-1999US/CM - MICROSIEMENS",/imgDefaultProducts/photoProductDefault.png,1787154440018,"","","","","","","","","","","","","",12,7,13,0
+138,MILW-MW306,"Conductivimetro Portatil","TDS/SALINIDAD TEM",/imgDefaultProducts/photoProductDefault.png,1787154640958,"","","","","","","","","","","","","",12,7,13,0
+139,VELF-F105A0108,Floculador,"4 Puestos",/imgDefaultProducts/photoProductDefault.png,1787154882578,"","","","","Floculador 4 puestos lineal digital conexión 110v","","","","","",110v,"","",12,7,8,0
+140,VELP-F105A0117,"Floculador Portatil","4 Puestos",/imgDefaultProducts/photoProductDefault.png,1787155052119,"","","","","Floculador Portatil 4 puestos lineal digital conexion 110v","","","","","",110v,"","",12,7,8,1
+141,BOE-VEL-F105A0109,"Floculador Lineal","JLT6 100-240V 50/60HZ",/imgDefaultProducts/photoProductDefault.png,1787156091627,"","","","",,"","","","","","","","",12,7,6,0
+142,BIO-BM-50-1,"Analizador de Humedad","50GR X 0.001GR BM-50-1 110V CHINO",/imgDefaultProducts/photoProductDefault.png,1787157211132,"","","","","Analizador de Humedad 50GR X 0.001GR BM-50-1 110V CHINO","","","","","","","","",12,7,5,0
+143,BOE-BMA-I50*,"Analizador de Humedad","Con Pesa de 110v",/imgDefaultProducts/photoProductDefault.png,1787157515638,"","","","","","","","","","",110v,"","",12,7,6,0
+144,"BIO-BKQ-B50 II",Autoclave,"50lt 220v Vertical",/imgDefaultProducts/photoProductDefault.png,1787157810414,"","","","","","","","","","","","","",12,7,5,0
+145,BIO-BKQ-B75II,Autoclave,"75lt 220v Vertical",/imgDefaultProducts/photoProductDefault.png,1787158057577,"","","","","","","","","","",220v,"","",12,7,5,0
+146,BOE-8036100,"Baño María","4lt Completo 110v",/imgDefaultProducts/photoProductDefault.png,1787158362927,"","","","","","","","","","",110v,"","",12,7,6,0
+147,BOE-8037100,"Baño María","8lt Completo 110v",/imgDefaultProducts/photoProductDefault.png,1787158588174,"","","","","","","","","","",110v,"","",12,7,6,0
+148,BIO-FH1200(A),"Campana Sorbona","FH1200 (A)",/imgDefaultProducts/photoProductDefault.png,1787158818613,"","","","","","","","","","","","","",12,7,5,0
+149,BIO-FH1200(P),"Campana Sorbona","FH1200 (P)",/imgDefaultProducts/photoProductDefault.png,1787159118338,"","","","","","","","","","","","","",12,7,5,0
+150,MN-919750,"Espectofómetro","Nanocolor Advance",/imgDefaultProducts/photoProductDefault.png,1787159344881,"","","","","","","","","","","","","",12,7,12,0
+151,MN-919650.1,"Espectofómetro","Nanocolor VIS II",/imgDefaultProducts/photoProductDefault.png,1787159409713,"","","","","","","","","","","","","",12,7,12,0
+152,ARCO-1020230/1,"Pictómetro con termómetro",10ml,/imgDefaultProducts/photoProductDefault.png,1787233822680,"","","","","","","","","","","","","",12,7,4,0
+153,ARCO-2010230/1B,"Pictómetro con termómetro",50ml,/imgDefaultProducts/photoProductDefault.png,1787234018477,"","","","","","","","","","","","","",12,7,4,0
+154,OM-304-3,Extractor,"Soxlhet 60ml",/imgDefaultProducts/photoProductDefault.png,1787235053970,"","","","","","","","","","","","","",12,7,14,0
+155,OM-304-6,Extractor,"Soxlhet 200ml",/imgDefaultProducts/photoProductDefault.png,1787235150417,"","","","","","","","","","","","","",12,7,14,0
+156,NIN-30101.03,"Fuente de Poder","6A CC/CA",/imgDefaultProducts/photoProductDefault.png,1787235420108,"","","","","","","","","","","","","",,7,8,0
+157,"PH-1323B EVERSU","Fuente de Poder","CC/CA CONEX 220V",/imgDefaultProducts/photoProductDefault.png,1787236486360,"","","","","","","","","","","","","",,7,8,0
+158,ALLA-92100-001S,"Higrómetro","Meca + PH Metro / Luxometr su",/imgDefaultProducts/photoProductDefault.png,1787236831300,"","","","","","","","","","","","","",11,7,2,0
+159,ELI-BT-3,"Higrómetro","Termome Max - Min -50 A 70°C",/imgDefaultProducts/photoProductDefault.png,1787237102385,"","","","","Higrómetro-Termome Max-Min -50 a 70°c Certif / Calibrac / Fabrica y # Serie","","","","","","","","",11,7,8,0
+160,AL-2280CP020/15-QP,"Lactodecímetro Pequeño","15GC con Termómetro",/imgDefaultProducts/photoProductDefault.png,1787237536215,"","","","",,"","","","","","","","",11,7,2,0
+161,AL-2280CP020/20-QP,"Lactodecímetro Pequeño","20GC con Termómetro",/imgDefaultProducts/photoProductDefault.png,1787237728845,"","","","","","","","","","","","","",11,7,2,0
+162,NIN40119.01,"Mechero Bunsen","Con Regulador de Aire",/imgDefaultProducts/photoProductDefault.png,1787237891863,"","","","","","","","","","","","","",10,7,8,0
+163,USB-1011,"Mechero Bunsen","Con Regulador y Llave 5%",/imgDefaultProducts/photoProductDefault.png,1787238144286,"","","","","","","","","","","","","",10,7,8,0
+164,MILW-MW600,"Medidor Oxígeno",Disuelto,/imgDefaultProducts/photoProductDefault.png,1787238683855,"","","","","","","","","","","","","",11,7,13,0
+165,MILW-MW605,"Medidor Oxigeno","% SATURACION Y °TEMPERATURA",/imgDefaultProducts/photoProductDefault.png,1787238875358,"","","","","","","","","","","","","",11,7,13,0
+166,APE-ORP60,"Medidor para ORP",Portatil,/imgDefaultProducts/photoProductDefault.png,1787239155952,"","","","","","","","","","","","","",11,7,3,0
+167,SUPE-4901003,"Núcleos Ebullicon","Perla 3mm 500Gr",/imgDefaultProducts/photoProductDefault.png,1787239540688,"","","","","","","","","","","","","",10,7,8,0
+168,SUPE-4901005,"Núcleos Ebullicon","Perlas 5mm 500Gr",/imgDefaultProducts/photoProductDefault.png,1787239745087,"","","","","","","","","","","","","",10,7,8,0
+169,EVERSUS-55350,"Equipo de Análisis de Aire",S/QUIMI,/imgDefaultProducts/photoProductDefault.png,1787241631060,"","","","","","","","","","","","","",11,7,8,1
+170,EVERSUS-55330,"Equipo de Análisis de Suelo",S/QUIMI,/imgDefaultProducts/photoProductDefault.png,1787241850264,"","","","","","","","","","","","","",11,7,8,0
+171,ME-90033,"Equipo de Biología",BA-2,/imgDefaultProducts/photoProductDefault.png,1787242048007,"","","","","Equipo de Biología BA-2 2 Maletines","","","","","","","","",12,7,8,0
+172,ME-90029,"Equipo de Energías Alternativas","Sin Dato",/imgDefaultProducts/photoProductDefault.png,1787242290034,"","","","","","","","","","","","","",12,7,8,0
+173,PHYWE-01164.04,"Equipo de Óptica","2 Módulos 50ex",/imgDefaultProducts/photoProductDefault.png,1787242476686,"","","","","","","","","","","","","",12,7,8,0
+174,EVE-80200SOG,"Equipo de Química","Nivel II",/imgDefaultProducts/photoProductDefault.png,1787243204468,"","","","","","","","","","","","","",12,7,8,0
+175,ME-90012,"Equipo de Química",QA-2,/imgDefaultProducts/photoProductDefault.png,1787243321009,"","","","","","","","","","","","","",12,7,8,0
+176,ME-90013,"Equipo de Termología",TA-2,/imgDefaultProducts/photoProductDefault.png,1787243556437,"","","","","","","","","","","","","",12,7,8,0
+177,ME-94603,"Equipo para Caída Libre",Completo,/imgDefaultProducts/photoProductDefault.png,1787243747976,"","","","","","","","","","","","","",,7,8,0
+178,ME-90100,"Equipo de Demostración","De Ondas",/imgDefaultProducts/photoProductDefault.png,1787243899540,"","","","","","","","","","","","","",,7,8,0
+179,EVE-BANCO,"Equipo Banco de Cojín","Neumático",/imgDefaultProducts/photoProductDefault.png,1787244071202,"","","","","","","","","","","","","",,7,8,0
+180,CL-035,"Aplicadores de Madera","Paquete de 100und",/imgDefaultProducts/photoProductDefault.png,1787244528286,"Paquete de 100und","","","","","","","","","","","","",,7,8,0
+181,HKSMW-7-90,"Aro con Nuez","de 100mm",/imgDefaultProducts/photoProductDefault.png,1787245153337,"","","","","","","","","","","","","",,7,8,0
+182,BOE-8830100,"Bomba de Vacío"," 1/8 HP 110V",/imgDefaultProducts/photoProductDefault.png,1787245472300,"","","","","","","","","","","","","",12,7,9,0
+183,HS-120582,"Centrifuga Alta Velocidad","Con agitación 12v Hasta 3lt",/imgDefaultProducts/photoProductDefault.png,1787245874359,"","","","","","","","","","",110V,"","",12,7,6,0
+184,GBR-03.0900P,"Cierre Patentado","Borde Metálico 23.5mm",/imgDefaultProducts/photoProductDefault.png,1787246089330,"","","","","","","","","","",,"","",,7,8,0
+185,IS-603-11-001,"Contador de Colonias",110v,/imgDefaultProducts/photoProductDefault.png,1787246381771,"","","","","","","","","","",,"","",12,7,11,0
+186,BOE-260,"Cronometro Digital","De 1 a 100 Segundos",/imgDefaultProducts/photoProductDefault.png,1787246538350,"","","","","","","","","","",,"","",11,7,6,0
+187,ELIT-RCW-800,Datalogger,RCW-800-TDE,/imgDefaultProducts/photoProductDefault.png,1787247082559,"","","","","Solo Temperatura Sensor 5m/ -40° +80°c/wifi 20mil Lect/conex Wifi/","","","","","",,"","",11,7,7,0
+188,BOE-2126,"Aerómetro","0-70 Baume - Hidrómetros",/imgDefaultProducts/photoProductDefault.png,1787321283352,"","","","","","","","","","",,"","",11,7,6,0
+189,AL-3030FG100/20-QP,"Decímetro Universal",1.00-1.300SENS0.005,/imgDefaultProducts/photoProductDefault.png,1787321499125,"","","","","","","","","","",110v,"","",11,7,2,0
+190,BOE-8703600,"Destilador de Agua","4lt 220v Q",/imgDefaultProducts/photoProductDefault.png,1787321934064,"","","","","","","","","","","","","",12,7,6,0
+191,BOE-NIN40101.06,"Doble Nuez","Sin Datos",/imgDefaultProducts/photoProductDefault.png,1787322038571,"","","","","","","","","","","","","",,7,6,0
+192,NIN-WJH0758A,"Estación lava ojos","Con Ducha para Laboratorio",/imgDefaultProducts/photoProductDefault.png,1787322143347,"","","","","","","","","","","","","",10,7,8,0
+193,BIO-BJPX-HGZ54,"Estirilizadora con ventilación forzada",BJPX-HGZ54,/imgDefaultProducts/photoProductDefault.png,1787322620716,"","","","","","","","","","","","","",11,7,5,0
+194,"SUPERTECK P4519","Generador de Van con Graff","Con Acces",/imgDefaultProducts/photoProductDefault.png,1787323223850,"","","","","","","","","","","","","",12,7,8,0
+195,BOE-8641100,"Horno Mufla","8.2lt MF8 1100°",/imgDefaultProducts/photoProductDefault.png,1787323631105,"","","","","Horno Mufla 8.2lt MF8 1100° 220v","","","","","",220v,"","",12,7,6,0
+196,BOE-NIN20411.02,"Maquina de Whimshurst","Sin Datos",/imgDefaultProducts/photoProductDefault.png,1787323778712,"","","","","","","","","","","","","",12,7,6,0
+197,BOE-NIN-40134.0,"Meza Elevadora de Laboratorio","15cm x 15cm",/imgDefaultProducts/photoProductDefault.png,1787324894747,"","","","","","","","15cm x 15cm","","","","","",10,7,6,0
+198,BOE-NIN20146.02,"Meza de Fuerza","Sin Datos",/imgDefaultProducts/photoProductDefault.png,1787324998556,"","","","","","","","","","","","","",10,7,6,0
+199,BOE-NIN10104.01,"Micrómetro Digital",0-25mm,/imgDefaultProducts/photoProductDefault.png,1787325178492,"","","","","","","","","","","","","",11,7,6,0
+200,BOE-F1-50,"Pesa para analizador de humedad","Sin Datos",/imgDefaultProducts/photoProductDefault.png,1787325402853,"","","","","","","","","","","","","",11,7,6,0
+201,"PRLB-240 ML",Ortotolidina,240ml,/imgDefaultProducts/photoProductDefault.png,1787325548301,"","","","","","","","","","","","","",10,7,8,0
+202,"GBR 07.0010","Acidímetro","Probador de Leche",/imgDefaultProducts/photoProductDefault.png,1787325768469,"","","","","","","","","","","","","",11,7,8,0
+203,IS-057-02-001,"Reloj Imánes",25cm,/imgDefaultProducts/photoProductDefault.png,1787326047843,"","","","","","","","","","","","","",,7,11,0
+204,AL-91500-013,"Reloj Digital de Laboratorio","4 Tiempos",/imgDefaultProducts/photoProductDefault.png,1787326169959,"","","","","","","","","","","","","",,7,2,0
+205,IL-1580,"Soporte para Embudos","4PUES/P2 CONOS",/imgDefaultProducts/photoProductDefault.png,1787326374855,"","","","","","","","","","","","","",,7,8,0
+206,HKSMW-13-ARGA,"Soporte Universal","Sin Datos",/imgDefaultProducts/photoProductDefault.png,1787326448623,"","","","","","","","","","","","","",,7,8,0
+207,NIN-102120,"Tripode de Hierro",120mm,/imgDefaultProducts/photoProductDefault.png,1787326521887,"","","","","","","","","","","","","",,7,8,0
+208,MILW-MI415,"Turbidímetro"," 2RANGO COMP CELDAS FNUU",/imgDefaultProducts/photoProductDefault.png,1787326666945,"","","","","","","","","","","","","",,7,13,0
+209,CL-N-28940,"TWEEN 80,"," GRADO ACS, 500 ML",/imgDefaultProducts/photoProductDefault.png,1787327036186,"","","","","","","","","","","","","",,7,8,0
+210,SM-VOLHOFF,"Voltámetro de Hoffman",Completo,/imgDefaultProducts/photoProductDefault.png,1787327383829,"","","","","","","","","","","","","",,7,8,0
+211,NIN-20111.07,"Juego de Pesas",1-500GR,/imgDefaultProducts/photoProductDefault.png,1787417853445,"","","","","","","","","","","","","",13,8,8,0
+212,NIN-20150.1,"Juego de Pesas","Con Polea",/imgDefaultProducts/photoProductDefault.png,1787418094038,"","","","","","","","","","","","","",13,8,8,0
+213,NIN-4951,"Juego Placas","Aguas Contaminadas",/imgDefaultProducts/photoProductDefault.png,1787418226337,"","","","","","","","","","","","","",13,8,8,0
+214,K-4935,"Juego Placa","Alimentos y Adulteraciones",/imgDefaultProducts/photoProductDefault.png,1787418457469,"","","","","","","","","","","","","",13,8,8,0
+215,K-4952,"Juego Placa","Animales / Plantas",/imgDefaultProducts/photoProductDefault.png,1787418642160,"","","","","","","","","","","","","",13,8,8,0
+216,NIN-4877,"Juego Placa","Bacterias y Organismos",/imgDefaultProducts/photoProductDefault.png,1787418813271,"","","","","","","","","","","","","",13,8,8,0
+217,K-4963,"Juego Placa","Biología de 10und",/imgDefaultProducts/photoProductDefault.png,1787419061758,"Paquete de 10und","","","","","","","","","","","","",13,8,8,0
+218,K-4964,"Juego Placa","Biología II 10und",/imgDefaultProducts/photoProductDefault.png,1787419268674,"Paquete de 10und","","","","","","","","","","","","",13,8,8,0
+219,LM-HR-001,"Juego Placa","Cuerpo Humano 9pz",/imgDefaultProducts/photoProductDefault.png,1787419554962,"Paquete 9 piezas","","","","","","","","","","","","",13,8,8,0
+220,K-4863,"Juego Placa","Embriología y Desarrollo",/imgDefaultProducts/photoProductDefault.png,1787420293321,"","","","","","","","","","","","","",13,8,8,0
+221,K-4886,"Juego Estructura","Célula Vegetal",/imgDefaultProducts/photoProductDefault.png,1787420495650,"","","","","","","","","","","","","",13,5,8,0
+222,LIE-72000.,"Juego Placa","Histología Humana 50und",/imgDefaultProducts/photoProductDefault.png,1787420895583,"Paquete de 50und","","","","","","","","","","","","",13,5,8,0
+223,K-4900,"Juego Placa","Gota de Agua",/imgDefaultProducts/photoProductDefault.png,1787421034674,"","","","","","","","","","","","","",13,5,8,0
+224,K-4950,"Juego Placa","La vida en el Suelo 10",/imgDefaultProducts/photoProductDefault.png,1787421389884,"","","","","","","","","","","","","",13,5,8,0
+225,LM-HR-002,"Juego Placa","Mitosis y Meiosis",/imgDefaultProducts/photoProductDefault.png,1787421591247,"","","","","","","","","","","","","",13,5,8,0
+226,K-4918,"Juego Placa","Parásitos Hombre y Animal",/imgDefaultProducts/photoProductDefault.png,1787421705467,"","","","","","","","","","","","","",13,5,8,0
+227,K-4862,"Juego Placa","Reproducción Animales",/imgDefaultProducts/photoProductDefault.png,1787422132343,"","","","","","","","","","","","","",13,5,8,0
+228,NIN-4881,"Juego Placa","Reproducción Plantas",/imgDefaultProducts/photoProductDefault.png,1787422266876,"","","","","","","","","","","","","",13,5,8,0
+229,K-4960,"Juego Placa","Serie / Enseñanza Ciencia",/imgDefaultProducts/photoProductDefault.png,1787422523232,"","","","","","","","","","","","","",13,5,8,0
+230,MN-431012,"Papel Filtro Cualitativo","MN615 12.5CM/4-7M",/imgDefaultProducts/photoProductDefault.png,1787424901092,"","","","","","","","","","","","","",6,12,12,0
+231,MN-434018,"Papel Filtro Cualitativo","MN617 7-12UM 185",/imgDefaultProducts/photoProductDefault.png,1787425260396,"","","","","","","","","","","","","",6,12,12,0
+232,MN-434009,"Papel Filtro Cualitativo","MN617 7-12UM 9CM",/imgDefaultProducts/photoProductDefault.png,1787425571124,"","","","","","","","","","","","","",6,12,12,0
+233,MN-205012,"Papel Filtro Cuantitativo","640D 2-4UM 12.5",/imgDefaultProducts/photoProductDefault.png,1787425790876,"","","","","","","","","","","","","",6,12,12,1
+234,MN-207012,"Papel Filtro Cuantitativo","640DE 1-2UM 125",/imgDefaultProducts/photoProductDefault.png,1787425948113,"","","","","","","","","","","","","",6,12,12,0
+235,MN-204012,"Papel Filtro Cuantitativo","640MD 4-7UM 125",/imgDefaultProducts/photoProductDefault.png,1787426053697,"","","","","","","","","","","","","",6,12,12,0
+236,"MN-520 REF400520002","Papel Filtro","Para galvanizado",/imgDefaultProducts/photoProductDefault.png,1787426551436,"","","","","Papel filtro para galvanizado 20 mm Diámetro 1.4 mm grosor x 100und.","","","","","","","","",6,12,12,0
+237,MN-202012,"Papel Filtro","640W 7-12UM125RP",/imgDefaultProducts/photoProductDefault.png,1787427134435,"","","","",,"","","","","","","","",6,12,12,1
+238,MN-152010,"Papel Filtro","PL58X58 LISO MN713",/imgDefaultProducts/photoProductDefault.png,1787427214983,"","","","","","","","","","","","","",6,12,12,0
+239,MN-153010,"Papel Filtro","PL58X58 Corrugado MN714",/imgDefaultProducts/photoProductDefault.png,1787427693404,"","","","","","","","","","","","","",6,12,12,0
+240,MM-90628,"Papel Hidrosensible","En Caja 78x40",/imgDefaultProducts/photoProductDefault.png,1787427837739,"","","","","","","","","","","","","",5,12,8,0
+241,"SY WSP","Papel Hidrosensible","SOBRE 50UN SYNG",/imgDefaultProducts/photoProductDefault.png,1787428360919,"","","","","","","","","","","","","",5,12,8,0
+242,MN-90754,Papel,"Para almidón potasio yoduro",/imgDefaultProducts/photoProductDefault.png,1787428648651,"","","","","Papel para almidón potasio yoduro mn-816 cualitativo para nitritos y cloro libre","","","","","","","","",5,12,2,0
+243,MN-91337,"Papel para amonio quaternario",10-1000mg,/imgDefaultProducts/photoProductDefault.png,1787429121604,"","","","","Papel para amonio quaternario 10-1000m","","","","","","","","",5,12,12,0
+244,MN-91354,"Papel para Cloro","0-500MGXLT 100TIRAS",/imgDefaultProducts/photoProductDefault.png,1787429330235,"Paquete de 100 tiras","","","","Papel para amonio quaternario 10-1000m","","","","","","","","",5,12,12,0
+245,MN-90709,"Papel para Cloro","10-200PPM ROLLO 5MT",/imgDefaultProducts/photoProductDefault.png,1787429525305,"Rollo de 5tm","","","","","","","","","","","","",5,12,12,0
+246,MN-90759,"Papel para Cloro","CLL, DURZ, ALKL , PH",/imgDefaultProducts/photoProductDefault.png,1787430314052,"","","","","","","","","","","","","",5,12,12,0
+247,MN-91321,"Papel para cloruro","0-3000MG/L X100TIRA",/imgDefaultProducts/photoProductDefault.png,1787430991423,"Paquete de 100 tiras","","","","","","","","","","","","",5,12,12,0
+248,MN-817004,"Papel para Cromatografía",Pliego,/imgDefaultProducts/photoProductDefault.png,1787431170577,"","","","","","","","","","","","","",7,12,12,0
+249,MN-91201,"Papel para Dureza","De Agua 0/25X100",/imgDefaultProducts/photoProductDefault.png,1787431452411,"","","","","Papel para dureza de Agua 0/25X100","","","","","","","","",5,12,12,0
+250,MN-91202,"Papel para Dureza de Agua","0-425PPM X 50",/imgDefaultProducts/photoProductDefault.png,1787431673016,"","","","",,"","","","","","","","",5,12,12,0
+251,MN-118000,"Papel para","limpieza de lentes",/imgDefaultProducts/photoProductDefault.png,1787431986460,"Paquete de 50 hojas","","","","","","","8cm x 10cm","","","","","",7,12,12,0
+252,MN-90748,"Papel para mastitis","Cualitativo x20DET",/imgDefaultProducts/photoProductDefault.png,1787432156338,"","","","","","","","","","","","","",5,12,12,0
+253,MN-91366,"Papel para nitrato",5-250MG/L,/imgDefaultProducts/photoProductDefault.png,1787434276967,"","","","","","","","","","","","","",5,12,12,0
+254,MN-91313,"Papel para nitritos","0-500 / 0-80MG100",/imgDefaultProducts/photoProductDefault.png,1787434431636,"","","","","","","","","","","","","",5,12,12,1
+255,MN-91312,"Papel para peróxido","100 0/100MG/LT",/imgDefaultProducts/photoProductDefault.png,1787434717692,"","","","","","","","","","","","","",5,12,12,0
+256,MN-91319,"Papel para peróxido","25 0/25MG X 100 TIRAS",/imgDefaultProducts/photoProductDefault.png,1787434863650,"Paquete de 100 Tiras","","","","","","","","","","","","",5,12,12,0
+257,MN-91306,"Papel para sulfito","Semicuantitativo x 100und",/imgDefaultProducts/photoProductDefault.png,1787435161966,"Paquete de 100und","","","","","","","","","","","","",5,12,12,0
+258,MN-92110,"Papel PH","0-14 1PH x 100 Tiras",/imgDefaultProducts/photoProductDefault.png,1787435401536,"Paquete de 100 tiras","","","","","","","","","","","","",5,12,12,0
+259,MN-92118,"Papel PH","2-9 EXACT.0.5PH 100 TIRAS",/imgDefaultProducts/photoProductDefault.png,1787435589334,"Paquete de 100 tiras","","","","","","","","","","","","",5,12,12,0
+260,HS-234526B,"Papel Parafilm","ROLLO 38MX10CM",/imgDefaultProducts/photoProductDefault.png,1787435824224,,"","","","","","","","","","","","",7,12,9,0
+261,21-MED,"Hoja de Bisturí",#10,/imgDefaultProducts/photoProductDefault.png,1787536506849,"","","","","Hoja de Bisturí #10","","","","","","","","",9,11,8,0
+262,12-SUMED,"Hoja de Bisturí",#12,/imgDefaultProducts/photoProductDefault.png,1787536683986,"","","","","Hoja de Bisturí #12","","","","","","","","",9,11,8,0
+263,22-MED,"Hoja de Bisturí",#15,/imgDefaultProducts/photoProductDefault.png,1787536822152,"Paquete de 100und","","","","Hoja de Bisturí #15","","","","","","","","",9,11,8,0
+264,23-MED,"Hoja de Bisturí",#20,/imgDefaultProducts/photoProductDefault.png,1787536991620,"Paquete de 100und","","","","Hoja de Bisturí #20","","","","","","","","",9,11,8,0
+265,24-MED,"Hoja de Bisturí",#21,/imgDefaultProducts/photoProductDefault.png,1787537104798,"Paquete de 100und","","","","Hoja de Bisturí #21","","","","","","","","",9,11,8,0
+266,311-MED,"Hoja de Bisturí",#22,/imgDefaultProducts/photoProductDefault.png,1787537251385,"Paquete de 100und","","","","Hoja de Bisturí #22","","","","","","","","",9,11,8,0
+267,HKS-MW-20,"Pinza Para Crisol",20cm,/imgDefaultProducts/photoProductDefault.png,1787537729735,"","","","","","","","","","","","","",10,6,8,0
+268,SEL-1000105,"Pinza para","porta objetos",/imgDefaultProducts/photoProductDefault.png,1787538060798,"","","","","","","","","","","","","",10,6,16,0
+269,BOE-NIN40106.08,"Pinza para",Refrigerante,/imgDefaultProducts/photoProductDefault.png,1787538385476,"","","","","","","","","","","","","",10,6,6,0
+270,HKS-MW-1,Pinza,Universal,/imgDefaultProducts/photoProductDefault.png,1787539126676,"","","","","","","","","","","","","",10,6,8,0
+271,SELEC-1102100,"Espátula","Con Mango de Madera 100M",/imgDefaultProducts/photoProductDefault.png,1787539373559,"","","","","","","","","","","","","",10,6,16,0
+272,SEL-1096150,"Espátula","Cucharra de Acero Inoxidable 150mm",/imgDefaultProducts/photoProductDefault.png,1787539540138,"","","","","","","","","","","","","",10,6,16,0
+273,IS-I.047.07.210,"Espátula","Dos lados planos de acero 210mm",/imgDefaultProducts/photoProductDefault.png,1787539813243,"","","","","","","","","","","","","",10,6,11,0
+274,USB-3303,"Espátula","Micro Cuchara de Acero 210mm",/imgDefaultProducts/photoProductDefault.png,1787540014579,"","","","","","","","","","","","","",10,6,8,0
+275,NIN-WJH0359C,"Estación Lava Ojos","De pared de Acero Inoxidable",/imgDefaultProducts/photoProductDefault.png,1787540275163,"","","","","","","","","","","","","",10,6,8,0
+276,APE-PH8500-MT,"PH Metro Portátil","Con Cuchillas Para Carne",/imgDefaultProducts/photoProductDefault.png,1787540735178,"","","","","","","","","","","","","",11,6,3,0
+277,BOE-1-410-81-1,"Puntas Amarrillas",1-200UL,/imgDefaultProducts/photoProductDefault.png,1787583992400,"Paquete de 100und","","","","","","","","","","","","",7,13,6,0
+278,BOE-1-600-80-2,"Puntas Azules",100-1000UL,/imgDefaultProducts/photoProductDefault.png,1787586236382,"Paquete con 500 Piezas","","","","","","","","","","","","",7,13,6,0
+279,AHN-1-213-50-0,"Puntas Blancas","1-10 ML - 1-213-10-0",/imgDefaultProducts/photoProductDefault.png,1787586450228,"Paquete con 100und","","","","","","","","","","","","",7,13,1,0
+280,"BOE-702604 BRAN","Puntas Blancas","1-10 ML BRANDX",/imgDefaultProducts/photoProductDefault.png,1787587043159,"Paquete con 100und","","","","","","","","","","","","",7,13,6,0
+281,AHN-1-210-12-0,"Puntas Blancas","1-5 ML x 250und (1-210-84-0)",/imgDefaultProducts/photoProductDefault.png,1787587268472,"Paquete con 250und","","","","","","","","","","","","",7,13,1,0
+282,AHN-1-218-12-0,"Puntas Naturales","5 ML x 250 piezas",/imgDefaultProducts/photoProductDefault.png,1787587487629,"Paquete con 250und","","","","","","","","","","","","",7,13,1,0
+283,AHN-1-220-11-0,"Puntas Naturales","10 ML x 200 piezas",/imgDefaultProducts/photoProductDefault.png,1787587546523,"Paquete con 200und","","","","","","","","","","","","",7,13,1,0
+284,AHN-1-220-50-0,"Puntas Naturales","10 ML x 200und",/imgDefaultProducts/photoProductDefault.png,1787587903776,"Paquete con 200und","","","","","","","","","","","","",7,13,1,0
+285,AHN-1-002-50,"Puntas Naturales","10 UL x 1000und  (1-002-81-0)",/imgDefaultProducts/photoProductDefault.png,1787588065794,"Paquete con 1000und","","","","","","","","","","","","",7,13,1,0
+286,BOE-1-301-96-0,"Rack con Puntas","0.1-10UL 96X10",/imgDefaultProducts/photoProductDefault.png,1787588557869,"","","","","","","","","","","","","",7,13,6,0
+287,AHN-2-003-P5-0,"Rack con Puntas","10UL 960und estériles con filtro",/imgDefaultProducts/photoProductDefault.png,1787588799615,"","","","","","","","","","","","","",7,13,1,0
+288,AHN-1-121-P5-0,"Rack con Puntas","200UL 960und",/imgDefaultProducts/photoProductDefault.png,1787591017946,"","","","","","","","","","","","","",7,13,1,0
+289,AHN-2-118-P5-0,"Rack con Puntas","20UL 960und Estériles con Filtro",/imgDefaultProducts/photoProductDefault.png,1787591099354,"","","","","","","","","","","","","",7,13,1,0
+290,AHN-2-128-P5-0,"Rack con Puntas","200UL 960und Estériles con Filtro (2-128-C5-0)",/imgDefaultProducts/photoProductDefault.png,1787591723151,"","","","","","","","","","","","","",7,13,1,0
+291,AHN-1-203-P4-0,"Rack con Puntas","1000UL 968und Estériles con Filtro (1-203-C4-0)",/imgDefaultProducts/photoProductDefault.png,1787591852132,"","","","","","","","","","","","","",7,13,1,0
+292,AHN-2-203-C4-0(P4-0),"Rack con Puntas","1000UL 768und Estériles con Filtro",/imgDefaultProducts/photoProductDefault.png,1787592090838,"","","","","","","","","","","","","",7,13,1,0
+293,AHN-4-500-P5-E,"Rack con Puntas","10UL Caja x 10und 96 Puestos",/imgDefaultProducts/photoProductDefault.png,1787592305708,"Caja con 10und","","","","Rack con Puntas 10UL Caja x 10und 96 Puestos","","","","","","","","",7,13,1,0
+294,AHN-4-502-P4-E,"Rack con Puntas","200UL Caja x 8und 96 Puestos",/imgDefaultProducts/photoProductDefault.png,1787592579283,"Caja con 8und","","","","Rack con Puntas 200UL Caja x 8und 96 Puestos","","","","","","","","",7,13,1,0
+295,AHN-4-503-P4-E,"Rack con Puntas","1000UL Caja x 8und 96 Puestos",/imgDefaultProducts/photoProductDefault.png,1787592918400,"Caja con 8und","","","","Rack con Puntas 1000UL Caja x 8und 96 Puestos","","","","","","","","",7,13,1,0
+296,HS-120538,"Caja Almacenar","96Pts 0.2ml x 5und",/imgDefaultProducts/photoProductDefault.png,1787664524334,"Paquete 5und","","","","","","","","","","","","",7,13,9,0
+297,NPR-TC635161,"Caja Bipetry Plástica","94x16mm x 20und",/imgDefaultProducts/photoProductDefault.png,1787665085391,"Paquete con 20und","","","","","","","","","","","","",7,13,9,0
+298,SUP-5620024,"Caja para 100 Placas","Porta Objetos Omsons 210X164X30",/imgDefaultProducts/photoProductDefault.png,1787665722478,"","","","","","","","","","","","","",7,13,8,0
+299,NPR-TC633181,"Caja Petry Plástica","94mm x 16mm 20und",/imgDefaultProducts/photoProductDefault.png,1787665911608,"Paquete con 20und","","","","","","","","","","","","",7,13,8,0
+300,MANGBIS3,"Mango de","Bisturí #3",/imgDefaultProducts/photoProductDefault.png,1787666178301,"","","","","","","","","","","","","",7,13,8,0
+301,CL-MANBIS4,"Mango de","Bisturí #4",/imgDefaultProducts/photoProductDefault.png,1787666539922,"","","","","","","","","","","","","",7,13,8,0
+302,SEL-1000488,Mango,"P/AZA Kolle Pasteur 30cm",/imgDefaultProducts/photoProductDefault.png,1787666763914,"","","","","","","","","","","","","",7,13,16,0
+303,OM-6026.100.01,"Piseta Plástica","Sin Graduación de 250ml",/imgDefaultProducts/photoProductDefault.png,1787666971280,"","","","","","","","","","","","","",10,13,14,0
+304,OM-6026.100.02,"Piseta Plástica","Sin Graduación de 500ml",/imgDefaultProducts/photoProductDefault.png,1787667130309,"","","","","","","","","","","","","",10,13,14,0
+305,OM-6026.100.03,"Piseta Plástica","Sin Graduación de 1000ml",/imgDefaultProducts/photoProductDefault.png,1787667264227,"","","","","","","","","","","","","",10,13,14,0
+306,ALA70000-003FBL,"Termómetro Dial","Grande Punta M 0-120",/imgDefaultProducts/photoProductDefault.png,1787667584658,"","","","","","","","","","","","","",2,13,2,0
+307,"BOE 316","Termómetro Dial","Punta Metal -10/100",/imgDefaultProducts/photoProductDefault.png,1787667781874,"","","","","","","","","","","","","",2,13,6,0
+308,BOE-310,"Termómetro Dial","Punta Metálica -50 A 300°C",/imgDefaultProducts/photoProductDefault.png,1787667991171,"","","","","","","","","","","","","",2,13,6,0
+309,BOE-311,"Termómetro Dial","Punta Metálica -50 A 300°C",/imgDefaultProducts/photoProductDefault.png,1787668108619,"","","","","","","","","","","","","",2,13,6,0
+310,VIT-759-91,"CONO IMHOFF 1000ML","Para Sedimentación",/imgDefaultProducts/photoProductDefault.png,1787668350140,"","","","","","","","","","","","","",,13,8,0
+311,MN-916908,"Cubeta Calibración","P/FOTOMETRO NANO",/imgDefaultProducts/photoProductDefault.png,1787668563461,"","","","","","","","","","","","","",,13,12,0
+312,BOE-759017-BRA,"Cubeta Plástica","1.5ml x 100und",/imgDefaultProducts/photoProductDefault.png,1787669040523,,"","","","","","","","","","","","",,13,6,0
+313,CL-BIM-CO22,"Cubre objetos","22x22mm x 100und",/imgDefaultProducts/photoProductDefault.png,1787669759374,"Paquete con 100und","","","","","","","","","","","","",,13,8,0
+314,MN-729220,"Filtro para Gerínga","0.45UM DIAMETRO 25MM 50U",/imgDefaultProducts/photoProductDefault.png,1787670060618,,"","","","","","","","","","","","",,13,12,0
+315,HS-29041A,"Gradilla Universal Rotativa"," 0.2-1.5ML",/imgDefaultProducts/photoProductDefault.png,1787670297456,,"","","","","","","","","","","","",,13,9,0
+316,LBX-LTXT007025.,"Manguera Latex","5mt Aprox 7mm x 10mm",/imgDefaultProducts/photoProductDefault.png,1787670761901,"","","","","","","","","","","","","",,13,8,0
+317,LBX-LTXT007025,"Manguera Latex","2.5mt Aprox 7mm x 10mm",/imgDefaultProducts/photoProductDefault.png,1787671346194,"","","","","","","","","","","","","",,13,8,0
+318,IS-075.05.001,"Porta Objetos","26mm x 76mm 50und",/imgDefaultProducts/photoProductDefault.png,1787671749357,"Paquete con 50und","","","","","","","","","","","","",,13,11,0
+319,MN-702284,"Vial Ambar","1.5ml con tapa N9 x 100und",/imgDefaultProducts/photoProductDefault.png,1787671996898,"Paquete con 100und","","","","","","","","","","","","",,13,12,0
+320,MN-702283,"Vial Transparente","1.5ml con tapa N9 x 100und",/imgDefaultProducts/photoProductDefault.png,1787672493853,"Paquete con 100und","","","","","","","","","","","","",,13,12,0
+321,VIT-414-94,"Embudo de Plástico ",100mm,/imgDefaultProducts/photoProductDefault.png,1787672633243,"","","","","","","","","","","","","",10,13,8,0
+322,IS-S.041.02.100,"Embudo de Plástico ",100mm,/imgDefaultProducts/photoProductDefault.png,1787672876973,"","","","","","","","","","","","","",10,13,11,0
+323,VIT-805-96,"Espátula Cuchara de Plástico",180mm,/imgDefaultProducts/photoProductDefault.png,1787673126767,"","","","","","","","","","","","","",,13,8,0
+324,BOE-KAR2386/383,"Estación Lava Ojos","Plástico 500ml",/imgDefaultProducts/photoProductDefault.png,1787673383248,"","","","","","","","","","","","","",,13,6,0
+325,NIN-50308.02,"Estuche de Disección",10pz,/imgDefaultProducts/photoProductDefault.png,1787673590953,"","","","","","","","","","","","","",,13,8,0
+326,AHN-2-120-C5-0(P5-0),"Rack con Puntas","100UL 960und Estériles con filtro",/imgDefaultProducts/photoProductDefault.png,1787673988864,"","","","","","","","","","","","","",10,13,1,0
+327,AHN-1-122-P5-01,"Rack con Puntas","200UL 960und Estériles",/imgDefaultProducts/photoProductDefault.png,1787674062677,"","","","","","","","","","","","","",10,13,1,0
+328,PQG002,"Alcohol Potable 96%","Galón",/imgDefaultProducts/photoProductDefault.png,1787841658790,1Gl,"","","","","","","","","","","","",,16,15,0
+329,AL-0500CP000/20-QP,"Alcoholímetro","Con Termómetro 0-100",/imgDefaultProducts/photoProductDefault.png,1787841893980,"","","","","Alcoholimetro con termómetro de 0 a 100","","","","","","","","",11,16,2,0
+330,ALLA-0500FG000-20QP,Alcoholimetro,"Sin Termómetro 0-100",/imgDefaultProducts/photoProductDefault.png,1787842515996,"","","","","Alcoholimetro sin termómetro de 0 a 100","","","","","","","","",11,16,2,0
+331,CL-179823,Etanol,"Absoluto Litro",/imgDefaultProducts/photoProductDefault.png,1787842610008,"","","","","","","","","","","","","",,16,8,0
+332,108-D,Fenolftaleina,"200ml Solución 0.1%",/imgDefaultProducts/photoProductDefault.png,1787842835923,"","","","","","","","","","","","","",,16,8,0
+333,TC100142413-500,"Manganeso II","Sulfato 1h2o 500gr Tacchem Cad 2028",/imgDefaultProducts/photoProductDefault.png,1787843214728,"","","","","","","","","","","","","",,16,8,0
+334,SM-LAMACOH25,"Mecha para Mecheros"," de Alcohol x 25und",/imgDefaultProducts/photoProductDefault.png,1787843411322,"Paquete de 25und","","","","","","","","","","","","",,16,8,0
+335,TC100131419-100,"Mercurio II","Cloruro 100 GR TACCHEM CAD 2028",/imgDefaultProducts/photoProductDefault.png,1787843642529,"","","","","","","","","","","","","",,16,8,0
+336,MN-91341,"Papel para Ácido Paracético",50-500X100,/imgDefaultProducts/photoProductDefault.png,1787843885311,"","","","","","","","","","","","","",,16,12,0
+337,203-D,Reactivo,"Benedict 200ml",/imgDefaultProducts/photoProductDefault.png,1787844478816,"Frasco de 200ml","","","","","","","","","","","","",7,16,8,0
+338,204-D,Reactivo,"Biuret 200ml",/imgDefaultProducts/photoProductDefault.png,1787845035799,"Frasco de 200ml","","","","","","","","","","","","",7,16,8,0
+339,MN-936220.1,Reactivo,"De Cloro Libre x 100und",/imgDefaultProducts/photoProductDefault.png,1787845498500,"Paquete de 100und","","","","","","","","","","","","",7,16,12,0
+340,MN-936221.1,Reactivo,"De Cloro Total x 100und",/imgDefaultProducts/photoProductDefault.png,1787845665810,"Paquete de 100und","","","","","","","","","","","","",7,16,12,0
+341,MILW-MI524-100,"Set Reactivo Cloro / Total","MI404PX100 CAD 10/2026",/imgDefaultProducts/photoProductDefault.png,1787846160046,"","","","","","","","","","","","","",7,16,13,0
+342,MILW-MA-9066,"Solución Calibra Cloruro","S230M 02/2023",/imgDefaultProducts/photoProductDefault.png,1787846333266,"","","","","","","","","","","","","",7,16,13,0
+343,MILW-MA-9063,"Solución Conductividad","84US 230ML CAD 09/2027",/imgDefaultProducts/photoProductDefault.png,1787846744977,"","","","","","","","","","","","","",7,16,13,0
+344,MILW-MA9060,"Solución Conductividad","12888US/CM 230ML 07/2029",/imgDefaultProducts/photoProductDefault.png,1787846908040,"","","","","","","","","","","","","",7,16,13,0
+345,MILW-MA9061,"Solución Conductividad","1413US/230ML 09/2029",/imgDefaultProducts/photoProductDefault.png,1787847223312,"","","","","","","","","","","","","",7,16,13,0
+346,MILW-MA9015,"Solución de Almacenamiento","PH,ORP230ML 07/2029",/imgDefaultProducts/photoProductDefault.png,1787847331219,"","","","","","","","","","","","","",7,16,13,0
+347,MILW-MA9016,"Solución de Limpieza","230ML 09/2029",/imgDefaultProducts/photoProductDefault.png,1787847500203,"","","","","","","","","","","","","",7,16,13,0
+348,ALL-55000T110-QP,"Termómetro Alcohol","-20 A 110 Líquido Rojo, Inmersión Total",/imgDefaultProducts/photoProductDefault.png,1787847762588,"","","","","","","","","","","","","",2,16,2,0
+349,AL-55000T150QP,"Termómetro Alcohol","-20 A 150 °C",/imgDefaultProducts/photoProductDefault.png,1787848133242,"","","","","","","","","","","","","",2,16,2,0
+350,HKS-PW-14,"Cápsula de Porcelana",80MM/75ML,/imgDefaultProducts/photoProductDefault.png,1787849259043,"","","","","","","","","","","","","",8,15,8,0
+351,JIP-206221,"Cápsula de Porcelana",81MM/107ML,/imgDefaultProducts/photoProductDefault.png,1787849442250,"","","","","","","","","","","","","",8,15,8,0
+352,JIP-206301,"Cápsula de Porcelana",94MM/140ML,/imgDefaultProducts/photoProductDefault.png,1787849757368,"","","","","","","","","","","","","",8,15,8,0
+353,NIN-C-55,"Cápsula de Porcelana","100MM/150 ML",/imgDefaultProducts/photoProductDefault.png,1787849882989,"","","","","","","","","","","","","",8,15,8,0
+354,JIP-206321,"Cápsula de Porcelana",100MM/190ML,/imgDefaultProducts/photoProductDefault.png,1787850067699,"","","","","","","","","","","","","",8,15,8,0
+355,JIP-206411,"Cápsula de Porcelana",125MM/285ML,/imgDefaultProducts/photoProductDefault.png,1787850183074,"","","","","","","","","","","","","",8,15,8,0
+356,JIP-300451,"Crisol de Porcelana","50ML 45MM F/ALTA",/imgDefaultProducts/photoProductDefault.png,1787850334081,"","","","","","","","","","","","","",8,15,8,0
+357,"NIN-C25 100 ML","Crisol de Porcelana",100ML,/imgDefaultProducts/photoProductDefault.png,1787850927039,"","","","","","","","","","","","","",8,15,8,0
+358,JIP-234501,"Crisol de Porcelana","GOOCH 120ML 60MM CON TAPA",/imgDefaultProducts/photoProductDefault.png,1787851108442,"","","","","","","","","","","","","",8,15,8,0
+359,MN-645006,"Dedal de Extracción","22X80 (25UND)",/imgDefaultProducts/photoProductDefault.png,1787851318062,"","","","","","","","","","","","","",8,15,12,0
+360,MN-645951,"Dedal de Extracción","33X80 (25UND)",/imgDefaultProducts/photoProductDefault.png,1787851568964,"Paquete con 25und","","","","","","","","","","","","",8,15,12,0
+361,IS-I.042.01.090,"Embudo Bucner","90mm Porcelana",/imgDefaultProducts/photoProductDefault.png,1787851755193,"Paquete con 25und","","","","","","","","","","","","",8,15,11,0
+362,NIN-C-155,"Mortero con Pistillo",100mm,/imgDefaultProducts/photoProductDefault.png,1787852093211,"","","","","","","","","","","","","",8,15,8,0
+363,NIN-C-157,"Mortero con Pistillo","160MM 500ML",/imgDefaultProducts/photoProductDefault.png,1787852326895,"","","","","","","","","","","","","",8,15,8,0
+364,GLA-333238821,"Plato para Desecador","300mm Porcelana",/imgDefaultProducts/photoProductDefault.png,1787852563762,"","","","","","","","","","","","","",8,15,8,0
+365,BOE-5111014,"Pipeta Volumétrica","Clase A de 1ml a 100ml",/imgDefaultProducts/photoProductDefault.png,1788185914533,"Pipeta Volumétrica Clase A de 1ml, 2ml, 4ml, 5ml, 10ml, 20ml, 25ml, 50ml, 100ml ","","","","","","","","","","","","",7,18,6,0
+366,SG-23.01.80.29,"Pipeta Volumétrica","Clase A de 1ml a 100ml",/imgDefaultProducts/photoProductDefault.png,1788186327733,"Pipeta Volumétrica Clase A de 1ml, 2ml, 4ml, 5ml, 10ml, 20ml, 25ml, 50ml, 100ml","","","","","","","","","","","","",7,18,8,0
+367,BOE-5120136,"Matraz Kitasato para vacío","250ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788186597450,"Matraz Kitasato para vacío 250ml a 1000ml","","","","","","","","","","","","",7,18,6,0
+368,IS-S.040.01.250,"Matraz Kitasato para vacío","250ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788186887646,"Matraz Kitasato para vacío 250ml a 1000ml","","","","","","","","","","","","",7,18,11,0
+369,LMS-61212218,"Matraz Fondo Plano","500ml a 1000ml  BOCA 29/32",/imgDefaultProducts/photoProductDefault.png,1788187188662,"Matraz Fondo Plano 500ml a 1000ml  BOCA 29/32","","","","","","","","","","","","",7,18,8,0
+370,"BOE 5071136","Matraz Fondo Plano","500ml a 500ml SIMAX SIN ESMERILAR",/imgDefaultProducts/photoProductDefault.png,1788187623762,"Matraz Fondo Plano 500ml a 500ml Simax sin esmerilar","","","","","","","","","","","","",7,18,6,0
+371,LMS-61319621,"Matraz Volumétrico con tapa","Clase A de 10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788187991141,"Matraz Volumétrico con tapa Clase A de 10ml a 2000ml","","","","","","","","","","","","",7,18,8,0
+372,OM-50-4,"Matraz Volumétrico con tapa","Clase A de 10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788188134018,"Matraz Volumétrico con tapa Clase A de 10ml a 2000ml","","","","","","","","","","","","",7,18,14,0
+373,IS-S.013.01.026,"Matraz Volumétrico con tapa","Clase A de 10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788188283415,"Matraz Volumétrico con tapa Clase A de 10ml a 2000ml","","","","","","","","","","","","",7,18,11,0
+374,ARCO-2064420/7,"Matraz Volumétrico con tapa","Clase A de 10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788188404913,"Matraz Volumétrico con tapa Clase A de 10ml a 2000ml","","","","","","","","","","","","",7,18,4,0
+375,OM-50-8,"Matraz Volumétrico con tapa","Clase A de 10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788188522734,"Matraz Volumétrico con tapa Clase A de 10ml a 2000ml","","","","","","","","","","","","",7,18,14,0
+376,BOE-5021614,Erlenmeyer," Cuello Estrecho de 25ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788189156003,,"","","","","","","","","","","","",7,18,6,0
+377,GL-231.402.01,Erlenmeyer," Cuello Estrecho de 25ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788189450628,,"","","","","","","","","","","","",7,18,8,0
+378,OM-145-2,Erlenmeyer," Cuello Estrecho de 25ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788189602230,,"","","","","","","","","","","","",7,18,14,0
+379,IS-I.027.01.100,Erlenmeyer,"Cuello Estrecho de 25ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788189979189,"","","","","Erlenmeyer - Cuello Estrecho de 25ml a 2000ml","","","","","","","","",7,18,11,0
+380,ARCO-2064140/7,Erlenmeyer,"Cuello Estrecho de 25ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788190186082,"","","","","Erlenmeyer - Cuello Estrecho de 25ml a 2000ml","","","","","","","","",7,18,4,0
+381,OM-7-1,Bureta,"Con Llave clase A de 10ml a 100ml",/imgDefaultProducts/photoProductDefault.png,1788191518044,"","","","","Bureta con Llave clase A de 10ml a 100ml","","","","","","","","",7,18,14,0
+382,BOEC-5256719,Bureta,"Con Llave clase A de 10ml a 100ml",/imgDefaultProducts/photoProductDefault.png,1788191748148,"","","","","Bureta con Llave clase A de 10ml a 100ml","","","","","","","","",7,18,6,0
+383,ARCO-2061840/4,Bureta,"Con Llave clase A de 10ml a 100ml",/imgDefaultProducts/photoProductDefault.png,1788191932421,"","","","","Bureta con Llave clase A de 10ml a 100ml","","","","","","","","",7,18,4,0
+384,IS-S.071.02.002,"Cepillo para frasco probeta","Vaso Grande, Mediano, Pequeño",/imgDefaultProducts/photoProductDefault.png,1788192347862,"","","","","Cepillo para frasco probeta. Vaso Grande, Vaso Mediano, Vaso Pequeño ","","","","","","","","",10,18,4,0
+385,CEP-BUR,"Cepillo para Bureta","47cm x 14cm",/imgDefaultProducts/photoProductDefault.png,1788192754464,"","","","","Cepillo para frasco probeta. Vaso Grande, Vaso Mediano, Vaso Pequeño ","","","","","","","","",10,18,8,0
+386,"CEP-ERLENPQÑ","Cepillo para Erlenmeyer","Pequeño 20x10cm",/imgDefaultProducts/photoProductDefault.png,1788193285039,"","","","","Cepillo para Erlenmeyer Pequeño 20x10cm","","","","","","","","",10,18,8,0
+387,CEP-TUBGRD,"Cepillo para Tubo de Ensayo","Pequeño, Mediano, Grande",/imgDefaultProducts/photoProductDefault.png,1788193487469,"","","","","Cepillo para Tubo de Ensayo. Pequeño: 19cm x 17.5cm, Mediano: 19.5 x 8cm, Grande 28cm x 11cm",,"","","","","","","",10,18,8,0
+388,IS-S.071.02.005,"Cepillo para Tubo de Ensayo","Mediano y Grande",/imgDefaultProducts/photoProductDefault.png,1788194083908,"","","","","Cepillo para Tubo de Ensayo. Mediano: 12x80m, Grande: 12x80m",,"","","","","","","",10,18,11,0
+389,BOE-5086175,"Frasco de Laboratorio","Ambar Tapa Rosca de 50ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788194717349,"","","","","Frasco de Laboratorio Ambar Tapa Rosca de 50ml a 1000ml",,"","","","","","","",10,18,6,0
+390,IS-S.061.02.500,"Frasco de Laboratorio","Ambar Tapa Rosca de 50ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788194956574,"","","","","Frasco de Laboratorio Ambar Tapa Rosca de 50ml a 1000ml",,"","","","","","","",10,18,11,0
+391,BOE-5080175,"Frasco de Laboratorio","Tapa Rosca de 50ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788195351783,"","","","","Frasco de Laboratorio Tapa Rosca de 50ml a 1000ml",,"","","","","","","",10,18,6,0
+392,ARCO-2061010/A1,"Frasco de Laboratorio","Tapa Rosca de 50ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788195604862,"","","","","Frasco de Laboratorio Tapa Rosca de 50ml a 1000ml",,"","","","","","","",10,18,4,0
+393,IS-I.061.01.500,"Frasco de Laboratorio","Tapa Rosca de 50ml a 1000ml",/imgDefaultProducts/photoProductDefault.png,1788195874102,"","","","","Frasco de Laboratorio Tapa Rosca de 50ml a 1000ml",,"","","","","","","",10,18,11,0
+394,BOENIN40154.01A,"Frasco Gotero","Ambar 30ml",/imgDefaultProducts/photoProductDefault.png,1788196643693,"","","","","Frasco Gotero Ambar 30ml",,"","","","","","","",10,18,6,0
+395,CL-13617,"Frasco muestra de orína","100ML/TAPA AZUL",/imgDefaultProducts/photoProductDefault.png,1788197074863,"","","","","",,"","","","","","","",10,18,8,0
+396,BOE-5116516,"Pipeta Graduada","Clase A de 2ml a 50ml",/imgDefaultProducts/photoProductDefault.png,1788197590375,"","","","","",,"","","","","","","",10,18,6,0
+397,LMS-63336182,"Pipeta Graduada","Clase A 50ml",/imgDefaultProducts/photoProductDefault.png,1788197873247,"","","","","",,"","","","","","","",10,18,8,0
+398,BOE-9640003.,"Pipeta Pasteur","3ml x 500und",/imgDefaultProducts/photoProductDefault.png,1788271387307,"Paquete con 500und","","","","",,"","","","","","","",10,18,6,0
+399,CL-179779,"Pipeta Pasteur","5ml x 500und",/imgDefaultProducts/photoProductDefault.png,1788271559629,"Paquete con 500und","","","","",,"","","","","","","",10,18,8,0
+400,AHN-8-600-C10-0,"Pipeta Pasteur Plástica","1ml x 500und",/imgDefaultProducts/photoProductDefault.png,1788271873094,"Paquete con 500und","","","","",,"","","","","","","",10,18,1,0
+401,BOE-9640001,"Pipeta Pasteur Plástica","1ml x 500und",/imgDefaultProducts/photoProductDefault.png,1788272122330,"Paquete con 500und","","","","",,"","","","","","","",10,18,6,0
+402,BOE-5010602,"Pipeta Pasteur Vidrio","23cm 2ml CJ250",/imgDefaultProducts/photoProductDefault.png,1788272784370,"","","","","",,"","","","","","","",10,18,6,0
+403,AHN-8-603-C10-0,"Pipeta Pasteur Plástica","1ml x 500und",/imgDefaultProducts/photoProductDefault.png,1788272945602,"","","","","",,"","","","","","","",10,18,1,0
+404,IS.015.01.010,"Probeta Plástica","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788273673238,"","","","","Probeta Plástica de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,11,0
+405,OM-6007.100.01,"Probeta Plástica","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788273920469,"","","","","Probeta Plástica de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,15,0
+406,ARCO-2063150/5A,"Probeta Plástica","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788274049887,"","","","","Probeta Plástica de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,4,0
+407,IS-S.016.05.025,"Probeta Plástica","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788274199022,"","","","","Probeta Plástica de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,6,0
+408,VIT-647.941,"Probeta Plástica","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788274481924,"","","","","Probeta Plástica de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,8,0
+409,OM-240010002,"Probeta Pie de Vidrio","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788275309816,"","","","","Proveta Pie de Vidrio de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,14,0
+410,LMS-61321022,"Probeta Pie de Vidrio","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788275663127,"","","","","Probeta Pie de Vidrio de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,8,0
+411,IS-S.015.01.010,"Probeta Pie de Vidrio","10ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788275817420,"","","","","Probeta Pie de Vidrio de 10ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",4,18,11,0
+412,VIT-446-941.,"Vaso de Precipitación","Plástico con Aza de 50ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788276839761,"","","","","Vaso de Precipitación Plástico con Aza de 50ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",10,18,8,0
+413,IS-S.026.02.250,"Vaso de Precipitación","Plástico con Aza de 50ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788277021910,"","","","","Vaso de Precipitación Plástico con Aza de 50ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",10,18,11,0
+414,OM-6001.100.01,"Vaso de Precipitación","Plástico con Aza de 50ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788277226285,"","","","","Vaso de Precipitación Plástico con Aza de 50ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",10,18,14,0
+415,ARCO-2065580/2,"Vaso de Precipitación","Plástico con Aza de 50ml a 2000ml",/imgDefaultProducts/photoProductDefault.png,1788277347675,"","","","","Vaso de Precipitación Plástico con Aza de 50ml a 2000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",10,18,4,0
+416,BOE-5010608,"Vaso de Precipitación","De vidrio de 10ml a 5000ml",/imgDefaultProducts/photoProductDefault.png,1788277977179,"","","","","Vaso de precipitación de vidrio de 10ml a 5000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",8,18,6,0
+417,OM-240-5,"Vaso de Precipitación","De vidrio de 10ml a 5000ml",/imgDefaultProducts/photoProductDefault.png,1788278182744,"","","","","Vaso de precipitación de vidrio de 10ml a 5000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",8,18,14,0
+418,ARCO-2064420/6,"Vaso de Precipitación","De vidrio de 10ml a 5000ml",/imgDefaultProducts/photoProductDefault.png,1788278258808,"","","","","Vaso de precipitación de vidrio de 10ml a 5000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",8,18,4,0
+419,DAIG-EF1700G,"Vaso de Precipitación","De vidrio de 10ml a 5000ml",/imgDefaultProducts/photoProductDefault.png,1788278493941,"","","","","Vaso de precipitación de vidrio de 10ml a 5000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",8,18,8,0
+420,IS-I.025.01.902,"Vaso de Precipitación","De vidrio de 10ml a 5000ml",/imgDefaultProducts/photoProductDefault.png,1788278719522,"","","","","Vaso de precipitación de vidrio de 10ml a 5000ml. Consulta capacidad y detalles técnicos",,"","","","","","","",8,18,11,0
+421,BOE-240201,"Gradilla para tubos de ensayo","20mm, 40 Tubos",/imgDefaultProducts/photoProductDefault.png,1788279556720,"","","","","Gradilla para tubos de ensayo 20mm, 40 Tubos",,"","","","","","","",8,18,6,0
+422,BOE-221301,"Gradilla para tubos de ensayo","30mm, 21 Tubos",/imgDefaultProducts/photoProductDefault.png,1788279775663,"","","","","Gradilla para tubos de ensayo 30mm, 21 Tubos",,"","","","","","","",8,18,6,0
+423,HS-23461A,"Gradilla para tubos","EPPENDORF 0.2ml x 5 Cajas",/imgDefaultProducts/photoProductDefault.png,1788280138819,"Paquete con 5 cajas","","","","Gradilla para tubos EPPENDORF 0.2ml x 5 Cajas",,"","","","","","","",8,18,9,0
+424,HS-4289B,"Gradilla para tubos","MULT 1.5/0.5/0.2 x 6und",/imgDefaultProducts/photoProductDefault.png,1788280422568,"Paquete con 6und","","","",,,"","","","","","","",8,18,9,0
+425,BOE-190131,"Gradilla para tubos","plástica 13x100 90tubos",/imgDefaultProducts/photoProductDefault.png,1788280754141,"Paquete con 90 tubos","","","","",,"","","","","","","",8,18,6,0
+426,BOE-03.34211128,"Tubo de Ensayo","13 x 100 Boro 9ml",/imgDefaultProducts/photoProductDefault.png,1788281222288,"","","","","",,"","","","","","","",3,18,6,0
+427,DAIG-9820-16,"Tubo de Ensayo","16 x 100 Pyrex 9ml",/imgDefaultProducts/photoProductDefault.png,1788281489993,"","","","","",,"","","","","","","",3,18,8,0
+428,BOE03.3421.2168,"Tubo de Ensayo","16 x 150 Boe 20ml",/imgDefaultProducts/photoProductDefault.png,1788281744188,"","","","","",,"","","","","","","",3,18,6,0
+429,DAIG-EF2366G,"Tubo de Ensayo","16 x 150 Pyrex 15ml",/imgDefaultProducts/photoProductDefault.png,1788282045797,"","","","","",,"","","","","","","",3,18,8,0
+430,DAIG-9820-20,"Tubo de Ensayo","20 x 150 Pyrex",/imgDefaultProducts/photoProductDefault.png,1788282201302,"","","","","",,"","","","","","","",3,18,8,0
+431,BOE-155030,"Tubo de Ensayo","Tapa Rosca 13 x 100 9ml",/imgDefaultProducts/photoProductDefault.png,1788282402974,"","","","","",,"","","","","","","",3,18,6,0
+432,BOE-155061-406,"Tubo de Ensayo","Tapa Rosca 16 x 125 16ml",/imgDefaultProducts/photoProductDefault.png,1788282631510,"","","","","",,"","","","","","","",3,18,6,0
+433,BOE-155062-406,"Tubo de Ensayo","Tapa Rosca 16 x 125 20ml CF",/imgDefaultProducts/photoProductDefault.png,1788282897816,"","","","","",,"","","","","","","",3,18,6,0
+434,BOE155001-15540,"Tubo de Ensayo","Tapa Rosca 20 x 150 30ml",/imgDefaultProducts/photoProductDefault.png,1788283191220,"","","","","",,"","","","","","","",3,18,6,0
+435,BOE-SRO-1026638,"Tubo de Vidrio","Fusible 5mm x 1.5m",/imgDefaultProducts/photoProductDefault.png,1788358004352,"","","","","",,"","","","","","","",3,18,6,0
+436,GRB-055021,"Tubo de Crioscópio",2.5ml,/imgDefaultProducts/photoProductDefault.png,1788358187146,"","","","","",,"","","","","","","",3,18,8,0
+437,BOE-SUP-3700406.,"Tubos Durham","Vidrio 50X6X0.7 100und",/imgDefaultProducts/photoProductDefault.png,1788358483349,"Paquete con 100 unidades","","","","",,"","","","","","","",3,18,6,0
+438,BOE-3-010-80-0,"Tubos Eppendorf"," 0.2ml libes DNA x 1000 piezas",/imgDefaultProducts/photoProductDefault.png,1788358712384,"Paquete con 1000 piezas","","","","","","","","","","","","",3,18,6,0
+439,AHN-3-011-50-0,"Tubos Eppendorf","0.2ml Estériles Tapa Plana x 1000 piezas",/imgDefaultProducts/photoProductDefault.png,1788358938761,"Paquete con 1000 piezas","","","","","","","","","","","","",3,18,1,0
+440,BOE-02.043.0100,"Tubos Eppendorf","0.2ml Funda con 1000und",/imgDefaultProducts/photoProductDefault.png,1788359128128,"Paquete con 1000 piezas","","","","","","","","","","","","",3,18,6,0
+441,BOE-3-204-85-0,"Tubos Eppendorf","0.2ml Plástico Libre 500und",/imgDefaultProducts/photoProductDefault.png,1788359293198,"Paquete con 500und","","","","","","","","","","","","",3,18,6,1
+442,AHN-3-257-25-8,"Tubos Falcom","1.5ml x 25pz Estériles sin Faldon",/imgDefaultProducts/photoProductDefault.png,1788359608239,"Paquete con 25 piezas","","","","","","","","","","","","",3,18,1,0
+443,AHN-3-272-25-8,"Tubos Falcom","50ml x 25pz Estériles sin Faldon",/imgDefaultProducts/photoProductDefault.png,1788359809105,"Paquete con 25 piezas","","","","","","","","","","","","",3,18,1,0
+444,BOE-9650100,"Micropipeta Electrónica","5-1000ul + CARG",/imgDefaultProducts/photoProductDefault.png,1788360395562,"","","","","","","","","","","","","",10,18,6,0
+445,AHN-8-503-00-0,"Micropipeta Electrónica","Digital VV 50-1000ul",/imgDefaultProducts/photoProductDefault.png,1788360631450,"","","","","Micropipeta Electrónica Digital Autoclave 120° x 15min Resistente a Rayos Uv","","","","","","","","",10,18,1,0
+446,AHN-8-101-20-9,"Micropipeta Electrónica","Digital VV 0.5-10UL PIPET4UPRO",/imgDefaultProducts/photoProductDefault.png,1788360925738,"","","","","Micropipeta Electrónica Digital VV 0.5-10UL PIPET4UPRO","","","","","","","","",10,18,1,0
+447,TACC-WL8-103-20-9,Micropipeta,"Digital VV 5-50UL AUTOCLAV MARCA WINLAB",/imgDefaultProducts/photoProductDefault.png,1788361314770,"","","","","Micropipeta Electrónica Digital VV 5-50UL AUTOCLAV MARCA WINLAB","","","","","","","","",10,18,8,0
+448,AHN-8-104-20-9,Micropipeta,"VV 10-100UL PIPET4UPRO",/imgDefaultProducts/photoProductDefault.png,1788361629519,"","","","","Micropipeta Electrónica PIPET4UPRO AUTOCLAVABLE 121°X15MIN RESISTENTE RAYOS UV","","","","","","","","",10,18,1,0
+449,AHN-8-105-32-9,Micropipeta,"VV 20-200UL MYPETTE",/imgDefaultProducts/photoProductDefault.png,1788362089633,"","","","","","","","","","","","","",10,18,1,0
+450,AHN-8-106-20-9,Micropipeta,"VV 100-1000UL PIPET4UPRO",/imgDefaultProducts/photoProductDefault.png,1788362407710,"","","","","","","","","","","","","",10,18,1,0
+451,TACC-WL8-108-20-9,Micropipeta,"VV 2000-10000UL",/imgDefaultProducts/photoProductDefault.png,1788362741996,"","","","","Micropipeta VV 2000-10000UL AUTOCLAVABLE MARCA WINLAB","","","","","","","","",10,18,8,0
+452,BOE-NIN40112.02,"Pinza para doble Bureta","Metálica",/imgDefaultProducts/photoProductDefault.png,1788363436007,"","","","","","","","","","","","","",3,18,6,0
+453,SM-PINTEMA,"Pinza para tubo de ensayo","de madera",/imgDefaultProducts/photoProductDefault.png,1788363665395,"","","","","","","","","","","","","",3,18,8,0
+454,HKS-MW-22A-ARGA,"Pinza para tubo de ensayo","Metálico",/imgDefaultProducts/photoProductDefault.png,1788363803716,"","","","","","","","","","","","","",3,18,8,0
+455,BOE-NIN40120.02,"Pinza para vasos","(40-100mm) 250mm",/imgDefaultProducts/photoProductDefault.png,1788364047535,"","","","","","","","","","","","","",3,18,6,0
+456,GRB-07.0151,"Acidómetro Dorning","0-100 500ml y Bureta 10ml",/imgDefaultProducts/photoProductDefault.png,1788364363987,"","","","","Acidómetro Dorning","","","","","","","","",7,18,8,0
+457,BOE-110740,"Barra de agitación magnética","7mm x 40mm",/imgDefaultProducts/photoProductDefault.png,1788365283014,"","","","","Barra de agitación magnética 7x40mm","","","","","","","","",7,18,6,0
+458,BOE-131060,"Barra de agitación magnética","10mm x 60mm",/imgDefaultProducts/photoProductDefault.png,1788365540389,"","","","","Barra de agitación magnética 10mm x 60mm","","","","","","","","",7,18,6,0
+459,BOE-104004,"Buffer PH4","Frasco 500ml Rojo 8/2028",/imgDefaultProducts/photoProductDefault.png,1788365791046,"","","","","Buffer PH4 Frasco 500ml Rojo 8/2028","","","","","","","","",7,18,6,0
+460,BOE-107006,"Buffer PH7","Frasco 500ml Verde 09/2027",/imgDefaultProducts/photoProductDefault.png,1788366025349,"","","","","Buffer PH7 Frasco 500ml Verde 09/2027","","","","","","","","",7,18,6,0
+461,BOE-610008,"Buffer PH10","Frasco 500ml Azul 05/2027",/imgDefaultProducts/photoProductDefault.png,1788366336740,"","","","","Buffer PH10 Frasco 500ml Azul 05/2027","","","","","","","","",7,18,6,0
+462,BIO-PP-81,"Caja para 81 Criotubos","PP-81 Paq. 5und",/imgDefaultProducts/photoProductDefault.png,1788366633006,"Paquete con 5und","","","","","","","","","","","","",10,18,5,0
+463,PET-4006015,"Caja Petry ","60mm x 15mm Vidrio",/imgDefaultProducts/photoProductDefault.png,1788367014446,"","","","","","","","","","","","","",10,18,8,0
+464,PET-4010015,"Caja Petry ","100mm x 15mm Vidrio ANUMBR",/imgDefaultProducts/photoProductDefault.png,1788367337986,"","","","","","","","","","","","","",10,18,8,0
+465,AHN-CM81-N,"Caja plástica para criotubos","1.2ml de 81 puestos paq x 5und",/imgDefaultProducts/photoProductDefault.png,1788367708457,"Paquete con 5und","","","","Caja plástica para criotubos 1.2ml de 81 puestos paq x 5und","","","","","","","","",10,18,1,0
+466,"GRB-07,0011","Copa de Vidrio","Probador de Leche",/imgDefaultProducts/photoProductDefault.png,1788368089309,"Paquete con 5und","","","","Caja plástica para criotubos 1.2ml de 81 puestos paq x 5und","","","","","","","","",8,18,1,0
+467,AHN-MLC2B,Criotubos,"2ml Estériles / Libres DNA RNA",/imgDefaultProducts/photoProductDefault.png,1788368453673,"Paquete con 100pz","","","","Criotubos 2ml Estériles / Libres DNA RNA, Funda 100pz","","","","","","","","",7,18,1,0
+468,KNI-VD12450Y1A.,"Cubre Objetos","24x50 x 100und",/imgDefaultProducts/photoProductDefault.png,1788443967527,"Paquete con 100und","","","","","","","","","","","","",7,18,8,0
+469,USB-3420,"Cuchara Combustión","Deflagración 1ml",/imgDefaultProducts/photoProductDefault.png,1788444174812,"","","","","","","","","","","","","",7,18,8,0
+470,IS-041.01.080,"Embudo de Vidrio",80mm,/imgDefaultProducts/photoProductDefault.png,1788444434859,"","","","","","","","","","","","","",10,18,11,0
+471,IS-041.01.100,"Embudo de Vidrio",100mm,/imgDefaultProducts/photoProductDefault.png,1788444710822,"","","","","","","","","","","","","",10,18,11,0
+472,LMS-11241190,"Embudo de Vidrio","100mm Vástago",/imgDefaultProducts/photoProductDefault.png,1788444812151,"","","","","","","","","","","","","",10,18,8,0
+473,OM-4215.100.02,"Lámpara de alcohol","Vidrio 120ml",/imgDefaultProducts/photoProductDefault.png,1788445111851,"","","","","","","","","","","","","",7,18,14,0
+474,MN-4160047,"Papel Filtro","Fibra de Vidrio 4.7cm diámetro",/imgDefaultProducts/photoProductDefault.png,1788445464531,"","","","","Papel filtro de fibra de vidrio 4.7cm de diámetro.","","","","","","","","",7,18,12,0
+475,MILW-MW101-SOIL,"PH Metro Portátil","Con Electrodo de Vidrio 4.7cm Diámetro",/imgDefaultProducts/photoProductDefault.png,1788446085097,"","","","","PH metro portátil con electrodo de vidrio punta alimentos leche","","","","","","","","",11,18,13,0
+476,LMS-63321312,"Probeta Vidrio","Pie plástico 10ml",/imgDefaultProducts/photoProductDefault.png,1788446719488,"","","","","PH metro portátil con electrodo de vidrio punta alimentos leche","","","","","","","","",4,18,8,0
+477,LMS-63321317,"Probeta Vidrio","Pie plástico 500ml",/imgDefaultProducts/photoProductDefault.png,1788446929220,"","","","","","","","","","","","","",4,18,8,0
+478,OM-6058.100.01,"Soporte para Pipetas","96 Puestos",/imgDefaultProducts/photoProductDefault.png,1788447112382,"","","","","","","","","","","","","",7,18,14,0
+479,SUP-5902000,"Tetinas / Chupones","Pipetas funda x 100und",/imgDefaultProducts/photoProductDefault.png,1788447369892,"","","","","","","","","","","","","",7,18,8,0
+480,SRO-1026641,"Varrilla de Vidrio","Macizo 6x1500mm ",/imgDefaultProducts/photoProductDefault.png,1788447898814,"","","","","","","","","","","","","",7,18,8,0
+481,"PET 3010070","Vidrio de Reloj",70mm,/imgDefaultProducts/photoProductDefault.png,1788448159481,"","","","","","","","","","","","","",7,18,8,0
+482,PET-3013100,"Vidrio de Reloj",100mm,/imgDefaultProducts/photoProductDefault.png,1788448272623,"","","","","","","","","","","","","",7,18,8,0
+483,IVA-240602,Refrigerante,"Bolas 300mm 24/40IVA",/imgDefaultProducts/photoProductDefault.png,1788448604302,"","","","","","","","","","","","","",7,17,8,0
+484,IVA-240701,Refrigerante,"Bolas 300mm 400mm sin Esmerilar",/imgDefaultProducts/photoProductDefault.png,1788448786831,"","","","","","","","","","","","","",7,17,8,0
+485,IVA-240401,Refrigerante,"Recto 300mm sin esmerilar",/imgDefaultProducts/photoProductDefault.png,1788448932208,"","","","","","","","","","","","","",7,17,8,0
+486,JIP-238821,Plato,"Para Desecador 200mm",/imgDefaultProducts/photoProductDefault.png,1788449164252,"","","","","","","","","","","","","",10,14,8,0
+487,JIP-238521,Plato,"Para Desecador 250mm",/imgDefaultProducts/photoProductDefault.png,1788449280164,"","","","","","","","","","","","","",10,14,8,0
+488,IS-S.037.25.100,"Plato para pesar","Aluminio 100mm Paq x 50und",/imgDefaultProducts/photoProductDefault.png,1788449522421,"Paquete con 50und","","","","","","","","","","","","",10,14,11,0
+489,HACH-145300,"Kit de Dureza","5B Rango 1-30 GPG",/imgDefaultProducts/photoProductDefault.png,1788449804068,"","","","","","","","","","","","","",7,10,8,0
+490,"BOE-NIN TK02","Kit PH","6.8-8.2 CLORO 0.5-5.1",/imgDefaultProducts/photoProductDefault.png,1788450002178,"","","","","","","","","","","","","",7,10,6,0
+491,BOE-NIN20730.01,Lupa,90mm,/imgDefaultProducts/photoProductDefault.png,1788450247352,"","","","","","","","","","","","","",10,9,6,0

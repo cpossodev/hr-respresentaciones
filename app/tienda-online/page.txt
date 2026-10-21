@@ -1,119 +1,149 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import tiendaOnlineStyles from "./pageTOnline.module.css";
 
 import SearchBar from "./componentsTiendaOnline/searchBarCompt/searchBar";
 import FiltroMarcasCompt from "./componentsTiendaOnline/filtroMarcasCompt/filtroMarcasCompt";
 import SelectFiltroCompt from "./componentsTiendaOnline/selectFiltros/selectFiltroCompt";
-import SectBtnUseInd from "./componentsTiendaOnline/botonUseIndustria/sectBtnUseInd";
+import SectBtnFastSearch from "./componentsTiendaOnline/botonUseIndustria/sectBtnFastSearch";
 import SearchResult from "./componentsTiendaOnline/searchResult/searchResult";
 import SelectOrdenarCompt from "./componentsTiendaOnline/selectOrdenarCompt/selectOrdenarCompt";
 import SectGridProducts from "./componentsTiendaOnline/gridProductsCompt/sectGridProducts";
 
 export default function TiendaOnline() {
+
   // Estados principales
   const [productos, setProductos] = useState<Producto[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedMarca, setSelectedMarca] = useState<string | null>(null);
-
-
-
+  const [selectedTipo, setSelectedTipo] = useState<string | null>(null);
+  const [selectedIndustria, setSelectedIndustria] = useState<string | null>(null);
 
   const limit = 16; // 👉 número de productos por página
 
-  // FUNCIÓN BUSCAR PRODUCTOS
-  const buscarProductos = async (term: string, page = 1) => {
+  const gridProductsRef = useRef<HTMLDivElement>(null);
+  const shouldScrollToGrid = useRef(false);
+
+
+  // 👉 Función genérica para traer productos con filtros
+  const fetchProductos = async (
+    page: number,
+    marca?: string | null,
+    tipo?: string | null,
+    industria?: string | null,
+    search?: string | null
+  ) => {
     try {
-      setSearchTerm(term); // guardamos el término para paginación
-      const res = await fetch(
-        `/api/productos?search=${encodeURIComponent(term)}&page=${page}&limit=${limit}`
-      );
-      if (!res.ok) throw new Error("Error en la búsqueda");
+      let url = `/api/productos?page=${page}&limit=${limit}`;
+
+      if (search && search.trim() !== "") {
+        url += `&search=${encodeURIComponent(search)}`;
+      }
+      if (marca) {
+        url += `&marca=${encodeURIComponent(marca)}`;
+      }
+      if (tipo) {
+        url += `&tipo=${encodeURIComponent(tipo)}`;
+      }
+      if (industria) {
+        url += `&industria=${encodeURIComponent(industria)}`;
+      }
+      if (!search && !marca && !tipo && !industria) {
+        url += `&portada=true`;
+      }
+
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("Error al cargar productos");
+
       const data = await res.json();
       setProductos(data.productos);
       setTotalPages(data.totalPages);
       setCurrentPage(data.currentPage);
     } catch (err) {
-      console.error("❌ Error en buscarProductos:", err);
+      console.error("❌ Error en fetchProductos:", err);
       setProductos([]);
     }
   };
 
-  // CARGA INICIAL (productos destacados)
+  // 🔎 Búsqueda desde SearchBar
+  const buscarProductos = async (term: string, page = 1) => {
+    shouldScrollToGrid.current = true;
+    setSearchTerm(term);
+    setCurrentPage(1);
+
+    await fetchProductos (
+      page, 
+      selectedMarca, 
+      selectedTipo, 
+      selectedIndustria, 
+      term
+    );
+  };
+
+  // 📌 Carga inicial (portada)
   useEffect(() => {
-    const fetchProductos = async () => {
-      try {
-        const res = await fetch(`/api/productos?portada=true&page=1&limit=${limit}`);
-        if (!res.ok) throw new Error("Error al cargar productos destacados");
-
-        const data = await res.json();
-        setProductos(data.productos);
-        setTotalPages(data.totalPages);
-        setCurrentPage(data.currentPage);
-      } catch (err) {
-        console.error("❌ Error en fetchProductos:", err);
-      }
-    };
-
-    fetchProductos();
+    fetchProductos(1);
   }, []);
 
+// Efect para Scroll Post búsqueda
+useEffect(() => {
+  if (!shouldScrollToGrid.current) return;
+
+  requestAnimationFrame(() => {
+    gridProductsRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+
+    shouldScrollToGrid.current = false;
+  });
+}, [productos]);
 
 
-// Callback para cambiar de página
-const handlePageChange = async (page: number) => {
-  setCurrentPage(page);
+  // 📌 Paginación
+  const handlePageChange = async (page: number) => {
+      shouldScrollToGrid.current = true;
 
-  try {
-    let url = `/api/productos?page=${page}&limit=${limit}`;
+    setCurrentPage(page);
+    await fetchProductos(page, selectedMarca, selectedTipo, selectedIndustria, searchTerm);
+  };
 
-    // 👉 Si hay búsqueda activa
-    if (searchTerm.trim() !== "") {
-      url += `&search=${encodeURIComponent(searchTerm)}`;
-    }
-    // 👉 Si hay una marca seleccionada
-    else if (selectedMarca) {
-      url += `&marca=${encodeURIComponent(selectedMarca)}`;
-    }
-    // 👉 Si no hay búsqueda ni marca, mostramos portada
-    else {
-      url += `&portada=true`;
-    }
+  // 📌 Filtros
+  const handleMarcaSelect = async (marca: string) => {
+    shouldScrollToGrid.current = true;
+    setSelectedMarca(marca || null);
+    setCurrentPage(1);
+    await fetchProductos(1, marca, selectedTipo, selectedIndustria, searchTerm);
+  };
 
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("Error al cambiar de página");
+  const handleTipoSelect = async (tipo: string) => {
+    shouldScrollToGrid.current = true;
+    setSelectedTipo(tipo || null);
+    setCurrentPage(1);
+    await fetchProductos(1, selectedMarca, tipo, selectedIndustria, searchTerm);
+  };
 
-    const data = await res.json();
-    setProductos(data.productos);
-    setTotalPages(data.totalPages);
-    setCurrentPage(data.currentPage);
-  } catch (err) {
-    console.error("❌ Error en handlePageChange:", err);
-  }
-};
+  const handleIndustriaSelect = async (industria: string) => {
+    shouldScrollToGrid.current = true;
+    setSelectedIndustria(industria || null);
+    setCurrentPage(1);
+    await fetchProductos(1, selectedMarca, selectedTipo, industria, searchTerm);
+  };
 
-
-
-
-// FUNCION PARA FILTRAR POR MARCA
-const handleMarcaSelect = async (marca: string) => {
-
-  try {
-    setSelectedMarca(marca);
-    const res = await fetch(`/api/productos?marca=${encodeURIComponent(marca)}&page=1&limit=${limit}`);
-    if (!res.ok) throw new Error("Error al filtrar por marca");
-    const data = await res.json();
-    setProductos(data.productos);
-    setTotalPages(data.totalPages);
-    setCurrentPage(data.currentPage);
-  } catch (err) {
-    console.error("❌ Error en handleMarcaSelect:", err);
-  }
-
-};
-
+  const handleButtonSearch = async (term: string) => {
+    shouldScrollToGrid.current = true;
+    setSearchTerm(term);
+    setCurrentPage(1);
+    await fetchProductos (
+      1, 
+      selectedMarca, 
+      selectedTipo, 
+      selectedIndustria, 
+      term
+    );
+  };
 
   // Interface Producto
   interface Producto {
@@ -133,15 +163,19 @@ const handleMarcaSelect = async (marca: string) => {
       <SearchBar onSearch={(term) => buscarProductos(term)} />
 
       {/* BOTONES DE FILTROS DE MARCAS */}
-      <FiltroMarcasCompt 
+      <FiltroMarcasCompt onMarcaSelect={handleMarcaSelect} />
+
+      {/* SELECTS DE FILTROS */}
+      <SelectFiltroCompt
         onMarcaSelect={handleMarcaSelect}
-    
+        onTipoSelect={handleTipoSelect}
+        onIndustriaSelect={handleIndustriaSelect}
       />
 
-
-
-      <SelectFiltroCompt />
-      <SectBtnUseInd />
+      <SectBtnFastSearch 
+        onButtonSearch={handleButtonSearch}
+        
+      />
 
       <div className={tiendaOnlineStyles.boxLineDivTOnline}>
         <div className={tiendaOnlineStyles.lineDivTOnline}></div>
@@ -160,12 +194,18 @@ const handleMarcaSelect = async (marca: string) => {
         </div>
       </div>
 
-      <SectGridProducts
-        productos={productos}
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={handlePageChange}
-      />
+      <div
+        ref={gridProductsRef}
+        style={{ scrollMarginTop: "80px" }}
+      >
+        <SectGridProducts
+          productos={productos}
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
+        />
+      </div>
+
     </div>
   );
 }

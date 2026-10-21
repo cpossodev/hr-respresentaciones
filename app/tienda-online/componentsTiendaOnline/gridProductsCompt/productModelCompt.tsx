@@ -17,7 +17,7 @@ export default function ProductModelCompt(
 
     // PROPS
     {
-
+        id,
         urlBkProduct,
         textCodProd, 
         titleNameProd,
@@ -34,7 +34,7 @@ export default function ProductModelCompt(
     {
 
 
-    
+        id: number;
         urlBkProduct?: string;
         textCodProd: string;
         titleNameProd: string;
@@ -109,9 +109,11 @@ export default function ProductModelCompt(
 
             {/* BOTÓN LINK VER PRODUCTO */}
             <div className={prodMDStyles.boxLinkButton}>
-                <Link className={prodMDStyles.btnLinkToProduct} href="/tienda-online">Ver Producto</Link>
+                <Link className={prodMDStyles.btnLinkToProduct} href={`/tienda-online/product-page/${id}`}>Ver Producto</Link>
              </div>
         </div>
 
     );
 }
+
+

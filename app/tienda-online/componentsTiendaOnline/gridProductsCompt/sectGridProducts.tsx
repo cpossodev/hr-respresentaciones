@@ -4,12 +4,13 @@ import ProductModelCompt from './productModelCompt';
 
 
 interface Producto {
+  id: number;
   codigo: string;
   nombreProd: string;
   modeloProd: string;
   imgURL: string;
   marca?: { nombre: string };
-  tipoProducto?: { nombre: string };
+  tipo?: { nombre: string };
   industrias: { nombre: string }[];
   portada: boolean;
 }
@@ -29,12 +30,13 @@ export default function sectGridProducts({ productos, currentPage, totalPages, o
           productos.map((prod, index) => (
             <div key={index} className={sectGdPctStyles[`product_${index + 1}`]}>
               <ProductModelCompt
+                id={prod.id}
                 urlBkProduct={prod.imgURL || "/imgDefaultProducts/photoProductDefault.png"}
                 textCodProd={prod.codigo}
                 titleNameProd={prod.nombreProd}
                 nameModelProd={prod.modeloProd}
                 nameMarcaProd={prod.marca?.nombre ?? ""}
-                nameProdType={prod.tipoProducto?.nombre ?? ""}
+                nameProdType={prod.tipo?.nombre ?? ""}
                 apli_1={prod.industrias[0]?.nombre ?? ""}
                 apli_2={prod.industrias[1]?.nombre ?? ""}
                 apli_3={prod.industrias[2]?.nombre ?? ""}
