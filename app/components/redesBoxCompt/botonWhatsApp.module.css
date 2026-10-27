@@ -13,6 +13,7 @@
     height: auto;
     /* background-color: rgba(45,45,45,0.2); */
     padding: 0px 0px 0px 0px;
+pointer-events: none;
 }
 
 
@@ -27,6 +28,8 @@
     width: auto;
     height: auto;
     cursor: pointer;
+    pointer-events:fill;
+
 } 
 
 
@@ -108,16 +111,27 @@
 
 @media screen and (max-width: 620px) {
 
-    .contentBottonWTS {
-      
-        right: 20px;
-        
+
+    .contentAllBwts {
+        top: 250px;
+        right: 0px; 
+        padding: 0px 0px 0px 0px;
     }
 
 
 
+    .contentBottonWTS {
+        top: -160;
+        left: 30; 
+    }
+
 }
 
+
+
+
+
+/* 
 @media screen and (max-width: 480px) {
 
     .contentBottonWTS {
@@ -125,4 +139,4 @@
         
     }
 
-}
+} */
