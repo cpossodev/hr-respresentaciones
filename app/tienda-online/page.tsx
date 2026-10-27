@@ -22,7 +22,7 @@ export default function TiendaOnline() {
   const [selectedTipo, setSelectedTipo] = useState<string | null>(null);
   const [selectedIndustria, setSelectedIndustria] = useState<string | null>(null);
 
-  const limit = 16; // 👉 número de productos por página
+  const limit = 12; // 👉 número de productos por página
 
   const gridProductsRef = useRef<HTMLDivElement>(null);
   const shouldScrollToGrid = useRef(false);
@@ -170,16 +170,19 @@ useEffect(() => {
       </div>
 
       <div className={tiendaOnlineStyles.boxContentTextOrden}>
-        <div className={tiendaOnlineStyles.boxTextResultados}>
+        
+        {/* <div className={tiendaOnlineStyles.boxTextResultados}>
           <SearchResult
             textMarcaRB="Macharay Nagel"
             TipoProdRB="Equipos"
             TipoIndustRB="Médico"
           />
-        </div>
-        <div className={tiendaOnlineStyles.boxSelectOrderCompt}>
+        </div> */}
+
+        {/* <div className={tiendaOnlineStyles.boxSelectOrderCompt}>
           <SelectOrdenarCompt />
-        </div>
+        </div> */}
+
       </div>
 
       <div

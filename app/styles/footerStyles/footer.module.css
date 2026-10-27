@@ -5,7 +5,7 @@
     align-items: flex-start;
     width: 100%;
     max-width: 1920px;
-    height: 80svh;
+    height: 560px;
     background-color: #1D1D3D;
     padding: 30px 0px;
 
@@ -111,15 +111,123 @@
     margin: 10px 0px 5px 0px;
 }
 
-@media screen and (min-width: 1481px) {
-    .contentAllFooter {
-       width: 100%; 
-       height: 50svh;
+
+@media screen and (max-width: 780px) {
+
+    .boxBlockContacts {
+        width: 60%;
     }
+
+    .boxBlockLogoCopyrigth {
+        width: 40%;
+    }
+
 }
 
 
-@media screen and (min-width: 860px) and (min-height: 1280px) {
+@media screen and (max-width: 580px) {
+
+    .contentAllFooter {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 80svh;
+            padding: 0px 20px;
+            gap: 30px 0px;
+        }
+
+    .boxBlockContacts {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px 20px;
+        gap: 30px 0px;
+        height: auto;
+    }
+
+    .boxBlockContacts, .boxBlockLogoCopyrigth {
+        width: 100%;
+        
+    }
+
+    .boxBlockLogoCopyrigth {
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        padding: 30px 0px;
+
+    }
+
+    .logoFooter {
+
+        width: 110px;
+        height: auto;
+        margin: 0px 0px 5px 0px;
+    }
+
+}
+
+
+ /* @media screen and (max-height: 780px) {
+
+      .contentAllFooter {
+            height: 85vh;
+            padding: 20px 20px;
+         }
+
+
+ .boxBlockLogoCopyrigth {
+    padding: 0px 0px;
+ }
+
+
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 1481px) and (min-height: 1080px)
+ {
+    .contentAllFooter {
+       width: 100%; 
+       height: 600px;
+    }
+} */
+
+/* @media screen and (min-width: 1481px) and (min-height: 980px)
+and (min-height: 1119px) 
+
+{
+    .contentAllFooter {
+       height: 50svh;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 860px) and (min-height: 1280px) {
     .contentAllFooter {
        width: 100%; 
        height: 40svh;
@@ -215,4 +323,4 @@
     padding: 0px 0px;
  }
 
-} 
+}  */

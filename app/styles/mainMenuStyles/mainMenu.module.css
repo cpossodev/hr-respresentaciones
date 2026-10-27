@@ -1,12 +1,12 @@
 .containerNav {
-    position: relative;
-    top: 0px;
+    /* position: relative;
+    top: 0px; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1920px;
+    max-width: 1980px;
     height: 70px;
     background-color: #1D1D3D;
     padding: 0px 30px;
@@ -161,12 +161,21 @@
 }
 
 
-@media screen and ( max-width: 1919px) {
+@media screen and ( max-width: 1280px) {
 
     .containerNav {
         width: 100%;
     }
 }
+
+@media screen and ( max-width: 1080px)  {
+
+    .boxLinksMainMenu {
+        gap: 0px 20px;
+    }
+
+}
+
 
 @media screen and ( max-width: 960px) {
     .containerNav {
@@ -216,7 +225,7 @@
 
 
     .boxIconsMainMenu {
-        width: 20%;
+        width: auto;
     }
 
 }
@@ -229,19 +238,12 @@
         width: 100%;
     }
 
-
-   .boxIconsMainMenu {
-        width: auto;
-        gap: 0px 10px;
-    }
-
-
     .boxbtnMainMenu {
         padding-right: 18px;
     }
 
     .boxIconsMainMenu {
-        width: 30%;
+        width: auto;
     }
 
     .iconLink img {

@@ -1,15 +1,15 @@
 /* Contenedor principal del slider */
 .containerAllSlide {
-  position: relative;
-  top: 0px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  max-width: 1920px;
-  overflow-x: hidden;
+  width: 100%;
+  max-width: 1980px;
+  background-color: rgb(58, 187, 16);
+  /* overflow-x: hidden; */
   height: 420px;
+  /* background-color: aquamarine; */
 
 }
 
@@ -20,12 +20,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 420px;
+  background-color: rgb(133, 78, 7);
 }
 
 /* Cada slide ocupa todo el espacio y se apila */
 .slide {
-  position: absolute;
-  top: 0;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -49,15 +49,18 @@
 
 /* Botones inferiores */
 .boxBTNSlides {
-  position: absolute;
-  z-index: 5;
-  bottom: 0px;
-  right: 20%;
-  /* transform: translateX(-50%); */
+  position: relative;
+  top: 380;
+  right: 10%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  align-self: flex-end;
+  background-color: chocolate;
+  width: auto;
+  height: auto;
+  z-index: 5;
 }
 
 /* Estilo de cada botón */
@@ -98,7 +101,71 @@
 }
 
 
-@media screen and (min-width: 1919px) {
+
+@media screen and (max-width: 920px) {
+
+  .boxBTNSlides {
+    top: 450;
+ 
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .containerAllSlide {
+      height: 520px;
+  }
+
+  .slidesWrapper {
+      height: 520px;
+  }
+
+  .slide {
+      height: 520px;
+  }
+
+.boxBTNSlides {
+    top: 550;
+ 
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .containerAllSlide {
+        height: 580px;
+    }
+
+    .slidesWrapper {
+        height: 580px;
+    }
+
+    .slide {
+        height: 580px;
+    }
+
+  .boxBTNSlides {
+      top: 550;
+  
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* @media screen and (min-width: 1919px) {
 
   .containerSlide {
       width: 100%;
@@ -160,4 +227,4 @@
   .containerAllSlide, .slidesWrapper, .slide  {
     height: 520px;
   }
-}
+} */

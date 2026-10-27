@@ -18,11 +18,7 @@
     background-color:#2EB5AF;
 
 }
-/* 
-.boxContentBtnUseInds:focus {
-    background-color:#2EB5AF;
 
-} */
 
 .btnActivoUseInds {
     display: flex;
@@ -55,8 +51,25 @@
 
 @media screen and (max-width: 1180px) {
     .boxContentBtnUseInds {
-        width: 140px;
-        height: 30px;
+        width: 200px;
+        height: 40px;
+    }
+
+    .nameBtnFiltro {
+        font-size: 1em;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .boxContentBtnUseInds {
+        width: 180px;
+        height: 35px;
+            border-radius: 20px;
     }
 
     .nameBtnFiltro {
@@ -67,11 +80,47 @@
 
 }
 
-@media screen and (max-width: 1080px) {
-   .boxContentBtnUseInds {
-        width: 120px;
-        height: 30px;
+
+@media screen and (max-width: 680px) {
+    .boxContentBtnUseInds {
+        width: 200px;
+        height: 40px;
     }
+
+    .nameBtnFiltro {
+        font-size: 1em;
+
+    }
+
+
 }
 
+
+@media screen and (max-width: 560px) {
+    .boxContentBtnUseInds {
+        width: 150px;
+        height: 30px;
+    }
+
+    .nameBtnFiltro {
+        font-size: 1em;
+
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .boxContentBtnUseInds {
+        width: 260px;
+        height: 45px;
+    }
+
+    .nameBtnFiltro {
+        font-size: 1.2em;
+        border-radius: 30px;
+    }
+
+
+}
 

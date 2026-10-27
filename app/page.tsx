@@ -1,7 +1,10 @@
+
+
 // Import Css
 import pageHomeStyles from './pageHomeStyles.module.css';
 
 // Import Component
+import BotonWhatsApp from "./components/redesBoxCompt/botonWhatsApp"
 import BoxPortadaCompt from "./components/inicio/sectionPortada/boxPortadaCompt";
 import NosotrosHomeComponent from './components/inicio/sectionNosotros/nosotrosHomeComponent';
 import HomeLineasProductosCompt from './components/inicio/sectionLineaDeProductos/homeLineasProductosCompt';
@@ -16,6 +19,13 @@ export default function Home() {
 
     <main className={pageHomeStyles.containerMain} >
 
+      <div className={pageHomeStyles.boxMainBtnWtsApp}>
+
+          <BotonWhatsApp />
+
+      </div> 
+
+        
         <BoxPortadaCompt />
 
         <NosotrosHomeComponent />
@@ -28,8 +38,8 @@ export default function Home() {
 
         <SectServPostVent /> 
 
-        <BannerSlogan />
-
+        <BannerSlogan /> 
+        
     </main>
   );
 }

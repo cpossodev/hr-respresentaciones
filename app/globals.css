@@ -65,5 +65,5 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }

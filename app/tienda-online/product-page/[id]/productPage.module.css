@@ -2,8 +2,9 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
+    max-width: 1980px;
     height: auto;
 }
 
@@ -19,6 +20,7 @@
     padding: 0px 80px;
     cursor: pointer;
 }
+
 
 .backTienda {
     font-family: "Manrope", sans-serif;
@@ -55,7 +57,7 @@
 
 
 /* BOX INFO PRODUCTO */
-.boxContentInfoProducto{
+.boxContentInfoProducto {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -361,5 +363,75 @@
     font-size: 0.8em;
     color: #000000;
     text-align: justify;
+}
+
+
+@media screen and (max-width: 920px) {
+    .contentAllProductPage {
+        margin-top: 70px;
+    }
+
+    .boxContentInfoFotos {
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .boxContentInfoFotos {
+        flex-flow: column nowrap;
+        align-items:center;
+        justify-content:center;
+        padding: 0px 0px;
+        gap: 60px 40px;
+        width: 100%;
+    }
+
+    .boxContentCollageFotos {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .boxContentCertifAplicacion {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+
+
+    .box_backTienda {
+        height: 70px;
+         padding: 0px 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+
+    .box_backTienda {
+        height: 60px;
+        padding: 0px 20px;
+    }
+
+
+
+    .boxContentDescripcionProducto {
+        padding: 0px 40px;
+    }
+
+    .boxContentCertifAplicacion {
+        padding: 0px 40px;
+    }
+
+    .boxContentInfoProducto {
+            width: 90%;
+    }
+
+    .boxContentEspecifProducto {
+        padding: 0px 40px;
+    }
+
 }
 

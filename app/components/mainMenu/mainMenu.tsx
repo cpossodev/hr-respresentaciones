@@ -57,24 +57,31 @@ export default function MainMenu() {
 
             </div>
 
-                
+             {/* CAJA DE ICONOS MAIN MENU    */}
             <div className={mainMenuStyles.boxIconsMainMenu}>
 
                 {/* Link a Maps */}
-                <Link className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`} href="/contacto"> 
-                    <img src="/IconsMainMenu/IconMapsA.svg" alt="Maps"/> 
-                    <img src="/IconsMainMenu/IconMapsB.svg" alt="Maps"/> 
-                </Link>
-                
+
+                    <Link
+                    className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`}
+                    href="https://maps.app.goo.gl/zbBndzD4kdUzeucu7"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                        <img src="/IconsMainMenu/IconMapsA.svg" alt="Maps"/>        
+                        <img src="/IconsMainMenu/IconMapsB.svg" alt="Maps"/> 
+
+                    </Link>
+
                 {/* Link a Tienda */}
-                <Link className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`} href="/tienda-online"> 
+                {/* <Link className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`} href="/tienda-online"> 
                     <img src="/IconsMainMenu/IconShoppingBagA.svg" alt="Carrito"/> 
                     <img src="/IconsMainMenu/IconShoppingBagB.svg" alt="Carrito"/> 
-                </Link  >
+                </Link  > */}
 
                 {/* Link a Tienda */}
 
-                <Link className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`} href="/carrito"> 
+                <Link className={`${mainMenuStyles.iconLink} ${mainMenuStyles.iconDfault}`} href="/tienda-online"> 
                     <img src="/IconsMainMenu/IconCarA.svg" alt="Carrito de Compras"/> 
                     <img src="/IconsMainMenu/IconCarB.svg" alt="Carrito de Compras"/> 
             
@@ -85,7 +92,7 @@ export default function MainMenu() {
         </div>
 
   
-        <BotonWhatsApp />
+        {/* <BotonWhatsApp /> */}
 
     </nav>
   

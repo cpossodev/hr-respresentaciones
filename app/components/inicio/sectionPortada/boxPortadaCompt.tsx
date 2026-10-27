@@ -15,7 +15,7 @@ export default function BoxPortadaCompt() {
   return (
     <div className={boxPortComptStyles.containerAllSlide}>
    
-            <RedesBoxCompt />
+            {/* <RedesBoxCompt /> */}
 
 
          {/* Slides apilados */}
@@ -33,9 +33,9 @@ export default function BoxPortadaCompt() {
                 <HomePortadaCompt
                     styleDefault="A"
                     bkImagen="/homePortadas/PortadaA.jpg"
-                    titlePortada="SOMOS IMPORTADORES y DISTRIBUIDORES DIRECTOS"
-                    textPortada="40 años trayectoria nos posicionan como la empresa número uno en la 
-                    importación de soluciones científicas con el mejor respaldo post venta del país."
+                    titlePortada="SOMOS IMPORTADORES Y DISTRIBUIDORES DIRECTOS"
+                    textPortada="40 años de trayectoria nos posicionan como la empresa número uno en la importación y 
+                    distribución de equipos científicos para laboratorios, la industria y la enseñanza."
                     btnText= "Conoce Quienes Somos"
                     linkToPage="/quienes-somos"
                 />

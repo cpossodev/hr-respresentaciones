@@ -61,24 +61,47 @@
 
     .contentAllFiltroMarcas {
         align-items: center;
+            gap: 30px 30px;
+
     }
 
 
     .boxContentBtnFiltrosMarcas {
-        width: 100%;
+        width: 70%;
         flex-flow: row wrap;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
 
 }
 
+@media screen and (max-width: 1080px) {
+    .boxContentBtnFiltrosMarcas {
+                justify-content: center;
+
+        width: 90%;
+    
+    }
+}
+
+
+
+
 @media screen and (max-width: 980px) {
 
 
    .boxContentBtnFiltrosMarcas {
-        justify-content: center;
-         gap: 15px 15px;
+
+         gap: 30px 30px;
+                 width: 100%;
+
     }
 
+}
+
+
+@media screen and (max-width: 480px) {
+    .contentAllFiltroMarcas {
+        padding: 0px 0px 40px 0px;
+    }
 }

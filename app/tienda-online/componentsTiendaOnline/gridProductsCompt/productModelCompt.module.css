@@ -196,3 +196,28 @@
 .btnLinkToProduct:hover {
     background-color: #2EB5AF ;
 }
+
+@media screen and (max-width: 1080px) {
+ 
+    .contentAllproductModel {
+
+        width: 240px;
+        height: 480px;
+
+}
+
+}
+
+@media screen and (max-width: 860px) {
+
+.contentAllproductModel {
+
+    width: 280px;
+    height: 500px;
+
+}
+
+
+
+
+}

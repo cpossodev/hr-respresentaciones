@@ -1,4 +1,19 @@
 .containerMain {
-    max-width: 100vw;
-    overflow-x: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1980px;
+    height: auto;
+    /* overflow-x: hidden; */
 }
+
+/* .boxMainBtnWtsApp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 1920px;
+    height: auto;
+} */

@@ -1,14 +1,16 @@
 .containerHomePortada {
+    position: absolute;
+    top: 70px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;      /* ✅ centra verticalmente */
-    align-items: flex-start;          /* ✅ centra horizontalmente */
-    width: 100%;
-    height: 100%;
+    align-items: flex-start; 
+    width: 100%;         /* ✅ centra horizontalmente */
+    max-width: 1980px;
+    height: 420px;
     background-size: cover;       /* ✅ que cubra todo */
     background-position: center;  /* ✅ centrado */
     background-repeat: no-repeat; /* ✅ no repetir */
-    background-color: rgb(20, 176, 64);
     padding-left: 0%;
 }
 
@@ -18,15 +20,13 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: 35%;
     height: 100%;
     background-color: rgba(44, 180, 174, 0.7);
     padding: 3% 5%;
     gap: 20px 0px;
     border-bottom-right-radius: 150px;
-    animation: moveBoxPortada 0.7s forwards ;
-    
-    
+    animation: moveBoxPortada 0.7s forwards;
 }
 
 @keyframes moveBoxPortada {
@@ -56,7 +56,7 @@
     font-size: 1em;
     font-weight: 300;
     color: #ffffff;
-    text-align: left;
+    text-align: justify;
     line-height: 1.4em;
     margin-bottom: 10px;
 }
@@ -84,113 +84,64 @@
 
 .linkToPage:hover {
     background-color: #1D1D3D;
+
 }
 
 
-@media screen and (min-width: 1919px) {
-    .containerHomePortada {
-        width: 100%;
-    };
+@media screen and (max-width: 1280px) {
+    .boxTextHomePortada {
+        width: 45%;
+    }
 }
 
 
 @media screen and (max-width: 920px) {
-
-    .containerHomePortada {
-          height: 580px;
+   .boxTextHomePortada {
+        width: 60%;
     }
-
 }
-
-
-@media screen and (max-width: 780px) {
-
-
-    .boxTextHomePortada {
-        justify-content: flex-start;
-        width: 50%;
-           padding: 10% 5% 5% 5%;
- 
-    }
-
-        .linkToPage {
-        width: 80%;
-    }
-
-}
-
 
 @media screen and (max-width: 680px) {
 
+    .containerHomePortada {
+        height: 520px;
+    }
 
-    .boxTextHomePortada {
-        top: 0px;
-        right: 0px;
-        width: 60%;
-        height: 100%;
-        padding: 18% 10%;
-
+   .boxTextHomePortada {
+        width: 65%;
+        padding: 3% 10%;
     }
 
     .titleHomePortada {
-        font-size: 1.4em;
+        text-align: justify;
     }
 
-    .textHomePortada {
-        font-size: 0.8em;
-        font-weight: 500;
-    }
+.linkToPage {
+    width: 100%;
+}
 
-    .linkToPage {
-        width: 100%;
-    }
 
 }
 
 @media screen and (max-width: 480px) {
 
-
-    .containerHomePortada {
-        height: 580px;
-
-    }
-
     .boxTextHomePortada {
-        width: 70%;
-        border-bottom-right-radius: 150px;
-
+            width: 70%;
     }
-
-    .titleHomePortada {
-        font-size: 1.2em;
-        margin-bottom: 15px;
-        line-height: 1.3em;
-    }
-
-
-    .textHomePortada {
-        font-size: 1em;
-        line-height: 1.3em;
-        margin-bottom: 20px;
-    }
-
-
-    .linkToPage {
-        font-size: 0.7em;
-        padding-left: 12px;
-        width: 95%;
-        border-radius: 0px;
-        height: 45px;
-    }
-
-
 
 }
+
 
 @media screen and (max-width: 420px) {
-    .boxTextHomePortada {
-        width: 70%;
 
-   
+    .boxTextHomePortada {
+        width: 100%;
+        border-bottom-right-radius: 0px;
     }
+
+    .linkToPage {
+        width: 60%;
+    }
+
 }
+

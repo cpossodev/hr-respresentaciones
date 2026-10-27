@@ -1,0 +1,232 @@
+.boxWtsLinks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D1D3D;
+    border-radius: 22px 0px 0px 22px;
+    height: 360px;
+    width: 200px;
+    z-index: 10;
+    
+    /* Estado inicial: oculto y encogido */
+    scale: 0;
+    opacity: 0;
+    
+    /* Importante: define el punto desde donde se escala */
+    transform-origin: bottom right; 
+    
+    /* Transición suave para la escala y opacidad */
+    transition: scale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s ease;
+}
+
+/* CLASE QUE ACTIVA LA APERTURA (La que faltaba) */
+.boxWtsLinksOpen {
+    scale: 1;
+    opacity: 1;
+}
+
+.blockHeaderWtsLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #25D366; 
+}
+
+.boxLogoWts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.logoWtsBoxBotton {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.boxAnimationMesseger {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.boxIconMensaje {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    gap: 0px 3px;
+    margin-top: 3px;
+}
+
+/* ANIMACIÓN DEL ICONO MENSAJE */
+@keyframes typingBounce {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-5px); /* Altura a la que sube el punto */
+    }
+}
+
+.puntoAnimate {
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 3px;
+    animation: typingBounce 1.4s infinite ease-in-out both;
+}
+
+/* Retardos individuales para crear el efecto de onda */
+.puntoAnimate1 {
+    animation-delay: -0.32s;
+}
+
+.puntoAnimate2 {
+    animation-delay: -0.16s;
+}
+
+.puntoAnimate3 {
+    animation-delay: 0s;
+}
+
+.boxBodyLinksWts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 15px 0px;
+}
+
+.boxTextContact {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.boxTextContact h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0.5px; /* Corregido con unidad px */
+}
+
+.iconSendLink {
+    font-size: 1.5em;
+}
+
+.boxLinksContacts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px 0px;
+}
+
+.linkWtsFromBox {
+    all: unset;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    font-weight: 400;
+    gap: 0px 10px;
+    cursor: pointer; /* Añadido cursor pointer por ser un enlace */
+    transition: translate 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+
+.linkWtsFromBox:hover {
+    translate: 5px;
+    color: #25D366;
+
+}
+
+
+
+
+.lineDivisionWtsLinks {
+    width: 90%;
+    height: 1px;
+    background-color: #1f3d7b;
+    margin: 5px 0px;
+}
+
+.boxTextAtencion {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.boxTextAtencion h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.65em;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.5px; /* Corregido con unidad px */
+    text-align: center;
+}
+
+.boxFooterCerrar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px 0px 0px 20px;
+    background-color: #25D366; 
+}
+
+.btnCerrar {
+    all: unset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.btnCerrar:hover {
+        color: #000000;
+
+}
