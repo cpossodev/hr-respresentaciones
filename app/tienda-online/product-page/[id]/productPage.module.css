@@ -15,19 +15,31 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    gap: 10px;
     height: 100px;
     padding: 0px 80px;
     cursor: pointer;
+ 
 }
 
+.link_backTienda {
+    all: unset;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: auto;
+    height: auto;
+
+}
 
 .backTienda {
     font-family: "Manrope", sans-serif;
     font-weight: 500;
     font-size: 0.9em;
     color: #000000;
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 2px 0px;
 }
 
 
@@ -191,6 +203,15 @@
     margin: 10px 0px;
 }
 
+
+.prodLineDivisor_2 {
+      width: 90%;
+}
+
+
+
+
+
 .box_Prest_Garantia {
     display: flex;
     flex-flow: column nowrap;
@@ -214,7 +235,7 @@
 .boxContentIncluyeNoIncluye {
     display: flex;
     flex-flow: column nowrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -246,6 +267,11 @@
 }
 
 .btnCotizar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     font-size: 1em;
@@ -273,7 +299,7 @@
     height: auto;
     gap: 10px 0px;
     padding: 0px 80px;
-    margin: 80px 0px;
+    margin: 60px 0px;
 }
 
 /* h2 */
@@ -305,15 +331,16 @@
     padding: 0px 80px;
 }
 
-.boxCertificaciones, .boxUsoAplicacion {
+/* .boxCertificaciones,  */
+.boxUsoAplicacion {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: auto;
     gap: 10px 0px;
-    margin: 80px 0px;
+    margin: 60px 0px;
     padding: 0px 0px;
 
 }
@@ -401,21 +428,31 @@
 
     .box_backTienda {
         height: 70px;
-         padding: 0px 60px;
+        padding: 0px 60px;
     }
+
+
+
+    .prodLineDivisor_2 {
+        width: 80%;
+    }
+
+
 
 }
 
 
 @media screen and (max-width: 520px) {
 
+.boxUsoAplicacion {
+    width: 100%;
+}
+
 
     .box_backTienda {
         height: 60px;
         padding: 0px 20px;
     }
-
-
 
     .boxContentDescripcionProducto {
         padding: 0px 40px;

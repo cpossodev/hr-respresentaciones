@@ -1,103 +1,56 @@
-
 "use client";
+
 import { useState } from "react";
+import Image from "next/image";
+import imgGaleriaStyle from "./imgGaleriaComp.module.css";
 
-//Import Css
-import imgGaleriaStyle from './imgGaleriaComp.module.css'
+const FALLBACK_IMAGE = "/imgDefaultProducts/photoProductDefault.svg";
 
-export default function ImgGaleriaCompt() {
-    const [selectedImage, setSelectedImage] = useState(0);
+interface ImgGaleriaComptProps {
+  imagenPrincipal: string;
+  imagenesGaleria: string[];
+}
 
-        const images = [
-        "/galeriaImagenes/ImgGaleria-1.jpg",
-        "/galeriaImagenes/ImgGaleria-2.jpg",
-        "/galeriaImagenes/ImgGaleria-3.jpg",
-        "/galeriaImagenes/ImgGaleria-4.jpg",
-        ];
+export default function ImgGaleriaCompt({
+  imagenPrincipal,
+  imagenesGaleria,
+}: ImgGaleriaComptProps) {
+  const [failedImage, setFailedImage] = useState<string | null>(null);
+  const images = [imagenPrincipal, ...imagenesGaleria]
+    .map((image) => image.trim())
+    .filter(Boolean);
+  const currentImage = images[0] ?? FALLBACK_IMAGE;
+  const displayedImage =
+    failedImage === currentImage ? FALLBACK_IMAGE : currentImage;
 
-    return (
-        
-    <div
-      className={imgGaleriaStyle.boxCollageFotos}
-      style={{ backgroundImage: `url("${images[selectedImage]}")` }}
-    >
-       
-        <div className={imgGaleriaStyle.boxMiniFotos}>
-
-            <button
+  return (
+    <div className={imgGaleriaStyle.boxCollageFotos}>
+      <Image
+        src={displayedImage}
+        alt="Imagen del producto"
+        fill
+        unoptimized
+        sizes="(max-width: 780px) 90vw, 50vw"
+        style={{ objectFit: "cover", objectPosition: "center" }}
+        onError={() => setFailedImage(displayedImage)}
+      />
+      {/* {images.length > 1 && (
+          <div className={imgGaleriaStyle.boxMiniFotos} hidden>
+            {images.map((image, index) => (
+              <button
+                key={`${index}-${image}`}
                 type="button"
                 className={`${imgGaleriaStyle.miniFoto} ${
-                selectedImage === 0 ? imgGaleriaStyle.miniFotoSelected : ""
+                  selectedImage === index ? imgGaleriaStyle.miniFotoSelected : ""
                 }`}
-                style={{ backgroundImage: `url("${images[0]}")` }}
-                onClick={() => setSelectedImage(0)}
-                aria-label="Mostrar imagen 1"
-                aria-pressed={selectedImage === 0}
-            />
-
-            <button
-                type="button"
-                className={`${imgGaleriaStyle.miniFoto} ${
-                selectedImage === 1 ? imgGaleriaStyle.miniFotoSelected : ""
-                }`}
-                style={{ backgroundImage: `url("${images[1]}")` }}
-                onClick={() => setSelectedImage(1)}
-                aria-label="Mostrar imagen 2"
-                aria-pressed={selectedImage === 1}
-            />
-
-            <button
-                type="button"
-                className={`${imgGaleriaStyle.miniFoto} ${
-                selectedImage === 2 ? imgGaleriaStyle.miniFotoSelected : ""
-                }`}
-                style={{ backgroundImage: `url("${images[2]}")` }}
-                onClick={() => setSelectedImage(2)}
-                aria-label="Mostrar imagen 3"
-                aria-pressed={selectedImage === 2}
-            />
-
-            <button
-                type="button"
-                className={`${imgGaleriaStyle.miniFoto} ${
-                selectedImage === 3 ? imgGaleriaStyle.miniFotoSelected : ""
-                }`}
-                style={{ backgroundImage: `url("${images[3]}")` }}
-                onClick={() => setSelectedImage(3)}
-                aria-label="Mostrar imagen 4"
-                aria-pressed={selectedImage === 3}
-            />
-            </div>
-
-
-        </div>
-
-        //    <div className={imgGaleriaStyle.boxCollageFotos} style={{ backgroundImage: 'url("/galeriaImagenes/ImgGaleria-1.jpg")' }}>
-
-        //         <div className={imgGaleriaStyle.boxMiniFotos}>
-
-        //             <div 
-        //                 className={`${imgGaleriaStyle.miniFoto} ${imgGaleriaStyle.miniFotoSelected} ${imgGaleriaStyle.miniFoto1}`}
-        //                 style={{ backgroundImage: 'url("/galeriaImagenes/ImgGaleria-1.jpg")' }}>
-        //             </div>
-
-        //             <div 
-        //                 className={`${imgGaleriaStyle.miniFoto} ${imgGaleriaStyle.miniFotoSelected} ${imgGaleriaStyle.miniFoto2}`}
-        //                 style={{ backgroundImage: 'url("/galeriaImagenes/ImgGaleria-2.jpg")' }}>
-        //             </div>
-
-        //             <div 
-        //                 className={`${imgGaleriaStyle.miniFoto} ${imgGaleriaStyle.miniFotoSelected} ${imgGaleriaStyle.miniFoto3}`}
-        //                 style={{ backgroundImage: 'url("/galeriaImagenes/ImgGaleria-3.jpg")' }}>
-        //             </div>
-
-        //             <div 
-        //                 className={`${imgGaleriaStyle.miniFoto} ${imgGaleriaStyle.miniFotoSelected} ${imgGaleriaStyle.miniFoto4}`}
-        //                 style={{ backgroundImage: 'url("/galeriaImagenes/ImgGaleria-4.jpg")' }}>
-        //             </div>
-
-        //         </div>
-
-        //     </div>
-    );
+                style={{ backgroundImage: `url("${image}")` }}
+                onClick={() => setSelectedImage(index)}
+                aria-label={`Mostrar imagen ${index + 1}`}
+                aria-pressed={selectedImage === index}
+              />
+            ))}
+          </div>
+        )} */}
+    </div>
+  );
 }

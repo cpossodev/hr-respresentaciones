@@ -4,23 +4,37 @@ import selectFiltroStyles from './selectFiltroCompt.module.css'
 
 
 interface SelectFiltroComptProps {
+  selectedMarca: string;
+  selectedTipo: string;
+  selectedIndustria: string;
   onMarcaSelect: (marca: string) => void;
   onTipoSelect: (tipo: string) => void;
   onIndustriaSelect: (industria: string) => void;
 }
 
 
-export default function SelectFiltroCompt({ onMarcaSelect, onTipoSelect, onIndustriaSelect }: SelectFiltroComptProps) {
+export default function SelectFiltroCompt({
+  selectedMarca,
+  selectedTipo,
+  selectedIndustria,
+  onMarcaSelect,
+  onTipoSelect,
+  onIndustriaSelect,
+}: SelectFiltroComptProps) {
     return(
 
     <div className={selectFiltroStyles.contentAllSelectFiltros}>
       
         {/* Selector por marca */}
           <div className={selectFiltroStyles.boxSelect}>
-            <select className={selectFiltroStyles.selectFiltro} onChange={(e) => onMarcaSelect(e.target.value)}>
+            <select
+              className={selectFiltroStyles.selectFiltro}
+              value={selectedMarca}
+              onChange={(e) => onMarcaSelect(e.target.value)}
+            >
                 <option value="">Filtrar por marca</option>
                 
-                <option value="Macherey-Nagel">Macherey Nagel</option>
+                <option value="Macherey Nagel">Macherey Nagel</option>
                 <option value="Ahn">Ahn</option>
                 <option value="Boeco">Boeco</option>
                 <option value="Allan France">Allan France</option>
@@ -41,7 +55,12 @@ export default function SelectFiltroCompt({ onMarcaSelect, onTipoSelect, onIndus
 
         {/* Selector por tipo de producto */}
         <div className={selectFiltroStyles.boxSelect}>
-            <select id="producto" className={selectFiltroStyles.selectFiltro} onChange={(e) => onTipoSelect(e.target.value)}>
+            <select
+              id="producto"
+              className={selectFiltroStyles.selectFiltro}
+              value={selectedTipo}
+              onChange={(e) => onTipoSelect(e.target.value)}
+            >
 
                 <option value="">Filtrar por tipo de Producto</option>
 
@@ -64,7 +83,12 @@ export default function SelectFiltroCompt({ onMarcaSelect, onTipoSelect, onIndus
 
         {/* Selector por industria */}
         <div className={selectFiltroStyles.boxSelect}>
-            <select id="industria" className={selectFiltroStyles.selectFiltro} onChange={(e) => onIndustriaSelect(e.target.value)}>
+            <select
+              id="industria"
+              className={selectFiltroStyles.selectFiltro}
+              value={selectedIndustria}
+              onChange={(e) => onIndustriaSelect(e.target.value)}
+            >
                 <option value="">Filtrar por tipo de Industria</option>
 
                 <option value="Alimentos y Bebidas">Industria Alimenticia y Bebidas</option>

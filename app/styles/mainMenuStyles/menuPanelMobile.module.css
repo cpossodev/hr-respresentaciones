@@ -91,12 +91,17 @@
         align-items: center;
     }
 
-    .textLink {
+    .textLink  {
         font-family: "Monserrat", sans-serif;
         color: #ffffff;
         font-size: 0.8em;
         font-weight: 300;
     }
+
+.arrowRight {
+        color: #ffffff;
+
+}
 
 
     .pageActiveOK {

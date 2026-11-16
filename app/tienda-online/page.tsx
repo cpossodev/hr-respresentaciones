@@ -7,9 +7,14 @@ import SearchBar from "./componentsTiendaOnline/searchBarCompt/searchBar";
 import FiltroMarcasCompt from "./componentsTiendaOnline/filtroMarcasCompt/filtroMarcasCompt";
 import SelectFiltroCompt from "./componentsTiendaOnline/selectFiltros/selectFiltroCompt";
 import SectBtnFastSearch from "./componentsTiendaOnline/botonUseIndustria/sectBtnFastSearch";
-import SearchResult from "./componentsTiendaOnline/searchResult/searchResult";
-import SelectOrdenarCompt from "./componentsTiendaOnline/selectOrdenarCompt/selectOrdenarCompt";
 import SectGridProducts from "./componentsTiendaOnline/gridProductsCompt/sectGridProducts";
+
+type ActiveFilter =
+  | { kind: "search"; value: string }
+  | { kind: "marca"; value: string }
+  | { kind: "tipo"; value: string }
+  | { kind: "industria"; value: string }
+  | null;
 
 export default function TiendaOnline() {
 
@@ -17,45 +22,28 @@ export default function TiendaOnline() {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedMarca, setSelectedMarca] = useState<string | null>(null);
-  const [selectedTipo, setSelectedTipo] = useState<string | null>(null);
-  const [selectedIndustria, setSelectedIndustria] = useState<string | null>(null);
+  const [searchInput, setSearchInput] = useState("");
+  const [activeFilter, setActiveFilter] = useState<ActiveFilter>(null);
 
   const limit = 12; // 👉 número de productos por página
 
   const gridProductsRef = useRef<HTMLDivElement>(null);
   const shouldScrollToGrid = useRef(false);
 
-
-  // 👉 Función genérica para traer productos con filtros
-  const fetchProductos = async (
-    page: number,
-    marca?: string | null,
-    tipo?: string | null,
-    industria?: string | null,
-    search?: string | null
-  ) => {
+  const fetchProductos = async (page: number, filter: ActiveFilter = null) => {
     try {
-      let url = `/api/productos?page=${page}&limit=${limit}`;
+      const params = new URLSearchParams({
+        page: String(page),
+        limit: String(limit),
+      });
 
-      if (search && search.trim() !== "") {
-        url += `&search=${encodeURIComponent(search)}`;
-      }
-      if (marca) {
-        url += `&marca=${encodeURIComponent(marca)}`;
-      }
-      if (tipo) {
-        url += `&tipo=${encodeURIComponent(tipo)}`;
-      }
-      if (industria) {
-        url += `&industria=${encodeURIComponent(industria)}`;
-      }
-      if (!search && !marca && !tipo && !industria) {
-        url += `&portada=true`;
+      if (filter) {
+        params.set(filter.kind, filter.value);
+      } else {
+        params.set("portada", "true");
       }
 
-      const res = await fetch(url);
+      const res = await fetch(`/api/productos?${params.toString()}`);
       if (!res.ok) throw new Error("Error al cargar productos");
 
       const data = await res.json();
@@ -68,102 +56,104 @@ export default function TiendaOnline() {
     }
   };
 
-  // 🔎 Búsqueda desde SearchBar
-  const buscarProductos = async (term: string, page = 1) => {
+  const applyFilter = async (filter: ActiveFilter, inputValue = "") => {
     shouldScrollToGrid.current = true;
-    setSearchTerm(term);
+    setActiveFilter(filter);
+    setSearchInput(inputValue);
     setCurrentPage(1);
-
-    await fetchProductos (
-      page, 
-      selectedMarca, 
-      selectedTipo, 
-      selectedIndustria, 
-      term
-    );
+    await fetchProductos(1, filter);
   };
+
+  // const handleSearch = async (term: string) => {
+  //   const normalizedTerm = term.trim();
+  //   if (!normalizedTerm) return;
+
+  //   await applyFilter({ kind: "search", value: normalizedTerm }, normalizedTerm);
+  // };
+
+const handleSearch = async (term: string, showSearchText = true) => {
+  const normalizedTerm = term.trim();
+  if (!normalizedTerm) return;
+
+  await applyFilter(
+    { kind: "search", value: normalizedTerm },
+    showSearchText ? normalizedTerm : ""
+  );
+};
+
+
 
   // 📌 Carga inicial (portada)
   useEffect(() => {
-    fetchProductos(1);
+    fetchProductos(1, null);
   }, []);
 
-// Efect para Scroll Post búsqueda
-useEffect(() => {
-  if (!shouldScrollToGrid.current) return;
+  // Efecto para scroll después de una búsqueda o cambio de filtro
+  useEffect(() => {
+    if (!shouldScrollToGrid.current) return;
 
-  requestAnimationFrame(() => {
-    gridProductsRef.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
+    requestAnimationFrame(() => {
+      gridProductsRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+
+      shouldScrollToGrid.current = false;
     });
-
-    shouldScrollToGrid.current = false;
-  });
-}, [productos]);
-
+  }, [productos]);
 
   // 📌 Paginación
   const handlePageChange = async (page: number) => {
-      shouldScrollToGrid.current = true;
-
+    shouldScrollToGrid.current = true;
     setCurrentPage(page);
-    await fetchProductos(page, selectedMarca, selectedTipo, selectedIndustria, searchTerm);
+    await fetchProductos(page, activeFilter);
   };
 
   // 📌 Filtros
   const handleMarcaSelect = async (marca: string) => {
-    shouldScrollToGrid.current = true;
-    setSelectedMarca(marca || null);
-    setCurrentPage(1);
-    await fetchProductos(1, marca, selectedTipo, selectedIndustria, searchTerm);
+    const value = marca.trim();
+    await applyFilter(value ? { kind: "marca", value } : null);
   };
 
   const handleTipoSelect = async (tipo: string) => {
-    shouldScrollToGrid.current = true;
-    setSelectedTipo(tipo || null);
-    setCurrentPage(1);
-    await fetchProductos(1, selectedMarca, tipo, selectedIndustria, searchTerm);
+    const value = tipo.trim();
+    await applyFilter(value ? { kind: "tipo", value } : null);
   };
 
   const handleIndustriaSelect = async (industria: string) => {
-    shouldScrollToGrid.current = true;
-    setSelectedIndustria(industria || null);
-    setCurrentPage(1);
-    await fetchProductos(1, selectedMarca, selectedTipo, industria, searchTerm);
-  };
-
-  const handleButtonSearch = async (term: string) => {
-    shouldScrollToGrid.current = true;
-    setSearchTerm(term);
-    setCurrentPage(1);
-    await fetchProductos (
-      1, 
-      selectedMarca, 
-      selectedTipo, 
-      selectedIndustria, 
-      term
-    );
+    const value = industria.trim();
+    await applyFilter(value ? { kind: "industria", value } : null);
   };
 
   return (
     <div className={tiendaOnlineStyles.contentAllTiendaOnline}>
-      <SearchBar onSearch={(term) => buscarProductos(term)} />
+      <SearchBar
+        value={searchInput}
+        onChange={setSearchInput}
+        onSearch={handleSearch}
+      />
 
       {/* BOTONES DE FILTROS DE MARCAS */}
       <FiltroMarcasCompt onMarcaSelect={handleMarcaSelect} />
 
       {/* SELECTS DE FILTROS */}
       <SelectFiltroCompt
+        selectedMarca={activeFilter?.kind === "marca" ? activeFilter.value : ""}
+        selectedTipo={activeFilter?.kind === "tipo" ? activeFilter.value : ""}
+        selectedIndustria={activeFilter?.kind === "industria" ? activeFilter.value : ""}
         onMarcaSelect={handleMarcaSelect}
         onTipoSelect={handleTipoSelect}
         onIndustriaSelect={handleIndustriaSelect}
       />
 
-      <SectBtnFastSearch 
-        onButtonSearch={handleButtonSearch}
+      {/* <SectBtnFastSearch 
+        onButtonSearch={handleSearch}
         
-      />
+      /> */}
+
+      <SectBtnFastSearch
+  onButtonSearch={(term) => handleSearch(term, false)}
+/>
 
       <div className={tiendaOnlineStyles.boxLineDivTOnline}>
         <div className={tiendaOnlineStyles.lineDivTOnline}></div>

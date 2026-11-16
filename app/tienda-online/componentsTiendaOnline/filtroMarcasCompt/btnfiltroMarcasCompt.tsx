@@ -6,14 +6,15 @@ import btnMarcasComptStyle from './btnfiltroMarcasCompt.module.css'
 interface BtnMarcasFiltrosProps {
   imgURL: string;
   nameAlt: string;
+  marca: string;
   onClick: (marca: string) => void;
 }
 
-export default function BtnMarcasFiltros({ imgURL, nameAlt, onClick }: BtnMarcasFiltrosProps) {
+export default function BtnMarcasFiltros({ imgURL, nameAlt, marca, onClick }: BtnMarcasFiltrosProps) {
   return (
     <div
       className={btnMarcasComptStyle.contentbtnFiltroMarcas}
-      onClick={() => onClick(nameAlt)} // 👉 dispara el filtro
+      onClick={() => onClick(marca)}
     >
       <img
         className={btnMarcasComptStyle.imgLogoFiltroMarca}

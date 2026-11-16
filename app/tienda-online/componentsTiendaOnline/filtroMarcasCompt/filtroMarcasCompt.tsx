@@ -27,6 +27,7 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-macherey-nagel.svg" 
                     nameAlt="Macherey Nagel"  
+                    marca="Macherey Nagel"
                     onClick={onMarcaSelect}             
                     
                     />
@@ -36,6 +37,7 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-boeco.svg" 
                     nameAlt="Boeco"     
+                    marca="Boeco"
                     onClick={onMarcaSelect}          
                     
                     />
@@ -44,7 +46,8 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     <BtnMarcasFiltros
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-AHN.svg" 
-                    nameAlt="AHN"    
+                    nameAlt="AHN"
+                    marca="Ahn"
                     onClick={onMarcaSelect}           
                     
                     />
@@ -54,6 +57,7 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-allan-france.svg" 
                     nameAlt="Allan France"     
+                    marca="Allan France"
                     onClick={onMarcaSelect}          
                     
                     />
@@ -63,6 +67,7 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-melwakee.svg" 
                     nameAlt="Milwake"     
+                    marca="Milwake"
                     onClick={onMarcaSelect}          
                         
                         />
@@ -72,6 +77,7 @@ export default function FiltroMarcasCompt({ onMarcaSelect }: FiltroMarcasComptPr
                     
                     imgURL="/logoMarcasFabricantes/logoFiltrosEdition/logo-isolab.svg" 
                     nameAlt="Isolab"               
+                    marca="Isolab"
                     onClick={onMarcaSelect}
                     
                     />

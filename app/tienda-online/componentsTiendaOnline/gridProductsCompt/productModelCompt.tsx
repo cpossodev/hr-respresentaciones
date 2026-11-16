@@ -12,6 +12,7 @@ import { url } from 'inspector';
     ];
 
 
+
 export default function ProductModelCompt(
 
 
@@ -51,6 +52,13 @@ export default function ProductModelCompt(
     {
 
 
+    const mensajeWhatsApp = encodeURIComponent(
+    `Hola, me contacto por el descuento exclusivo en el producto ${titleNameProd} ${nameModelProd} con código: ${textCodProd} desde la página web.`
+    ); const urlWhatsApp = `https://wa.me/593992818717?text=${mensajeWhatsApp}`;
+
+
+
+
     return(
 
         <div className={prodMDStyles.contentAllproductModel}>
@@ -80,7 +88,10 @@ export default function ProductModelCompt(
                     </div>
 
                     <div className={prodMDStyles.boxBtnWhatsApp}>
-                        <Link href="/tienda-online" className={prodMDStyles.linkToWhatsAppContact}>Obtén un descuento exclusivo!</Link>
+                        <Link href={urlWhatsApp} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className={prodMDStyles.linkToWhatsAppContact}>Obtén un descuento exclusivo!</Link>
                     </div>
                 </div>
 

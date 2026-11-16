@@ -48,7 +48,7 @@ export default function PanelMainMenuMobile() {
                     </div>
 
                     <p className={menuPanelMobileStyles.textLink}>Tienda</p>
-                    <span className={`material-symbols-outlined  ${menuPanelMobileStyles.arrowRight}`}>keyboard_arrow_right</span>
+                    <span className={`material-symbols-outlined ${menuPanelMobileStyles.arrowRight}`}>keyboard_arrow_right</span>
                     
                 </Link>
 

@@ -69,24 +69,34 @@ const producto = await prisma.producto.findUnique({
   const logoMarcaUrl = producto.marca?.logo?.urlLogo.trim().replace(/\\/g, "/");
 
 
+  const mensajeWhatsApp = encodeURIComponent(
+    `Hola, me contacto para cotizar el producto ${producto.nombreProd} ${producto.modeloProd} con código: ${producto.codigo} desde la página web.`
+    ); const urlWhatsAppCotizar = `https://wa.me/593992818717?text=${mensajeWhatsApp}`;
+
 
     return (
         <div className={productPageStyle.contentAllProductPage}>
 
             {/* // BOX BACK TIENDA */}
-            <div className={productPageStyle.box_backTienda}> 
+            <div className={productPageStyle.box_backTienda}>
 
-                <span className={`${productPageStyle.iconBackTienda} material-symbols-outlined `}>keyboard_arrow_left </span>                    
-                <span className={productPageStyle.backTienda}> Volver a la tienda</span>
+                <Link href="/tienda-online" className={productPageStyle.link_backTienda}> 
+                    <span className={`${productPageStyle.iconBackTienda} material-symbols-outlined `}>keyboard_arrow_left </span>                    
+                    <span className={productPageStyle.backTienda}> Volver a la tienda</span>
+                </Link>
 
             </div>
-
+            
             <div className={productPageStyle.boxContentInfoFotos}>
 
                 {/* // BOX COLLAGE FOTOS PRODUCTO */}
                 <div className={productPageStyle.boxContentCollageFotos}>
 
-                    <ImgGaleriaCompt />
+                    <ImgGaleriaCompt
+                        key={producto.id}
+                        imagenPrincipal={producto.imgURL || "/imgDefaultProducts/photoProductDefault.svg"}
+                        imagenesGaleria={producto.galeria.map((imagen) => imagen.urlImagen)}
+                    />
 
                 </div>
 
@@ -113,6 +123,7 @@ const producto = await prisma.producto.findUnique({
                            }}
                        ></div>
                         <Link className={productPageStyle.linkToMarcaProd} href="/tienda-online">Encuentra más productos de Elitech</Link>                   
+
 
                     </div> 
 
@@ -173,8 +184,9 @@ const producto = await prisma.producto.findUnique({
                     </div>
 
                     {/* // BUTTON COTIZAR */}
-                    <button className={productPageStyle.btnCotizar}> Cotizar </button>
-                    
+                    <Link href={urlWhatsAppCotizar} target="_blank" rel="noopener noreferrer" className={productPageStyle.btnCotizar}>
+                        Cotizar
+                    </Link>
                 </div>
 
             </div>
@@ -188,17 +200,17 @@ const producto = await prisma.producto.findUnique({
 
 
             {/* // LÍNEA DIVISORA */}
-            <div className={productPageStyle.prodLineDivisor}></div>
+            <div className={`${productPageStyle.prodLineDivisor} ${productPageStyle.prodLineDivisor_2}`}></div>
 
 
             {/* // BOX CONTENT CERTIFICACIONES, USO Y APLICACIÓN */}
             <div className={productPageStyle.boxContentCertifAplicacion}>
-                <div className={productPageStyle.boxCertificaciones}>
+                {/* <div className={productPageStyle.boxCertificaciones}>
                     <h2 className={productPageStyle.titleTextCertificaciones}>Certificaciones</h2>
                     <p className={productPageStyle.textCertificaciones}>
                     {producto.certificaciones ?? ""}
                     </p>
-                </div>
+                </div> */}
 
                 <div className={productPageStyle.boxUsoAplicacion}>
                     <h2 className={productPageStyle.titleTextUsoAplicacion}>Uso y Aplicación</h2>
@@ -211,11 +223,11 @@ const producto = await prisma.producto.findUnique({
 
 
                     {/* // LÍNEA DIVISORA */}
-                    <div className={productPageStyle.prodLineDivisor}></div>
+                    {/* <div className={productPageStyle.prodLineDivisor}></div> */}
 
 
                 {/* // BOX DESCRIPCIÓN PRODUCTO */}
-                <div className={productPageStyle.boxContentEspecifProducto}>
+                {/* <div className={productPageStyle.boxContentEspecifProducto}>
 
                     <h2 className={productPageStyle.titleTextEspecifProducto}>Especificaciones</h2>
 
@@ -249,7 +261,7 @@ const producto = await prisma.producto.findUnique({
                         <p>{producto.anoFabricacion ?? ""}</p>
                     </span>
 
-                </div>
+                </div> */}
 
         </div>
     )

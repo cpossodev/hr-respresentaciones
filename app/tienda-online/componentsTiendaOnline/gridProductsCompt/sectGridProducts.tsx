@@ -19,7 +19,7 @@ export default function sectGridProducts({ productos, currentPage, totalPages, o
             <div key={index} className={sectGdPctStyles[`product_${index + 1}`]}>
               <ProductModelCompt
                 id={prod.id}
-                urlBkProduct={prod.imgURL || "/imgDefaultProducts/photoProductDefault.png"}
+                urlBkProduct={prod.imgURL || "/imgDefaultProducts/photoProductDefault.svg"}
                 textCodProd={prod.codigo}
                 titleNameProd={prod.nombreProd}
                 nameModelProd={prod.modeloProd}

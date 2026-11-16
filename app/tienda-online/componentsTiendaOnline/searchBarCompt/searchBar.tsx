@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 //Import Css
 import searchBarStyles from './searchBar.module.css';
@@ -7,13 +7,13 @@ import searchBarStyles from './searchBar.module.css';
 
 // Definimos la interfaz de props
 interface SearchBarProps {
+  value: string;
+  onChange: (value: string) => void;
   onSearch: (term: string) => void;
 }
 
 
-export default function SearchBar({ onSearch }: SearchBarProps) {
-
-    const [term, setTerm] = useState("");
+export default function SearchBar({ value, onChange, onSearch }: SearchBarProps) {
     const inputRef = useRef<HTMLInputElement>(null);
 
     // Al montar el componente, el input recibe el foco
@@ -23,8 +23,8 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
 
 
     const handleSearch = () => {
-        if (term.trim() !== "") {
-        onSearch(term); // Llama la función pasada desde TiendaOnline
+        if (value.trim() !== "") {
+        onSearch(value);
         }
     };
 
@@ -49,8 +49,8 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
                             ref={inputRef}
                             type="text"
                             placeholder="Buscar productos por nombre / modelo / uso / aplicación"
-                            value={term}
-                            onChange={(e) => setTerm(e.target.value)}
+                            value={value}
+                            onChange={(e) => onChange(e.target.value)}
                             
                          />
 
