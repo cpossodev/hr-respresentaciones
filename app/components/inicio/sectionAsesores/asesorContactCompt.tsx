@@ -22,8 +22,15 @@ export default function AsesorContactCompt(
 
 
 
-      const mensaje = encodeURIComponent(
-        "Hola, me contacto desde la página web de HR Represenraciones. Necesito aseoría sobre sus productos"
+  const mensaje = encodeURIComponent(
+    `Estimado ${nameAsesor},
+
+        Me contacto desde la página web de HR Representaciones para solicitar información y asesoría sobre sus productos.
+
+        Quedo atento a sus comentarios.
+
+        Muchas gracias.`
+
     );
 
     const urlWtsAsesor = `https://api.whatsapp.com/send/?phone=${whatsAppAsesor}&text=${mensaje}`;

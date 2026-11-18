@@ -12,12 +12,12 @@ export default function SectionStaffAsesores() {
 
     // DATOS ASESORES
     
-    const WtsAsesor1: string = "593992818717"; 
-    const WtsAsesor2: string = "593992818717"; 
-    const WtsAsesor3: string = "593992818717"; 
-    const WtsAsesor4: string = "593992818717"; 
-    const WtsAsesor5: string = "593992818717"; 
-    const WtsAsesor6: string = "593992818717"; 
+    const WtsAsesor1: string = "593963956870"; 
+    const WtsAsesor2: string = "593963966407"; 
+    const WtsAsesor3: string = "593963907860"; 
+    const WtsAsesor4: string = "593963906955"; 
+    const WtsAsesor5: string = "593993819433"; 
+    const WtsAsesor6: string = "593995866092"; 
 
     
     return(
@@ -39,48 +39,48 @@ export default function SectionStaffAsesores() {
 
                 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor1.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/DiegoRueda.jpg"
+                        nameAsesor = "Mgtr. Diego Rueda"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor1}
                     
                     />
 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor2.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/HenryMoreno.jpg"
+                        nameAsesor = "Henry Moreno"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor2}
                     
                     />
 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor3.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/CatalinaCaicedo.jpg"
+                        nameAsesor = "Catalina Caicedo"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor3}
                     
                     />
 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor1.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/AnthonyToledo.jpg"
+                        nameAsesor = "Eco. Anthony Toledo"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor4}
                     
                     />
 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor2.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/LuciaCruz.jpg"
+                        nameAsesor = "Lucía Cruz"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor5}
                     
                     />
 
                     <AsesorContactCompt
-                        urlBkImgAsesor = "/imgAsesores/Asesor3.jpg"
-                        nameAsesor = "Andréa Morales Figueroa"
+                        urlBkImgAsesor = "/imgAsesores/SamathaCarrera.jpg"
+                        nameAsesor = "Samatha Carrera"
                         cargoAsesor = "Asesora Comercial"
                         whatsAppAsesor = {WtsAsesor6}
                     
