@@ -131,9 +131,10 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        height: 80svh;
-            padding: 0px 20px;
-            gap: 30px 0px;
+        height: auto;
+        padding: 40px 20px;
+        gap: 30px 0px;
+
         }
 
     .boxBlockContacts {
@@ -185,18 +186,6 @@
  } */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* @media screen and (min-width: 1481px) and (min-height: 1080px)
  {
     .contentAllFooter {
@@ -213,17 +202,6 @@ and (min-height: 1119px)
        height: 50svh;
     }
 } */
-
-
-
-
-
-
-
-
-
-
-
 
 
 

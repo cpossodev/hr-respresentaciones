@@ -49,7 +49,7 @@ export default function SectMarcasLideresCalidad() {
                         <div className={`${animateOn === true ? marcasLideresStyles.boxTitleML: marcasLideresStyles.ActiveAnimateBoxTitleML}`}>
 
                             <p className={marcasLideresStyles.titleTextML}>
-                                REPRESENTAMOS A MARCAS LÍDERES A NIVEL MUNDIAL
+                                MARCAS LÍDERES EN TECNOLOGÍA E INNOVACIÓN
                             </p>
 
                         </div>
@@ -57,7 +57,7 @@ export default function SectMarcasLideresCalidad() {
 
                         <div className={`${animateOn === true ? marcasLideresStyles.boxTextParrafoML: marcasLideresStyles.ActiveAnimateBoxTitleML}`}>
 
-                            <p className={marcasLideresStyles.parrafoTextML}>
+                            {/* <p className={marcasLideresStyles.parrafoTextML}>
                                 En HR Representaciones trabajamos con fabricantes 
                                 reconocidos mundialmente como:  
                                 <span className={marcasLideresStyles.TextoSubrayadoML}>
@@ -67,6 +67,18 @@ export default function SectMarcasLideresCalidad() {
                                 Estas marcas son sinónimo de innovación y desarrollo tecnológico, ofreciendo 
                                 soluciones científicas que responden a las necesidades de laboratorios, 
                                 industrias y centros educativos de alto nivel.
+                            </p> */}
+
+
+                            <p className={marcasLideresStyles.parrafoTextML}>
+                                En HR Representaciones conectamos a la industria 
+                                ecuatoriana con los fabricantes más prestigiosos del mundo, 
+                                como: <span className={marcasLideresStyles.TextoSubrayadoML}>
+                                    MACHEREY-NAGEL, BOECO, VELP, JP SELECTA, 3B Scientific, 
+                                Heathrow Scientific, APERA, Elitech, ISOLAB, ALLA FRANCE, 
+                                MILWAUKEE, ARCO y AHN.</span>   Somos el canal directo que acerca 
+                                innovación y desarrollo tecnológico global a sus laboratorios, 
+                                procesos industriales y centros educativos de alto nivel.
                             </p>
 
                         </div>

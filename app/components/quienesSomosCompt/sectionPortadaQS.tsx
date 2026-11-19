@@ -30,16 +30,16 @@ const titleQS = [
 const textQS = [
 
     //Texto Sobre Nosotros
-    "HR Representaciones, empresa fundada en 1985, con vasta experiencia en la importación y distribución de equipos científicos para laboratorios, industrias y enseñanza. Nos destacamos por nuestra capacidad para ofrecer soluciones innovadoras con tecnología de clase mundial que superan las expectativas de nuestros clientes.",
+    "Fundada en 1985, HR Representaciones cuenta con una vasta trayectoria en la importación y distribución de equipos científicos e industriales en el Ecuador. Nos apasiona proveer herramientas tecnológicas de última generación que optimizan los procesos críticos de nuestros clientes.",
 
     // Texto Nuestra Trayectoria
-    "HR Representaciones, con 40 años de trayectoria, se ha consolidado como líder en la comercialización de soluciones tecnológicas para laboratorios, industria y enseñanza. Reconocida en todo el Ecuador, ha brindado confianza a instituciones públicas y privadas del sector hospitalario, industrial y educativo, ofreciendo productos innovadores, certificados internacionalmente y con tecnología de punta.",
+    "Con 40 años de liderazgo en el mercado, nos hemos consolidado como el socio estratégico de confianza para instituciones públicas y privadas de los sectores industriales de control de calidad, hospitalario y educativo a nivel nacional.",
 
     // Texto Nuestras Marcas
-    "HR Representaciones distribuye marcas globales de origen europeo, reconocidas por su innovación y certificaciones de calidad internacional. Como distribuidor directo en Ecuador, garantiza productos de tecnología de punta con respaldo mundial, ofreciendo servicio postventa, asistencia personalizada y programas de capacitación que fortalecen la confianza de sus clientes en sectores hospitalarios, industriales y educativos.",
+    "Como distribuidores directos de fabricantes globales (principalmente europeos y americanos), aseguramos el acceso a tecnología con certificación internacional, garantizando un stock real, repuestos originales y soporte directo de fábrica.",
 
     // Texto Staff Profesional
-    "HR Representaciones cuenta con un staff profesional altamente capacitado y con amplia experiencia, comprometido en brindar soluciones confiables y oportunas a nuestros clientes. Nuestro equipo incluye especialistas en cada área de servicio, ofreciendo asistencia personalizada y soporte oportuno en cada paso."
+    "HR Representaciones cuenta con un Staff profesional altamente capacitado y con amplia experiencia, comprometido en brindar soluciones confiables y oportunas a nuestros clientes. Nuestro equipo incluye especialistas en cada área de servicio, ofreciendo asistencia personalizada y soporte oportuno en cada paso."
 
 ]
 

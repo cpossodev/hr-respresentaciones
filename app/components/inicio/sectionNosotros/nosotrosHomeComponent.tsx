@@ -25,8 +25,8 @@ export default function NosotrosHomeComponent() {
 
   const textos = [
     "Contamos con una amplia gama de equipos científicos, suministros e instrumentos de medición de alta precisión. Ofrecemos soluciones de nivel profesional para laboratorios de análisis y diagnóstico clínico. Bioseguridad Hospitalaria, Sector industrial y Petrolero. Contamos con modelos anatómicos y material de estudio para Universidades, Instituciones Educativas y Centros de Investigación Científica.",
-    "Nuestro portafolio incluye una amplia gama de Equipos para Laboratorios como Autoclaves, Incubadoras, Hornos. Instrumentos de medición de alta precisión como: Fotómetros, Espectrofotómetros, Refractómetros. Suministros consumibles como: Reactivos Químicos Analíticos, Bioanálisis, Test Rápidos y mucho más.",
-    "Asesoramos cada paso de su compra con asistencia técnica especializada presencial. Contamos con un staff técnico altamente capacitado y listo para brindarle soluciones a medida. Nuestro servicio post venta le garantiza un amplio stock de repuesto, servicio técnico experto y un programa de capacitación para sus colaboradores y operadores."
+    "Nuestro portafolio incluye una amplia gama de Equipos para Laboratorios como Autoclaves, Incubadoras, Hornos. Instrumentos de medición de alta precisión como: Fotómetros, Espectrofotómetros, Refractómetros. Suministros consumibles como: Reactivos Químicos Analíticos, Bío análisis, Test Rápidos y mucho más.",
+    "Asesoramos cada paso de su compra con asistencia técnica especializada presencial. Contamos con un staff técnico altamente capacitado y listo para brindarle soluciones a medida. Nuestro servicio postventa le garantiza un amplio stock de repuesto, servicio técnico experto y un programa de capacitación para sus colaboradores y operadores."
   ];
 
   const bkNosotros = [

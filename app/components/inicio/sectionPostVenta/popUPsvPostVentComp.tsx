@@ -27,10 +27,10 @@ const titleServPopUp = [
 
 
 const textServPostVent = [
-    "Asesoramos cada paso de su compra con asistencia técnica especializada presencial. Contamos con un staff técnico altamente capacitado y listo para brindarle soluciones a la medida de su empresa.",
-    "Contamos con un amplio stock de repuestos y un equipo altamente capacitado para brindarle soporte y asistencia personalizada con el mejor servicio técnico post venta del país.",
-    "Contamos con un sólido equipos de asesores expertos listos para brindarle la capacitación necesaria a su personal para una correcta opración de los equip, insumos e instrumentos.",
-    "En HR Representaciones cada producto cuenta con la garantía y el respaldo oficial del fabricante. Todos nuestros productos cuentan con normas de certificación y aval internacional."
+    "Optimice su inversión desde el primer día. Le acompañamos con asistencia técnica especializada y presencial para diseñar soluciones a la medida de sus procesos industriales o de laboratorio. Nuestro staff experto analiza sus necesidades específicas para asegurar que elija el equipamiento e insumos perfectos para su empresa.",
+    "Protegemos la continuidad de su operación. Disponemos del servicio técnico más confiable del país, respaldado por un equipo de ingenieros calificados y un amplio stock permanente de repuestos originales de fábrica. Minimice los tiempos de inactividad de sus equipos con nuestro soporte de mantenimiento preventivo y correctivo.",
+    "Garantice el máximo rendimiento de sus equipos. Contamos con un equipo de asesores certificados dedicados a capacitar a sus colaboradores y operadores en el manejo, configuración y correcta operación de cada tecnología adquirida. Elevamos la productividad de su personal y aseguramos la repetibilidad de sus análisis técnicos.",
+    "Invierta con total tranquilidad. En HR Representaciones cada equipo, reactivo e instrumento cuenta con el respaldo de fábrica y sólidas garantías oficiales. Trabajamos exclusivamente con productos que cumplen rigurosas normas de certificación y aval internacional, asegurando un estándar de calidad insuperable en el Ecuador "
 ]
 
 

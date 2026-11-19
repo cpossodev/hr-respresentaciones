@@ -62,7 +62,7 @@ export default function SectServPostVent() {
                     setIdButton = {() => setIdButton(2)} 
                     popUpOpen={() => setPopUp(true)}
                     srcIconPostvent = "/IconsPostventas/Icon-Capacitacion.svg"
-                    textPostVent = "Capacitación y Soporte Especializado"
+                    textPostVent = "Capacitación y Soporte Técnico"
                 
                 />
 

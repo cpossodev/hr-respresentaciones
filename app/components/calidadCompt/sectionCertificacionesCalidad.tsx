@@ -24,7 +24,7 @@ export default function SectionCertificacionesCalidad() {
                     <div className={SectCertCldStyles.boxTitleCertfCalidad}>
 
                         <h2 className={SectCertCldStyles.titleCertfCalidad}>
-                            PRODUCTOS CON CERTIFICACIONES Y ESTANDARES INTERNACIONALES
+		                    PRODUCTOS CON CERTIFICACIONES Y ESTÁNDARES INTERNACIONALES
                         </h2>
 
                     </div>
@@ -33,12 +33,14 @@ export default function SectionCertificacionesCalidad() {
                     <div className={SectCertCldStyles.boxTextParrafCertfCld}>
 
                         <p className={SectCertCldStyles.textParrafCerftCld}>
-                            Cada equipo, instrumento y reactivo que distribuimos cumple con rigurosos 
-                            estándares internacionales como ISO 9001, CE, ASTM y FDA, GMP garantizando 
-                            seguridad, precisión y confiabilidad. La calidad certificada de nuestros 
-                            productos asegura que los clientes trabajen con insumos y equipos avalados por 
-                            normas globales, respaldando investigaciones y procesos industriales con resultados 
-                            consistentes.
+                            La exactitud de sus resultados es nuestro compromiso. 
+                            Por ello, cada equipo, instrumento y reactivo de nuestro portafolio 
+                            cumple con las normativas internacionales más exigentes, 
+                            incluyendo ISO 9001, CE, ASTM, FDA y GMP. Esta calidad 
+                            certificada asegura procesos consistentes, avala sus 
+                            investigaciones ante auditorías y garantiza la máxima 
+                            seguridad en el control de calidad industrial. 
+
                         </p>
 
 
@@ -71,6 +73,24 @@ export default function SectionCertificacionesCalidad() {
                             />
 
                         </div>
+
+
+                        {/* BOX ICON LOGO CE - CERTF EUROPEA */}
+                        <div className={`${SectCertCldStyles.boxIconLogo} ${SectCertCldStyles.boxIconSertf_2}`}>
+
+                            <img 
+                                className={`${SectCertCldStyles.iconLogoCerft} ${SectCertCldStyles.IconCertf_2}`}
+                                src="/calidadAssets/iconCertificaciones/Icon-Cerft-CE.svg" 
+                                alt="Certificación Europea CE" 
+                                title="Certificación Europea CE"
+                            />
+
+                        </div>
+
+
+
+
+
 
                         {/* BOX ICON LOGO CERTIFICACION ASTM */}
                         <div className={`${SectCertCldStyles.boxIconLogo} ${SectCertCldStyles.boxIconSertf_3}`}>

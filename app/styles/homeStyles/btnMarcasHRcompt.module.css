@@ -25,28 +25,36 @@
     align-items: center;
     padding-top: 5%;
     width: 90%;
-    height: 65%;
+    height: 100%;
    
 }
 
+
 .logoMarcasHR {
     display: block;
-    width: 125px;
+    width: 100px;
     height: auto;
 }
 
+.Macherey_Nagel {
+    width: 140px;
+}
 
 .boxlinkToProducts {
-    display: flex;
+    display: none;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    height: 35%;
+    height: 0%;
     padding-left: 5px;
     width: 90%;
     transition: background-color 0.3s ease-in-out;
     background-color: transparent;
 }
+
+
+
+
 
 .boxlinkToProducts  p {
     font-family: "Monserrate", sans-serif;

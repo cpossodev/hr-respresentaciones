@@ -41,7 +41,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd01.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Equipos de <br /> Laboratorio</>}
                 filtroProd={1}
@@ -51,7 +51,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd02.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Instrumentos de <br /> Medición</>}
                 filtroProd={2}
@@ -61,7 +61,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd03.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Consumibles de <br /> Precisión</>}
                 filtroProd={3}
@@ -71,7 +71,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd04.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Bioseguridad y <br /> Cadena de Frio</>}
                 filtroProd={4}
@@ -81,7 +81,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd05.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Metrología y <br /> Control Industrial</>}
                 filtroProd={5}
@@ -91,7 +91,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd06.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Modelos Anatómicos y <br /> Material Didáctico</>}
                 filtroProd={6}
@@ -101,7 +101,7 @@ export default function HomeLineasProductosCompt() {
             <SwiperSlide>
               <BotonLineaProdCompt
                 bkUrlImagen="/bkBotonLineaProd/bkLineaProd04.jpg"
-                hrefLinkToPage="/tienda-linea"
+                hrefLinkToPage="/tienda-online"
                 nameLinkBoton="Ver Productos"
                 titleLineaProd={<>Bioseguridad y <br /> Cadena de Frio</>}
                 filtroProd={4}

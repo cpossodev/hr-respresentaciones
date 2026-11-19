@@ -49,7 +49,7 @@ export default function SectionSolucionesEsp() {
                 <div className={sectSoluEspStyles.contentBoxColorTitle}>
                     <div className={`${sectSoluEspStyles.boxColorSolEsp} ${isAnimate ? sectSoluEspStyles.boxColorAnimate : ''}`}></div>
                     <div className={`${sectSoluEspStyles.boxTitleSolEsp} ${isAnimate ? sectSoluEspStyles.boxTitleAnimate : ''}`}>
-                        <h2>SOLUCIONES ESPECIALIZADAS DE ALTO NIVEL</h2>
+                        <h2>EQUIPOS Y SOLUCIONES DE ALTA PRECISIÓN</h2>
                     </div>
                 </div>
 
@@ -58,20 +58,27 @@ export default function SectionSolucionesEsp() {
 
             <div className={sectSoluEspStyles.boxBlockInfo_B}>
 
-                <p> En HR Representaciones entendemos que cada laboratorio, 
-                    industria y centro académico requiere 
-                    herramientas confiables y adaptadas a sus exigencias. 
-                    Por eso ofrecemos un portafolio de productos con 
-                    soluciones especializadas de alto nivel que garantizan 
-                    precisión, seguridad y eficiencia en cada proceso.
+                <p> 
+                    Diseñamos un portafolio integral enfocado en la exactitud analítica 
+                    y la repetibilidad de sus procesos. Desde avanzados instrumentos 
+                    de medición electroquímica y reactivos analíticos de alta pureza,
+                    hasta material de vidrio volumétrico de máxima resistencia; marcas de 
+                    prestigio global como APERA, MACHEREY-NAGEL e ISOLAB se convierten en 
+                    los aliados estratégicos indispensables para laboratorios clínicos, 
+                    industriales y académicos en todo el Ecuador. 
+
                 </p>
 
 
-                <p> Marcas como JP SELECTA, con sus equipos de 
-                    incubación y esterilización, y ELITECH, con 
-                    sistemas avanzados de monitoreo de temperatura, 
-                    son parte de nuestro catálogo y reflejan el compromiso de 
-                    HR con la excelencia.
+                <p> 
+                    En HR Representaciones entendemos que cada sector tiene desafíos únicos 
+                    que exigen herramientas confiables, normadas y adaptadas a su operación. 
+                    Por ello, proveemos soluciones tecnológicas avanzadas que optimizan la 
+                    seguridad, control y eficiencia de sus actividades diarias. 
+                    Contamos con la ingeniería de JP SELECTA para sistemas críticos de incubación y 
+                    esterilización, y la tecnología de ELITECH para el monitoreo automatizado de
+                    temperatura, consolidando nuestro compromiso absoluto con la excelencia técnica 
+
                 </p>
 
 
