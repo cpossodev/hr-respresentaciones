@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link';
 //Import Css
 import footerStyles from '../../styles/footerStyles/footer.module.css'
 
@@ -32,7 +33,13 @@ export default function Footer() {
 
                     <div className={footerStyles.boxDireccion}>
 
-                        <img className={`${footerStyles.IconContact} ${footerStyles.IconMaps}`} src="/footerAssets/Icon-Maps.svg" />
+                        <Link 
+                            href="https://maps.app.goo.gl/zbBndzD4kdUzeucu7"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            <img className={`${footerStyles.IconContact} ${footerStyles.IconMaps}`} src="/footerAssets/Icon-Maps.svg" />
+                        </Link>
                         <p className={footerStyles.textDireccion}>Isla Genovesa N41-30 e Isla Floreana</p>
 
                     </div>
@@ -64,16 +71,17 @@ export default function Footer() {
 
                     <div className={footerStyles.boxEmailAdress}>
 
-                        <img className={`${footerStyles.IconContact} ${footerStyles.IconEmail}`} src="/footerAssets/Icon-Email.svg" />
+                        <Link href="mailto:info@hrrepresentaciones.com" target="_blank" rel="noopener noreferrer">
 
-                        <p className={footerStyles.textAdress}>info@hrrepresentaciones.com</p>
+                            <img className={`${footerStyles.IconContact} ${footerStyles.IconEmail}`} src="/footerAssets/Icon-Email.svg" />
+
+                        </Link>
+
+                            <p className={footerStyles.textAdress}>info@hrrepresentaciones.com</p>
 
                     </div>
 
-
                 </div>
-
-
 
             </div>
 

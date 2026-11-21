@@ -33,7 +33,16 @@ export default function SearchBar({ value, onChange, onSearch }: SearchBarProps)
 
         <div className={searchBarStyles.contentAllSearchBar}>
 
-            <div className={searchBarStyles.boxSearchBar}>
+           <form
+                className={searchBarStyles.boxSearchBar}
+                onSubmit={(event) => {
+                    event.preventDefault();
+                    handleSearch();
+                }}
+            >
+
+
+
 
                 <div className={searchBarStyles.boxIconLupa}>
 
@@ -58,15 +67,18 @@ export default function SearchBar({ value, onChange, onSearch }: SearchBarProps)
                 <div className={searchBarStyles.boxBtnSearchBuscar}>
 
                    <button
+                        type="submit"
                         className={searchBarStyles.btnBtnSearchBuscar}
-                        onClick={handleSearch}
+                        // onClick={handleSearch}
                         >
-                    
-                    Buscar</button> 
+                            
+                        Buscar
+
+                    </button> 
 
                 </div>
 
-            </div>
+            </form>
 
         </div>
 

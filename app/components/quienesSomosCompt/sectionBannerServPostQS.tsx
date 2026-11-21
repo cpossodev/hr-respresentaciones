@@ -18,7 +18,7 @@ export default function SectionBannerServPostQS() {
                     <p className={bannerSPostQSStyles.titleBannerQSserv}>CONTAMOS CON EL MEJOR SERVICIO POST VENTA DEL PAÍS</p>
 
                     <Link 
-                    href={"/calidad"}
+                    href={"/nuestra-calidad"}
                     className={bannerSPostQSStyles.linkToCalidadQS}>Conoce Más</Link>
 
                 </div>

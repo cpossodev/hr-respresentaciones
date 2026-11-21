@@ -32,6 +32,22 @@ export default function BotonWhatsApp() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+
+
+    const mensajeWhatsAppVentas = encodeURIComponent(
+    `Hola, me contacto desde su página web para obtener más información sobre sus productos y servicios.`
+    );     
+    
+   const mensajeAtencionCliente = encodeURIComponent(
+    `Hola, me contacto desde su página web para solicitar atención al cliente.`
+    );  
+
+
+        const urlWhatVentas1 = `https://wa.me/593995866092?text=${mensajeWhatsAppVentas}`;
+        const urlWhatVentas2 = `https://wa.me/593993819433?text=${mensajeWhatsAppVentas}`;
+        const urlWhatAtencionCliente = `https://wa.me/593993819433?text=${mensajeAtencionCliente}`;
+
+ 
     return(
 
         // EL CONTENEDOR DE TODO EL COMPONENTE
@@ -84,7 +100,7 @@ export default function BotonWhatsApp() {
 
                        {/* A - BOTON LINK TO WHATSAPP  */}
                         <Link 
-                                href="https://wa.me/5939XXXXXXXX?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" 
+                                href={urlWhatAtencionCliente}
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className={`${botonWtsBoxUPStyle.linkWtsFromBox} ${botonWtsBoxUPStyle.linkTo_A}`}
@@ -98,7 +114,7 @@ export default function BotonWhatsApp() {
 
                         {/* B - BOTON LINK TO WHATSAPP  */}
                         <Link 
-                                href="https://wa.me/5939XXXXXXXX?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" 
+                                href={urlWhatVentas1}
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className={`${botonWtsBoxUPStyle.linkWtsFromBox} ${botonWtsBoxUPStyle.linkTo_B}`}
@@ -110,10 +126,9 @@ export default function BotonWhatsApp() {
                         </Link>
                
 
-
                         {/* B - BOTON LINK TO WHATSAPP  */}
                         <Link 
-                                href="https://wa.me/5939XXXXXXXX?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" 
+                                href={urlWhatVentas2}
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className={`${botonWtsBoxUPStyle.linkWtsFromBox} ${botonWtsBoxUPStyle.linkTo_C}`}
@@ -137,9 +152,7 @@ export default function BotonWhatsApp() {
                     </div>
 
 
-
                 </div>
-
 
 
                 {/* FOOTER CERRAR */}
