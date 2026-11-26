@@ -62,11 +62,6 @@ export default function SectionSloganQS() {
         }, []);
 
 
-
-
-
-
-
     return(
 
             <div 
@@ -87,7 +82,7 @@ export default function SectionSloganQS() {
                                 <p>{<>CONFIANZA,<br/>CALIDAD,<br/>Y GARANTÍA</>}</p>
                             </div>      
 
-                            <Link href="/calidad" className={`${isAnimate === true ? sloganQSstyles.linkTOCalidadFromQS: sloganQSstyles.opacityStart }`}>
+                            <Link href="/nuestra-calidad" className={`${isAnimate === true ? sloganQSstyles.linkTOCalidadFromQS: sloganQSstyles.opacityStart }`}>
                                 Conoce Más
                             </Link>
                         </div>

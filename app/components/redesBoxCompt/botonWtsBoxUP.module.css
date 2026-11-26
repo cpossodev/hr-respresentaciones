@@ -18,15 +18,15 @@
     
     /* Transición suave para la escala y opacidad */
     transition: scale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s ease;
-        pointer-events:fill;
+    pointer-events:fill;
 
 }
 
 /* CLASE QUE ACTIVA LA APERTURA (La que faltaba) */
-    .boxWtsLinksOpen {
-        scale: 1;
-        opacity: 1;
-    }
+.boxWtsLinksOpen {
+    scale: 1;
+    opacity: 1;
+}
 
 .blockHeaderWtsLinks {
     display: flex;
@@ -164,16 +164,11 @@
     transition: translate 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-
-
 .linkWtsFromBox:hover {
     translate: 5px;
     color: #25D366;
 
 }
-
-
-
 
 .lineDivisionWtsLinks {
     width: 90%;
@@ -232,3 +227,79 @@
         color: #000000;
 
 }
+
+
+
+@media screen and 
+(max-height: 620px) 
+and (min-width: 820px) 
+and (max-width: 1280px) { 
+
+
+    .boxWtsLinks {
+        height: 280px;
+        width: 160px;
+    
+    }
+
+
+    .boxLogoWts {
+        width: 70%;
+        height: 100%;
+        border-radius: 20px 0px 0px 0px;
+        align-items: center;
+
+    }
+
+
+    .logoWtsBoxBotton {
+        width: 90px;
+        margin-left: 5px;
+    }
+
+
+    .boxAnimationMesseger {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+
+    .boxIconMensaje {
+        width: 35px;
+        height: 30px;
+    }
+
+
+    .boxLinksContacts {
+        gap: 15px 0px;
+    }
+
+
+    .boxBodyLinksWts {
+            padding: 10px 0px;
+    }
+
+
+    .boxTextContact h2 {
+        font-size: 0.6em;
+    }
+
+
+    .iconSendLink {
+        font-size: 1.2em;
+    }
+
+
+    .linkWtsFromBox {
+        font-size: 0.6em;
+    }
+
+    .boxTextAtencion h3  {
+        font-size: 0.6em;
+    }
+
+
+
+
+} 
+

@@ -41,7 +41,7 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/DiegoRueda.jpg"
                         nameAsesor = "Mgtr. Diego Rueda"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor1}
                     
                     />
@@ -49,7 +49,7 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/HenryMoreno.jpg"
                         nameAsesor = "Henry Moreno"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor2}
                     
                     />
@@ -57,7 +57,7 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/CatalinaCaicedo.jpg"
                         nameAsesor = "Catalina Caicedo"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor3}
                     
                     />
@@ -65,7 +65,7 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/AnthonyToledo.jpg"
                         nameAsesor = "Eco. Anthony Toledo"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor4}
                     
                     />
@@ -73,7 +73,7 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/LuciaCruz.jpg"
                         nameAsesor = "Lucía Cruz"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor5}
                     
                     />
@@ -81,17 +81,14 @@ export default function SectionStaffAsesores() {
                     <AsesorContactCompt
                         urlBkImgAsesor = "/imgAsesores/SamathaCarrera.jpg"
                         nameAsesor = "Samatha Carrera"
-                        cargoAsesor = "Asesora Comercial"
+                        cargoAsesor = "Asesor Comercial"
                         whatsAppAsesor = {WtsAsesor6}
                     
                     />
 
             </div>
 
-
-
         </div>
-
 
     );
 }

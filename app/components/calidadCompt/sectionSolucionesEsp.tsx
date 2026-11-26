@@ -70,7 +70,7 @@ export default function SectionSolucionesEsp() {
                 </p>
 
 
-                <p> 
+                {/* <p> 
                     En HR Representaciones entendemos que cada sector tiene desafíos únicos 
                     que exigen herramientas confiables, normadas y adaptadas a su operación. 
                     Por ello, proveemos soluciones tecnológicas avanzadas que optimizan la 
@@ -79,15 +79,13 @@ export default function SectionSolucionesEsp() {
                     esterilización, y la tecnología de ELITECH para el monitoreo automatizado de
                     temperatura, consolidando nuestro compromiso absoluto con la excelencia técnica 
 
-                </p>
+                </p> */}
 
 
             </div>
 
 
-
         </div>
-
 
     );
 }

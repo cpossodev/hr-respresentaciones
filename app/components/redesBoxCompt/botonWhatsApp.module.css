@@ -2,7 +2,7 @@
 .contentAllBwts {
     position: fixed;
     top: 160px;
-    /* right: 50px; */
+    /* right: 0px; */
     right: max(0px, calc((100vw - 1920px) / 2 + 0px));
     z-index: 7;
     display: flex;
@@ -10,17 +10,16 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: auto;
-    /* background-color: rgba(45,45,45,0.2); */
-    padding: 0px 0px 0px 0px;
-pointer-events: none;
+    max-height: auto;
+    pointer-events: none;
+    /* background-color: #853434; */
 }
 
 
 .contentBottonWTS {
     position: relative;
-    top: -250;
-    left: 5; 
+    bottom: 250;
+    left: 40; 
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -31,8 +30,6 @@ pointer-events: none;
     pointer-events:fill;
 
 } 
-
-
 
 .LogoWhatsApp {
     display: block;
@@ -99,7 +96,7 @@ pointer-events: none;
     }
 
 }
-
+/* 
 @media screen and (max-width: 920px) {
 
     .contentBottonWTS {
@@ -107,36 +104,31 @@ pointer-events: none;
      
     }
 
-}
+} */
 
 @media screen and (max-width: 620px) {
 
 
     .contentAllBwts {
-        top: 250px;
+        top: 160px;
         right: 0px; 
         padding: 0px 0px 0px 0px;
     }
 
-
-
     .contentBottonWTS {
-        top: -160;
-        left: 30; 
+        top: -130;
+        left: 45; 
     }
 
 }
 
+@media screen and 
+(max-height: 620px) 
+and (min-width: 820px) 
+and (max-width: 1080px) {
 
-
-
-
-/* 
-@media screen and (max-width: 480px) {
-
-    .contentBottonWTS {
-        top: 440px;
-        
+    .contentAllBwts {
+        top: 120px;
     }
 
-} */
+} 

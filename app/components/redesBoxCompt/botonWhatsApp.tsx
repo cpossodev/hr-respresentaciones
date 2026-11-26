@@ -148,7 +148,7 @@ export default function BotonWhatsApp() {
 
 
                     <div className={botonWtsBoxUPStyle.boxTextAtencion}>
-                        <h3>¡Estamos listos para atenderte de lunes a viernes de 8h00 a 18h00!</h3>
+                        <h3>¡Estamos listos para atenderte de lunes a viernes de 8h30 a 17h00!</h3>
                     </div>
 
 

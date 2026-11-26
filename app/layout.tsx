@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es">
 
-      <Head>
+      <head>
         <title>{defaultSEO.title}</title>
         <meta name="description" content={defaultSEO.description} />
         <meta property="og:type" content={defaultSEO.openGraph.type} />
@@ -24,12 +24,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:url" content={defaultSEO.openGraph.url} />
         <meta property="og:site_name" content={defaultSEO.openGraph.site_name} />
 
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
         
-    
-      </Head>
+      </head>
 
         <body>
 
